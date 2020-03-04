@@ -96,10 +96,117 @@
       width: 150px;
     }
 
-    .w-60px{
+    .w-60px {
       width: 60px;
     }
   </style>
+  <!-- // 001.牛肉麵2_OK -->
+  <style>
+    .con {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1024px;
+    }
+
+    .img {
+      width: 380px;
+      position: absolute;
+      transition: 1.5s;
+    }
+
+    .text {
+      position: absolute;
+      left: 47%;
+      color: #565857;
+      font-weight: 500;
+      transition: 1s;
+      opacity: 0;
+    }
+
+    .text1 {
+      transform: translate(400px, 400px);
+    }
+
+    .text2 {
+      transform: translate(400px, 200px);
+      transition-delay: 0.05s;
+    }
+
+    .text3 {
+      transform: translate(400px, 60px);
+      transition-delay: 0.1s;
+    }
+
+    .text4 {
+      transform: translate(400px, -35px);
+      transition-delay: 0.15s;
+    }
+
+    .text5 {
+      transform: translate(400px, -110px);
+      transition-delay: 0.2s;
+    }
+
+    .text6 {
+      transform: translate(400px, -190px);
+      transition-delay: 0.25s;
+    }
+
+    .text7 {
+      transform: translate(400px, -280px);
+      transition-delay: 0.3s;
+    }
+
+    .text8 {
+      transform: translate(400px, -360px);
+      transition-delay: 0.35s;
+    }
+
+    .text_1 {
+      transform: translate(230px, 400px);
+      opacity: 1;
+    }
+
+    .text_2 {
+      transform: translate(200px, 200px);
+      opacity: 1;
+    }
+
+    .text_3 {
+      transform: translate(200px, 60px);
+      opacity: 1;
+    }
+
+    .text_4 {
+      transform: translate(160px, -35px);
+      opacity: 1;
+    }
+
+    .text_5 {
+      transform: translate(150px, -110px);
+      opacity: 1;
+    }
+
+    .text_6 {
+      transform: translate(130px, -190px);
+      opacity: 1;
+    }
+
+    .text_7 {
+      transform: translate(190px, -280px);
+      opacity: 1;
+    }
+
+    .text_8 {
+      transform: translate(180px, -360px);
+      opacity: 1;
+    }
+  </style>
+  <!-- // 001.牛肉麵2_OK -->
 </head>
 
 <body>
@@ -141,7 +248,7 @@
       <a href="#">
         <img src="assets/images/scroll/scroll(72dpi).png" alt="" class="position-absolute"
           style="left: 4px;bottom: 55px;">
-        </a>
+      </a>
 
 
       <!-- <img class="w-100" src="https://fakeimg.pl/1000x700/"> -->
@@ -226,7 +333,7 @@
 
   <!-- foodMenu -->
   <div class="container-fluid">
-    <div class="row py-5">
+    <div class="row py-5 align-items-center">
       <div class="col-md-3 text-center">
         <img src="assets/images/FOOD/1beef noodles.png" alt="" class="width-150px">
       </div>
@@ -319,8 +426,11 @@
 
             <h3 class="text-center mt-3 d-flex justify-content-center">
               <span class=" position-relative">牛肉麵
-                <img src="assets/images/ICON/MAP.png" alt="" class="position-absolute"
-                  style="width: 55px;top: -21px;right: -72px;">
+                <a href="https://www.google.com/search?q=%E7%89%9B%E8%82%89%E9%BA%B5&oq=%E7%89%9B%E8%82%89%E9%BA%B5&aqs=chrome..69i57j0l4j69i61l3.4924j0j7&sourceid=chrome&ie=UTF-8"
+                  target="_blank" rel="noopener noreferrer">
+                  <img src="assets/images/ICON/MAP.png" alt="" class="position-absolute"
+                    style="width: 55px;top: -21px;right: -72px;">
+                </a>
               </span>
             </h3>
             <h4 class="text-center py-5" class="px-3"><br>醤油をベースにしたスープ、歯ごたえがある</br>
@@ -353,7 +463,45 @@
       </div>
       <div class="col-md-6 bg-white">
         <div class="row">
-          <div class="col-12 p-5">放動圖</div>
+          <div class="col-12 p-5">
+            <!-- // 001.牛肉麵2_OK -->
+            <div class="con"><img class="img" id="bolw"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157796/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%A2%97_jds1rp.png" /><img
+                class="img" id="soup"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E6%B9%AF_qjtnkz.png" /><img
+                class="img" id="noodles"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E9%BA%B5_nh6n6y.png" /><img
+                class="img" id="bokcoy"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1575504368/001.%E7%89%9B%E8%82%89%E9%BA%B5/2.0/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E9%9D%92%E6%B1%9F%E8%8F%9C_at2l9y.png" /><img
+                class="img" id="radish"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%99%BD%E8%98%BF%E8%94%94_jeatgn.png" /><img
+                class="img" id="radish2"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157792/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%99%BD%E8%98%BF%E8%94%942_dkgbrd.png" /><img
+                class="img" id="carrot"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%B4%85%E8%98%BF%E8%94%94__alrsoo.png" /><img
+                class="img" id="carrot2"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%B4%85%E8%98%BF%E8%94%942_df95xk.png" /><img
+                class="img" id="beef"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%89%9B%E8%82%89_yjilww.png" /><img
+                class="img" id="beef2"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%89%9B%E8%82%892%E6%9D%90_uxhr8v.png" /><img
+                class="img" id="beef3"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%89%9B%E8%82%893_bcgg48.png" /><img
+                class="img" id="greenonion"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E8%94%A5_i0jvkq.png" /><img
+                class="img" id="greenonion2"
+                src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E8%94%A52_hi65kf.png" />
+              <div class="text text1">────　碗・お碗</div>
+              <div class="text text2">────　湯・スープ</div>
+              <div class="text text3">────　麵・麺</div>
+              <div class="text text4">────　青江菜・チンゲン菜</div>
+              <div class="text text5">────　白蘿蔔・大根</div>
+              <div class="text text6">────　紅蘿蔔・ニンジン</div>
+              <div class="text text7">────　牛肉・牛肉</div>
+              <div class="text text8">────　蔥・ネギ</div>
+            </div>
+            <!-- // 001.牛肉麵2_OK -->
+          </div>
         </div>
       </div>
     </div>
@@ -434,3 +582,73 @@
   </script>
 
 </html> -->
+
+<script>
+  // 001.牛肉麵2_OK
+  (function () {
+    $(window).mousemove(function (evt) {
+      var x = evt.pageX;
+      var y = evt.pageY;
+      // console.log(x + "," + y);
+
+      if (x > $(window).width() / 2 + 50) {
+        $("#bolw").css("transform", "translateY(400px)");
+        $("#soup").css("transform", "translateY(170px)");
+        $("#noodles").css("transform", "translateY(20px)");
+        $("#bokcoy").css("transform", "translate(28px,-5px)");
+        $("#radish").css("transform", "translate(80px,-130px)");
+        $("#radish2").css("transform", "translate(80px,-130px)");
+        $("#carrot").css("transform", "translate(0px,-180px)");
+        $("#carrot2").css("transform", "translate(0px,-180px)");
+        $("#beef").css("transform", "translateY(-300px)");
+        $("#beef2").css("transform", "translateY(-300px)");
+        $("#beef3").css("transform", "translateY(-300px)");
+        $("#greenonion").css("transform", "translateY(-400px)");
+        $("#greenonion2").css("transform", "translateY(-400px)");
+
+        $("#radish2").css("transition-delay", "0.1s");
+        $("#carrot2").css("transition-delay", "0.1s");
+        $("#beef2").css("transition-delay", "0.1s");
+        $("#beef3").css("transition-delay", "0.2s");
+        $("#greenonion2").css("transition-delay", "0.1s");
+        $("#soup").attr("src", "https://res.cloudinary.com/fssalad/image/upload/v1583157795/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E6%B9%AF2_efxkuu.png");
+
+        $(".text.text1").addClass("text_1");
+        $(".text.text2").addClass("text_2");
+        $(".text.text3").addClass("text_3");
+        $(".text.text4").addClass("text_4");
+        $(".text.text5").addClass("text_5");
+        $(".text.text6").addClass("text_6");
+        $(".text.text7").addClass("text_7");
+        $(".text.text8").addClass("text_8");
+
+      } else if (x < $(window).width() / 2 - 50) {
+        $("#bolw").css("transform", "translate(0px)");
+        $("#soup").css("transform", "translate(0px)");
+        $("#noodles").css("transform", "translate(0px)");
+        $("#bokcoy").css("transform", "translate(0px)");
+        $("#radish").css("transform", "translate(0px)");
+        $("#radish2").css("transform", "translate(0px)");
+        $("#carrot").css("transform", "translate(0px)");
+        $("#carrot2").css("transform", "translate(0px)");
+        $("#beef").css("transform", "translate(0px)");
+        $("#beef2").css("transform", "translate(0px)");
+        $("#beef3").css("transform", "translate(0px)");
+        $("#greenonion").css("transform", "translate(0px)");
+        $("#greenonion2").css("transform", "translate(0px)");
+
+        $("#beef3").css("transition-delay", "0.15s");
+        $("#soup").attr("src", "https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E6%B9%AF_qjtnkz.png");
+
+        $(".text.text1").removeClass("text_1");
+        $(".text.text2").removeClass("text_2");
+        $(".text.text3").removeClass("text_3");
+        $(".text.text4").removeClass("text_4");
+        $(".text.text5").removeClass("text_5");
+        $(".text.text6").removeClass("text_6");
+        $(".text.text7").removeClass("text_7");
+        $(".text.text8").removeClass("text_8");
+      }
+    })
+  })()
+</script>
