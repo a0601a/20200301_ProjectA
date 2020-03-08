@@ -42,7 +42,7 @@ body{
 }
 
 .textUnderLine {
-  border-bottom: 3px solid #eb6153;
+  border-bottom: 2.5px solid #eb6153;
 }
 
 .layer6Foods {
@@ -127,3 +127,21 @@ body{
   width: 60px;
 }
 
+.color-EB6153.color-EB6153.color-EB6153.color-EB6153{
+  color: #EB6153;
+}
+.color-3E3A39.color-3E3A39.color-3E3A39.color-3E3A39{
+  color: #3E3A39;
+}
+.color-4C4948.color-4C4948.color-4C4948.color-4C4948{
+  color: #4C4948;
+}
+.color-2F2725.color-2F2725.color-2F2725.color-2F2725{
+  color: #2F2725;
+}
+.color-595757.color-595757.color-595757.color-595757{
+  color: #595757;
+}
+.color-AEADAD.color-AEADAD.color-AEADAD.color-AEADAD{
+  color: #AEADAD;
+}
