@@ -145,3 +145,7 @@ body{
 .color-AEADAD.color-AEADAD.color-AEADAD.color-AEADAD{
   color: #AEADAD;
 }
+
+.onverflow-hidden{
+  overflow: hidden;
+}
