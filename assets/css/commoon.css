@@ -10,6 +10,12 @@ body{
   display: block;
 }
 
+.slick-dots.slick-dots.slick-dots.slick-dots li button:before,
+.slick-dots.slick-dots.slick-dots.slick-dots li.slick-active button:before{
+  color: #eb6153;
+
+}
+
 .bg-57dce794 {
   background-color: #ededec;
 }
