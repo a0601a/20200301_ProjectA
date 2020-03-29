@@ -187,3 +187,7 @@ body{
   background-repeat: no-repeat;
   background-size: Cover;
 }
+
+.fz-23px{
+  font-size: 23px;
+}
