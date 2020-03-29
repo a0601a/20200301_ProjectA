@@ -191,3 +191,17 @@ body{
 .fz-23px{
   font-size: 23px;
 }
+
+.ls-1-807px{
+  letter-spacing: 1.807px;
+}
+
+.readMore{
+  font-size: 13px;
+  color: #3E3A39;
+  transition: color .3s ease;
+}
+
+.readMore:hover{
+  color: #EB6153;
+}
