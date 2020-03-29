@@ -159,6 +159,12 @@ body{
 .trans-tranY--5{
   transform: translateY(-5px);
 }
+.trans-tranY--15{
+  transform: translateY(-15px);
+}
+.trans-tranY--20{
+  transform: translateY(-20px);
+}
 
 .lh-32{
   line-height: 32px;
@@ -175,4 +181,9 @@ body{
 }
 .zi-3{
   z-index: 3;
+}
+
+.bgCommonSetting{
+  background-repeat: no-repeat;
+  background-size: Cover;
 }
