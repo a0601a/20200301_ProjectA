@@ -205,3 +205,19 @@ body{
 .readMore:hover{
   color: #EB6153;
 }
+
+.transCenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+
+.px-175px{
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+.mt-20px{
+  margin-top: 20px;
+}
