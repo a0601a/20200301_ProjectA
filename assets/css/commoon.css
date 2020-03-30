@@ -10,11 +10,7 @@ body{
   display: block;
 }
 
-.slick-dots.slick-dots.slick-dots.slick-dots li button:before,
-.slick-dots.slick-dots.slick-dots.slick-dots li.slick-active button:before{
-  color: #eb6153;
 
-}
 
 .bg-57dce794 {
   background-color: #ededec;
@@ -127,6 +123,9 @@ body{
 
 .width-150px {
   width: 150px;
+}
+.width-190px {
+  width: 190px;
 }
 
 .w-60px {

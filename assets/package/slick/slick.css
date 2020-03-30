@@ -1,0 +1,20 @@
+.slick-dots.slick-dots.slick-dots.slick-dots li button:before,
+.slick-dots.slick-dots.slick-dots.slick-dots li.slick-active button:before{
+  color: #eb6153;
+}
+.slick-dots.slick-dots.slick-dots.slick-dots li:first-child button:before,
+.slick-dots.slick-dots.slick-dots.slick-dots li:last-child button:before,
+.slick-dots.slick-dots.slick-dots.slick-dots li:first-child.slick-active button:before,
+.slick-dots.slick-dots.slick-dots.slick-dots li:last-child.slick-active button:before{
+  color: transparent;
+}
+
+.slick-dots{
+  bottom: -230px;
+}
+
+.slick-dots li button:before{
+  font-size: 15px;
+}
+
+
