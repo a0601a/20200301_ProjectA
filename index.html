@@ -12,9 +12,9 @@
   <!-- icon -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
     integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-  </link>
 
   <link rel="stylesheet" href="assets/css/commoon.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
 
   <!-- slick -->
   <link rel="stylesheet" type="text/css"
@@ -313,7 +313,7 @@
         お問合わせ
       </button>
 
-      <div class="languageList ml-auto" style="margin-right: 89.56px;">
+      <div class="languageList ml-auto d-flex" style="margin-right: 89.56px;">
         <a href="#">
           <img src="./assets/images/20200327_cutPic/element/C.png" alt="">
         </a>
@@ -325,7 +325,29 @@
 
 
       <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
+
+
+        <div class="navigation">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      
+          <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+          </label>
+      
+          <div class="navigation__background">&nbsp;</div>
+      
+          <nav class="navigation__nav">
+              <ul class="navigation__list">
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Us</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                  </ul>
+          </nav>
+      </div>
+      
+        <!-- <div class="collapse" id="navbarToggleExternalContent">
           <div class="p-4">
             <h5 class="text-white h4">Collapsed content</h5>
             <span class="text-muted">Toggleable via the navbar brand.</span>
@@ -337,7 +359,10 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-        </nav>
+        </nav> -->
+
+
+
       </div>
     </nav>
 
@@ -570,6 +595,8 @@ left: 1596.722px;
       </button>
 
       <div class="pos-f-t">
+
+
         <div class="collapse" id="navbarToggleExternalContent2">
           <div class="p-4">
             <h5 class="text-white h4">Collapsed content</h5>
@@ -583,6 +610,8 @@ left: 1596.722px;
             <span class="navbar-toggler-icon"></span>
           </button>
         </nav>
+
+
       </div>
     </nav>
 
