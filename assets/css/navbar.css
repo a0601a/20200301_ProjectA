@@ -136,6 +136,7 @@ body {
 }
 .navigation__icon::before {
   top: -8px;
+  /* background-image: url('../images/20200327_cutPic/element/burger.png'); */
 }
 .navigation__icon::after {
   top: 8px;

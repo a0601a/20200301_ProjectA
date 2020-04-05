@@ -227,3 +227,37 @@ a:hover,
 .mt-20px{
   margin-top: 20px;
 }
+
+.trans-tranY--20-move.trans-tranY--20-move.trans-tranY--20-move.trans-tranY--20-move.trans-tranY--20-move:hover{
+  transform: translateY(-20px);
+  transition: all .3s ease;
+}
+
+.trans-rotate-3-tranY--20-move.trans-rotate-3-tranY--20-move.trans-rotate-3-tranY--20-move:hover{
+  transform: translateY(-20px) rotate(3deg) !important;
+  transition: all .5s ease;
+}
+
+
+/* swing */
+.swing {
+  animation: swing ease-in-out 3s infinite alternate;
+  transform-origin: center -20px;
+}
+
+@keyframes swing {
+  0% { transform: rotate(5deg); }
+  100% { transform: rotate(-5deg); }
+}
+
+
+.swing2 {
+  animation: swing2 ease-in-out 3s infinite alternate;
+  transform-origin: center -20px;
+}
+
+@keyframes swing2 {
+  0% { transform: rotate(-5deg); }
+  100% { transform: rotate(5deg); }
+}
+/* swing */
