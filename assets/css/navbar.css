@@ -158,3 +158,22 @@ body {
   top: 0;
   transform: rotate(-135deg);
 }
+
+
+.navigation__icon,
+.navigation__icon::before, 
+.navigation__icon::after{
+  background-color: transparent;
+  width: 30px;
+  height: 4px;
+}
+
+.navigation__icon{
+  background-image: url('../images/20200413_bar/burger.png');
+}
+.navigation__icon::before{
+  background-image: url('../images/20200413_bar/burger2.png');
+}
+.navigation__icon::after{
+  background-image: url('../images/20200413_bar/burger3.png');
+}
