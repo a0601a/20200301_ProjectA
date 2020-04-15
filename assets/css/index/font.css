@@ -1,0 +1,27 @@
+.font-Noto-Sans-JP {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.font-Arial {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold;
+}
+
+.font-Yu-Gothic-Bold {
+  font-family: 'Yu Gothic';
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200;
+}
+
+.font-Yu-Gothic-Medium {
+  font-family: 'Yu Gothic';
+}

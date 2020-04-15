@@ -1,0 +1,39 @@
+.foodMenuNavbar{
+
+}
+
+.foodMenuNavbar .nav-link{
+  margin: 0 17px;
+  position: relative;
+}
+
+.foodMenuNavbar .nav-link::before,
+.foodMenuNavbar .nav-link::after{
+  content: '';
+  height: calc(100% - 16px); /* padding */
+  width: 4px;
+  background-color: #f00;
+  position: absolute;
+}
+
+.foodMenuNavbar .nav-link::before{
+  left: 0;
+}
+
+.foodMenuNavbar .nav-link::after{
+  right: 0;
+}
+
+.foodMenuNavbar .dropdown-toggle::after{
+  border: none; /* 隱藏下拉式選單箭頭 */
+}
+
+.foodMenuNavbar .dropdown-menu{
+  border: 1px solid transparent;
+}
+.foodMenuNavbar .dropdown-item{}
+
+.foodMenuNavbar .dropdown-item .text{
+  padding-bottom: 4px;
+  border-bottom: 2px solid #f00;
+}
