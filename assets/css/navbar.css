@@ -32,10 +32,10 @@ body {
   position: relative;
 }
 
-.navigation__checkbox {
+.navigation .navigation__checkbox {
   display: none;
 }
-.navigation__button {
+.navigation .navigation__button {
   /* background-color: #fff; */
   /* height: 7rem;
   width: 7rem; */
@@ -52,7 +52,7 @@ body {
   cursor: pointer;
   margin: 0;
 }
-.navigation__background {
+.navigation .navigation__background {
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
@@ -67,7 +67,7 @@ body {
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   transform: scale(0)
 }
-.navigation__nav {
+.navigation .navigation__nav {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -77,7 +77,7 @@ body {
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.navigation__list {
+.navigation .navigation__list {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -86,10 +86,10 @@ body {
   text-align: center;
   width: 100%;
 }
-.navigation__item {
+.navigation .navigation__item {
   margin: 1rem;
 }
-.navigation__link:link, .navigation__link:visited {
+.navigation .navigation__link:link, .navigation .navigation__link:visited {
   display: inline-block;
   font-size: 3rem;
   font-weight: 300;
@@ -101,79 +101,88 @@ body {
   background-size: 220%;
   transition: all .4s;
 }
-.navigation__link:link span, .navigation__link:visited span {
+.navigation .navigation__link:link span, .navigation .navigation__link:visited span {
   margin-right: 1.5rem;
   display: inline-block;
 }
-.navigation__link:hover, .navigation__link:active {
+.navigation .navigation__link:hover, .navigation .navigation__link:active {
   background-position: 100%;
   color: #90CAF9;
   transform: translateX(1rem);
 }
-.navigation__checkbox:checked ~ .navigation__background {
+.navigation .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80);
 }
-.navigation__checkbox:checked ~ .navigation__nav {
+.navigation .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
   width: 100%;
 }
-.navigation__icon {
+.navigation .navigation__icon {
   font-size: 8px;
   position: relative;
   /* margin-top: 3.5rem; */
 }
-.navigation__icon, .navigation__icon::before, .navigation__icon::after {
+.navigation .navigation__icon, .navigation .navigation__icon::before, .navigation .navigation__icon::after {
   width: 3rem;
   height: 2px;
   background-color: #B0BEC5;
   display: inline-block;
 }
-.navigation__icon::before, .navigation__icon::after {
+.navigation .navigation__icon::before, .navigation .navigation__icon::after {
   content: "";
   position: absolute;
   left: 0;
   transition: all .2s;
 }
-.navigation__icon::before {
+.navigation .navigation__icon::before {
   top: -8px;
   /* background-image: url('../images/20200327_cutPic/element/burger.png'); */
 }
-.navigation__icon::after {
+.navigation .navigation__icon::after {
   top: 8px;
 }
-.navigation__button:hover .navigation__icon::before {
+.navigation .navigation__button:hover .navigation__icon::before {
   top: -10px;
 }
-.navigation__button:hover .navigation__icon::after {
+.navigation .navigation__button:hover .navigation__icon::after {
   top: 10px;
 }
-.navigation__checkbox:checked + .navigation__button .navigation__icon {
+.navigation .navigation__checkbox:checked + .navigation__button .navigation__icon {
   background-color: transparent;
 }
-.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+.navigation .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
   top: 0;
   transform: rotate(135deg);
 }
-.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+.navigation .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg);
 }
 
 
-.navigation__icon,
-.navigation__icon::before, 
-.navigation__icon::after{
+.navigation .navigation__icon,
+.navigation .navigation__icon::before, 
+.navigation .navigation__icon::after{
   background-color: transparent;
   width: 30px;
   height: 4px;
 }
 
-.navigation__icon{
+.navigation .navigation__icon{
   background-image: url('../images/20200413_bar/burger.png');
 }
-.navigation__icon::before{
+.navigation .navigation__icon::before{
   background-image: url('../images/20200413_bar/burger2.png');
 }
-.navigation__icon::after{
+.navigation .navigation__icon::after{
   background-image: url('../images/20200413_bar/burger3.png');
+}
+
+
+/* == -- == */
+.banner .logo.logo.logo{
+  max-width: 40px;
+  margin: 0;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
 }
