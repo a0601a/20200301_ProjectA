@@ -29,31 +29,23 @@ $(function () {
 
   // == -- ==
   var foodIntroductionElement = $('#foodIntroduction')
-  function setCwinHeight()
-  {
-  var iframeid=document.getElementById("foodIntroductioniFrame"); //iframe id
-    if (document.getElementById)
-    {  
-     if (iframeid && !window.opera)
-     {  
-      if (iframeid.contentDocument && iframeid.contentDocument.body.offsetHeight)
-       {  
-         iframeid.height = iframeid.contentDocument.body.offsetHeight;  
-       }else if(iframeid.Document && iframeid.Document.body.scrollHeight)
-       {  
-         iframeid.height = iframeid.Document.body.scrollHeight;  
-        }  
-      }
-     }
-  }
-
 
   function template() {
-    return '<iframe src="https://xr718.github.io/20200301_ProjectA/beef_noodles.html" name="foodIntroductioniFrame" width="100%" marginwidth="0" marginheight="0" scrolling="No" frameborder="0" id="foodIntroductioniFrame" onload="setCwinHeight()"/>'
+    return '<iframe src="https://xr718.github.io/20200301_ProjectA/beef_noodles.html" name="foodIntroductioniFrame" width="100%" marginwidth="0" marginheight="0" scrolling="No" frameborder="0" id="foodIntroductioniFrame" />'
   }
   foodIntroductionElement.append(template())
+  $('#foodIntroductioniFrame').on('load', function () {
+    console.log('iframe')
+
+    var iframeid = document.getElementById('foodIntroductioniFrame') //iframe id
+    var iframe = iframeid
+    var bHeight = iframe.contentWindow.document.body.scrollHeight
+    var dHeight = iframe.contentWindow.document.documentElement.scrollHeight
+    var height = Math.max(bHeight, dHeight)
+    iframe.height = height
+    console.log(height)
+  })
+  
 })
-
-
 
 // foodIntroductioniFrame
