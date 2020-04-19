@@ -31,21 +31,11 @@ $(function () {
   var foodIntroductionElement = $('#foodIntroduction')
 
   function template() {
-    return '<iframe src="https://xr718.github.io/20200301_ProjectA/beef_noodles.html" name="foodIntroductioniFrame" width="100%" marginwidth="0" marginheight="0" scrolling="No" frameborder="0" id="foodIntroductioniFrame" />'
+    return '<iframe src="./beef_noodles.html" name="foodIntroductioniFrame" width="100%" marginwidth="0" marginheight="0" scrolling="No" frameborder="0" id="foodIntroductioniFrame" style="height: 1228px;"/>'
   }
-  foodIntroductionElement.append(template())
+  foodIntroductionElement.append(template()).css('height', '1228px')
   $('#foodIntroductioniFrame').on('load', function () {
-    console.log('iframe')
-
-    var iframeid = document.getElementById('foodIntroductioniFrame') //iframe id
-    var iframe = iframeid
-    var bHeight = iframe.contentWindow.document.body.scrollHeight
-    var dHeight = iframe.contentWindow.document.documentElement.scrollHeight
-    var height = Math.max(bHeight, dHeight)
-    iframe.height = height
-    console.log(height)
   })
-  
 })
 
 // foodIntroductioniFrame
