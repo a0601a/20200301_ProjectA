@@ -30,6 +30,8 @@ body {
 
 .navigation{
   position: relative;
+  width: 29px;
+  height: 26px;
 }
 
 .navigation .navigation__checkbox {
@@ -185,4 +187,22 @@ body {
   margin: 0;
   visibility: hidden;
   transition: all .3s ease-in-out;
+}
+
+.languageList {
+  margin-right: 55px;
+  line-height: 1;
+}
+.languageList .chinese{
+  width: 28px;
+  height: 13px;
+}
+.languageList .japanese{
+width: 43px;
+height: 13px;
+}
+.languageList .divider{
+  width: 26px;
+  height: 18px;
+  font-size: 25px;
 }
