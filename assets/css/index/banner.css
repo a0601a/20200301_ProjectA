@@ -30,6 +30,45 @@
   bottom: 0;
   right: 70px;
 }
+.banner .staff .font{
+  /* animation:  swingggg ease-in-out 1s alternate; */
+  /* transform-style: preserve-3d; */
+  font-size: 0;
+
+}
+
+.banner .top100Of .fontAnim,
+.banner .about .fontAnim,
+.banner .howToUse .fontAnim,
+.banner .staff .fontAnim{
+  /* animation:  swingggg2 ease-in-out 1s alternate; */
+  animation:  swingggg2 ease-in-out 1s;
+  transform-style: preserve-3d;
+  display: inline-block;
+  opacity: 0;
+  animation-fill-mode: both;
+}
+
+.banner .top100Of:hover,
+.banner .about:hover,
+.banner .howToUse:hover,
+.banner .staff:hover{
+  transition: transform .4s ease-in-out;
+  transform: translateY(-15px);
+}
+
+.banner .top100Of:hover .fontAnim,
+.banner .about:hover .fontAnim,
+.banner .howToUse:hover .fontAnim,
+.banner .staff:hover .fontAnim{
+  /* animation:  swingggg ease-in-out 1s alternate; */
+  animation:  swingggg ease-in-out 1s;
+  transform-style: preserve-3d;
+  display: inline-block;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  /* animation-fill-mode: both; */
+}
 
 /* == howToUse == */
 .banner .howToUse {
@@ -68,8 +107,133 @@
   width: 208px;
   font-weight: 700;
   color: #f00;
-  font-size: 60px;
+  font-size: 50px;
+}
+.banner .top100Of .fontAnim:nth-child(2),
+.banner .about .fontAnim:nth-child(2),
+.banner .howToUse .fontAnim:nth-child(2),
+.banner .staff .fontAnim:nth-child(2) {
+  animation-delay: .2s;
+}
+.banner .top100Of .fontAnim:nth-child(3),
+.banner .about .fontAnim:nth-child(3),
+.banner .howToUse .fontAnim:nth-child(3),
+.banner .staff .fontAnim:nth-child(3) {
+  animation-delay: .4s;
+}
+.banner .top100Of .fontAnim:nth-child(4),
+.banner .about .fontAnim:nth-child(4),
+.banner .howToUse .fontAnim:nth-child(4),
+.banner .staff .fontAnim:nth-child(4) {
+  animation-delay: .6s;
+}
+.banner .top100Of .fontAnim:nth-child(5),
+.banner .about .fontAnim:nth-child(5),
+.banner .howToUse .fontAnim:nth-child(5),
+.banner .staff .fontAnim:nth-child(5) {
+  animation-delay: .8s;
+}
+.banner .top100Of .fontAnim:nth-child(6),
+.banner .about .fontAnim:nth-child(6),
+.banner .howToUse .fontAnim:nth-child(6),
+.banner .staff .fontAnim:nth-child(6) {
+  animation-delay: 1s;
+}
+.banner .top100Of .fontAnim:nth-child(7),
+.banner .about .fontAnim:nth-child(7),
+.banner .howToUse .fontAnim:nth-child(7),
+.banner .staff .fontAnim:nth-child(7) {
+  animation-delay: 1.2s;
+}
+.banner .top100Of .fontAnim:nth-child(8),
+.banner .about .fontAnim:nth-child(8),
+.banner .howToUse .fontAnim:nth-child(8),
+.banner .staff .fontAnim:nth-child(8) {
+  animation-delay: 1.4s;
+}
+.banner .top100Of .fontAnim:nth-child(9),
+.banner .about .fontAnim:nth-child(9),
+.banner .howToUse .fontAnim:nth-child(9),
+.banner .staff .fontAnim:nth-child(9) {
+  animation-delay: 1.6s;
+}
+.banner .top100Of .fontAnim:nth-child(10),
+.banner .about .fontAnim:nth-child(10),
+.banner .howToUse .fontAnim:nth-child(10),
+.banner .staff .fontAnim:nth-child(10) {
+  animation-delay: 1.8s;
+}
+.banner .top100Of .fontAnim:nth-child(11),
+.banner .about .fontAnim:nth-child(11),
+.banner .howToUse .fontAnim:nth-child(11),
+.banner .staff .fontAnim:nth-child(11) {
+  animation-delay: 2.0s;
+}
+.banner .top100Of .fontAnim:nth-child(12),
+.banner .about .fontAnim:nth-child(12),
+.banner .howToUse .fontAnim:nth-child(12),
+.banner .staff .fontAnim:nth-child(12) {
+  animation-delay: 2.2s;
+}
+.banner .top100Of .fontAnim:nth-child(13),
+.banner .about .fontAnim:nth-child(13),
+.banner .howToUse .fontAnim:nth-child(13),
+.banner .staff .fontAnim:nth-child(13) {
+  animation-delay: 2.4s;
+}
+.banner .top100Of .fontAnim:nth-child(14),
+.banner .about .fontAnim:nth-child(14),
+.banner .howToUse .fontAnim:nth-child(14),
+.banner .staff .fontAnim:nth-child(14) {
+  animation-delay: 2.6s;
+}
+.banner .top100Of .fontAnim:nth-child(15),
+.banner .about .fontAnim:nth-child(15),
+.banner .howToUse .fontAnim:nth-child(15),
+.banner .staff .fontAnim:nth-child(15) {
+  animation-delay: 2.8s;
+}
+.banner .top100Of .fontAnim:nth-child(16),
+.banner .about .fontAnim:nth-child(16),
+.banner .howToUse .fontAnim:nth-child(16),
+.banner .staff .fontAnim:nth-child(16) {
+  animation-delay: 3.0s;
+}
+.banner .top100Of .fontAnim:nth-child(17),
+.banner .about .fontAnim:nth-child(17),
+.banner .howToUse .fontAnim:nth-child(17),
+.banner .staff .fontAnim:nth-child(17) {
+  animation-delay: 3.2s;
+}
+.banner .top100Of .fontAnim:nth-child(18),
+.banner .about .fontAnim:nth-child(18),
+.banner .howToUse .fontAnim:nth-child(18),
+.banner .staff .fontAnim:nth-child(18) {
+  animation-delay: 3.4s;
+}
+.banner .top100Of .fontAnim:nth-child(19),
+.banner .about .fontAnim:nth-child(19),
+.banner .howToUse .fontAnim:nth-child(19),
+.banner .staff .fontAnim:nth-child(19) {
+  animation-delay: 3.6s;
+}
+.banner .top100Of .fontAnim:nth-child(20),
+.banner .about .fontAnim:nth-child(20),
+.banner .howToUse .fontAnim:nth-child(20),
+.banner .staff .fontAnim:nth-child(20) {
+  animation-delay: 3.8s;
+}
+
+.banner .about .font,
+.banner .howToUse .font,
+.banner .staff .font{
   left: -80px;
+}
+
+.banner .top100Of .font{
+  top: -133px;
+  right: -25px;
+  z-index: 1;
 }
 
 /* == about == */
@@ -148,6 +312,33 @@
   100% { transform: rotate(-5deg); }
 }
 
+@keyframes swingggg {
+  0%{
+     
+    opacity: 0;
+    transform: translateX(50px) rotateY(180deg);
+  }
+ 
+  100%{
+     
+    opacity: 1;
+    transform: translateX(0) rotateY(0);
+  }
+}
+@keyframes swingggg2 {
+  0%{
+     
+    opacity: 1;
+    transform: translateX(0) rotateY(0);
+  }
+  100%{
+     
+    opacity: 0;
+    transform: translateX(50px) rotateY(180deg);
+  }
+ 
+  
+}
 
 /* 滑鼠過去那個區塊得東西會浮起 字飄起來
 他們希望 字是一個個浮起來 而不是整個

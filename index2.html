@@ -41,18 +41,18 @@
 <body>
 
   <!-- banner -->
-  <section class="banner bg-57dce794" id="banner">
+  <section class="banner" id="banner">
     <nav class="navbar navbar-light sticky z-100" id="navbar">
 
       <a class="navbar-brand logo" href="#">
         <img src="./assets/images/20200327_cutPic/element/Menu/Menu logo.png" alt="" class="w-100">
       </a>
 
-      <div class="languageList ml-auto d-flex">
+      <div class="languageList ml-auto d-flex align-items-center">
         <a href="#" class="chinese">
           <img src="./assets/images/20200327_cutPic/element/C.png" alt="">
         </a>
-        <span class="color-EB6153 divider text-center">/</span>
+        <span class="color-EB6153 divider text-center">|</span>
         <a href="#" class="japanese">
           <img src="./assets/images/20200327_cutPic/element/J.png" alt="">
         </a>
@@ -93,7 +93,13 @@
 
 
       <div class="staff position-absolute zi-1">
-        <span class="position-absolute font">STAFF</span>
+        <span class="position-absolute font">
+          <span class="fontAnim">S</span>
+          <span class="fontAnim">T</span>
+          <span class="fontAnim">A</span>
+          <span class="fontAnim">F</span>
+          <span class="fontAnim">F</span>
+        </span>
         <img class="position-absolute staffImg" src="./assets/images/20200419_banner/staff/staff.png" alt="">
         <img class="position-absolute staffImg_1" src="./assets/images/20200419_banner/staff/staff_1.png" alt="">
         <img class="position-absolute staffImg_2" src="./assets/images/20200419_banner/staff/staff_2.png" alt="">
@@ -101,32 +107,71 @@
 
 
       <div class="howToUse  position-absolute zi-0">
-        <span class="position-absolute font">HOW TO USE</span>
+        <span class="position-absolute font">
+          <span class="fontAnim">H</span>
+          <span class="fontAnim">O</span>
+          <span class="fontAnim">W</span>
+          <span class="fontAnim">&nbsp;</span>
+          <span class="fontAnim">T</span>
+          <span class="fontAnim">O</span>
+          <span class="fontAnim">&nbsp;</span>
+          <span class="fontAnim">U</span>
+          <span class="fontAnim">S</span>
+          <span class="fontAnim">E</span>
+        </span>
         <img class="position-absolute htuImg" src="./assets/images/20200419_banner/htu/htu.png" alt="">
         <img class="position-absolute symbolImg" src="./assets/images/20200419_banner/htu/symbol.png" alt="">
 
       </div>
 
       <div class="institute position-absolute zi-2">
-        <img class="position-absolute instituteImg" src="./assets/images/20200419_banner/institute/institute.png" alt="">
+        <img class="position-absolute instituteImg" src="./assets/images/20200419_banner/institute/institute.png"
+          alt="">
         <img class="position-absolute lightImg" src="./assets/images/20200419_banner/institute/light.png" alt="">
       </div>
 
 
       <div class="about position-absolute">
-        <span class="position-absolute font">ABOUT</span>
+        <span class="position-absolute font">
+          <span class="fontAnim">A</span>
+          <span class="fontAnim">B</span>
+          <span class="fontAnim">O</span>
+          <span class="fontAnim">U</span>
+          <span class="fontAnim">T</span>
+        </span>
         <img class="position-absolute aboutImg" src="./assets/images/20200419_banner/about/about.png" alt="">
         <img class="position-absolute airplaneImg" src="./assets/images/20200419_banner/about/airplane.png" alt="">
         <img class="position-absolute taxiImg" src="./assets/images/20200419_banner/about/taxi.png" alt="">
 
       </div>
       <div class="top100Of position-absolute zi-3">
-        <span class="position-absolute font">TOP 100 OF TAIWANESE</span>
+        <span class="position-absolute font">
+          <span class="fontAnim">T</span>
+          <span class="fontAnim">O</span>
+          <span class="fontAnim">P</span>
+          <span class="fontAnim">&nbsp;</span>
+          <span class="fontAnim">1</span>
+          <span class="fontAnim">0</span>
+          <span class="fontAnim">0</span>
+          <span class="fontAnim">&nbsp;</span>
+          <span class="fontAnim">O</span>
+          <span class="fontAnim">F</span>
+          <span class="fontAnim">&nbsp;</span>
+          <span class="fontAnim">T</span>
+          <span class="fontAnim">A</span>
+          <span class="fontAnim">I</span>
+          <span class="fontAnim">W</span>
+          <span class="fontAnim">A</span>
+          <span class="fontAnim">N</span>
+          <span class="fontAnim">E</span>
+          <span class="fontAnim">S</span>
+          <span class="fontAnim">E</span>
+        </span>
         <img class="position-absolute foodsImg" src="./assets/images/20200419_banner/foods/foods.png" alt="">
         <img class="position-absolute lanternImg swing" src="./assets/images/20200419_banner/foods/lantern.png" alt="">
 
       </div>
-      
+
       <br>
       <br>
       <br>
@@ -447,9 +492,9 @@
   </div>
   <!-- foodMenu -->
 
-   <!-- foodIntroduction -->
-   <section id="foodIntroduction"></section>
-   <!-- foodIntroduction -->
+  <!-- foodIntroduction -->
+  <section id="foodIntroduction"></section>
+  <!-- foodIntroduction -->
 
 
 
@@ -487,8 +532,12 @@
     crossorigin="anonymous"></script>
 
   <!-- gsap -->
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script>
+  <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js"></script> -->
+  <script src="assets/package/gsap/gsap-latest-beta.min.js"></script>
+  https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js
+  <script src="assets/package/gsap/SplitText.js"></script>
+
 
 
   <!-- <script src="http://font-awesome/5.12.1/js/all.min.js"></script> -->
