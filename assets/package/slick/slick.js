@@ -1,4 +1,23 @@
 $(document).ready(function() {
+  // 隨機模組 - https://stackoverflow.com/questions/31459832/randomise-and-order-divs-slick-js
+  $.fn.randomize = function (selector) {
+    var $elems = selector ? $(this).find(selector) : $(this).children(),
+        $parents = $elems.parent();
+
+    $parents.each(function () {
+        $(this).children(selector).sort(function (childA, childB) {
+            // * Prevent last slide from being reordered
+            if($(childB).index() !== $(this).children(selector).length - 1) {
+                return Math.round(Math.random()) - 0.5;
+            }
+        }.bind(this)).detach().appendTo(this);
+    });
+
+    return this;
+};
+
+
+// $('.slider-nav').randomize().slick({
   $('.slider-nav').slick({
     infinite: true,
     // slidesToShow: 5,
