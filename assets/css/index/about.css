@@ -1,0 +1,42 @@
+.about{
+  display: flex;
+}
+.about .textContent{
+  margin-left: 388.355px;
+  max-width: 634.839px;
+}
+.about .textContent .title{
+  text-align: left;
+  width: 151.226px;
+  height: 51.937px;
+
+}
+
+.about .textContent .subTitle{
+  width: 62.323px;
+  height: 17.935px;
+  margin-top: 41.836px;
+  margin-bottom: 38.646px;
+  font-weight: 700;
+  font-size: 20.5px;
+}
+.about .textContent .subTitle::after{
+  content: url(../../../assets/images/20200501_content/ABOUT/A-line.png);
+  display: block;
+  width: 63.758px;
+  height: 8.001px;
+  margin-bottom: 38.646px;
+}
+
+.about .textContent .content{
+  width: 100%;
+  font-size: 15px;
+  
+}
+
+.about .imgArea{
+  margin-left: 116.218px;
+  margin-right: auto;
+  width: 459px;
+  height: 450px;
+}
