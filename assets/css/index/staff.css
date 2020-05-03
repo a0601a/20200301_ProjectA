@@ -1,0 +1,51 @@
+.staff{
+  display: flex;
+  padding: 154.161px 0;
+}
+.staff .textContent{
+  margin-left: 220.403px;
+  max-width: 498.524 px;
+}
+.staff .textContent .title{
+  text-align: left;
+  width: 134.207px;
+  height: 52.868px;
+
+}
+
+.staff .textContent .subTitle{
+  width: 44.353px;
+  height: auto;
+  margin-top:41.836px;
+  margin-bottom: 8.001px;
+  font-weight: 700;
+  font-size: 20.5px;
+}
+
+
+.staff .textContent .subTitleLine{
+  background-image: url(../../../assets/images/20200501_content/STAFF/S-line.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 44.703px;
+  height: 4px;
+  margin-bottom: 39.123px;
+}
+
+
+.staff .textContent .content{
+  width: 100%;
+  font-size: 15px;
+}
+
+.staff .textContent .content p:nth-child(3){
+  margin-top: 42.775px;
+}
+
+.staff .imgArea{
+  margin-left: 383.112px;
+  width: 452px;
+  height: 449px;
+  position: relative;
+  top: 130px;
+}
