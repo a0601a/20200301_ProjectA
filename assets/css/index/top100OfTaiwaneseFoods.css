@@ -1,0 +1,72 @@
+.top100OfTaiwaneseFoods{
+  display: flex;
+  padding: 154.161px 0;
+}
+.top100OfTaiwaneseFoods .textContent{
+  margin-left: 388.355px;
+  max-width: 500.367px;
+}
+.top100OfTaiwaneseFoods .textContent .title{
+  text-align: left;
+  width: 427.968px;
+  height: 138.739px;
+
+}
+
+.top100OfTaiwaneseFoods .textContent .subTitle{
+  width: 427.968px;
+  height: auto;
+  /* height: 17.935px; */
+  margin-top: 41.836px;
+  /* margin-bottom: 38.646px; */
+  margin-bottom: 8.001px;
+  font-weight: 700;
+  font-size: 20.5px;
+  letter-spacing: 3.2px;
+}
+/* .top100OfTaiwaneseFoods .textContent .subTitle::after{
+  content: url(../../../assets/images/20200501_content/ABOUT/A-line.png);
+  display: block;
+  width: 63.758px;
+  height: 8.001px;
+  margin-bottom: 38.646px;
+} */
+.top100OfTaiwaneseFoods .textContent .subTitleLine{
+  background-image: url(../../../assets/images/20200501_content/FOOD/T-line.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 211.139px;
+  height: 4px;
+  margin-bottom: 39.123px;
+}
+
+.top100OfTaiwaneseFoods .textContent .content{
+  width: 100%;
+  font-size: 15px;
+}
+
+.top100OfTaiwaneseFoods .textContent .content p:nth-child(1),
+.top100OfTaiwaneseFoods .textContent .content p:nth-child(2),
+.top100OfTaiwaneseFoods .textContent .content p:nth-child(4),
+.top100OfTaiwaneseFoods .textContent .content p:nth-child(5){
+  margin-bottom: 26.397px;
+}
+
+.top100OfTaiwaneseFoods .textContent .content p:nth-child(3){
+  margin-bottom: 42.775px;
+}
+
+.top100OfTaiwaneseFoods .imgArea{
+  margin-left: 303.731px;
+  margin-right: auto;
+  width: 459px;
+  height: 450px;
+  position: relative;
+  top: 115px;
+}
+
+
+
+
+
+
