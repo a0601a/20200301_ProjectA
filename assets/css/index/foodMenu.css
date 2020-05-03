@@ -12,7 +12,7 @@
   content: '';
   height: calc(100% - 16px); /* padding */
   width: 4px;
-  background-color: #f00;
+  background-color: transparent;
   position: absolute;
 }
 
@@ -34,6 +34,18 @@
 .foodMenuNavbar .dropdown-item{}
 
 .foodMenuNavbar .dropdown-item .text{
+  width: 40.343px;
   padding-bottom: 4px;
   border-bottom: 2px solid #f00;
+}
+
+.foodMenuNavbar .nav-linkImg{
+  width: 112.774px;
+}
+
+.foodMenuNavbar .nav-linkText{
+  /* height: 26.152px; */
+  /* width: 56.364px; */
+  font-size: 26px;
+  margin-top: 20.368px;
 }

@@ -17,4 +17,24 @@
   font-size: 15px;
 }
 
+/* .slick-dots li button {
+  text-align: center;
+} */
 
+.slick-dots li button:before
+/* .slick-dots li button */
+/* .slick-dots li */
+{
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots .arrow{
+  width: 14.652px;
+  height: 22.6px;
+}
+
+.slick-dots li{
+  /* margin: 0 39.38px; */
+  margin: 0 19.69px;
+}

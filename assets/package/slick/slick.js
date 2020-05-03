@@ -43,7 +43,7 @@ $(document).ready(function() {
       aa.before(
         '<li class="slick-active" >' +
           '  <button class="position-relative" type="button">' +
-          '    <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP arrow.png" alt="" style="top:0;left:0;">' +
+          '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow.png" alt="" style="top:-1px;left:0;">' +
           '  </button>' +
           '</li>'
       )
@@ -54,7 +54,7 @@ $(document).ready(function() {
       aaa.after(
         '<li class="slick-active" >' +
           '  <button class="position-relative" type="button">' +
-          '    <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP arrow2.png" alt="" style="top:0;left:0;">' +
+          '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow2.png" alt="" style="top:-1px;left:0;">' +
           '  </button>' +
           '</li>'
       )
