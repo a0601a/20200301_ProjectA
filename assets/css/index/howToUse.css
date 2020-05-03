@@ -1,0 +1,55 @@
+.howToUse{
+  display: flex;
+  padding: 154.161px 0;
+}
+.howToUse .textContent{
+  margin-left: 220.403px;
+  max-width: 634.839px;
+}
+.howToUse .textContent .title{
+  text-align: left;
+  width: 280.774px;
+  height: 51.505;
+
+}
+
+.howToUse .textContent .subTitle{
+  width: 85.665px;
+  height: auto;
+  /* height: 17.972px; */
+  margin-top: 41.836px;
+  /* margin-bottom: 38.646px; */
+  margin-bottom: 8.001px;
+  font-weight: 700;
+  font-size: 20.5px;
+}
+/* .howToUse .textContent .subTitle::after{
+  content: url(../../../assets/images/20200501_content/HTU/H-line.png);
+  display: block;
+  width: 87.498px;
+
+  margin-bottom: 38.646px;
+} */
+
+
+.howToUse .textContent .subTitleLine{
+  background-image: url(../../../assets/images/20200501_content/HTU/H-line.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 87.498px;
+  height: 4px;
+  margin-bottom: 38.646px;
+}
+
+
+.howToUse .textContent .content{
+  width: 100%;
+  font-size: 15px;
+  
+}
+
+.howToUse .imgArea{
+  margin-left: 274.419px;
+  width: 522.952px;
+  height: 304.065px;
+}
