@@ -1,5 +1,6 @@
 .about{
   display: flex;
+  padding: 154.161px 0;
 }
 .about .textContent{
   margin-left: 388.355px;
@@ -14,17 +15,27 @@
 
 .about .textContent .subTitle{
   width: 62.323px;
-  height: 17.935px;
+  height: auto;
+  /* height: 17.935px; */
   margin-top: 41.836px;
-  margin-bottom: 38.646px;
+  /* margin-bottom: 38.646px; */
+  margin-bottom: 8.001px;
   font-weight: 700;
   font-size: 20.5px;
 }
-.about .textContent .subTitle::after{
+/* .about .textContent .subTitle::after{
   content: url(../../../assets/images/20200501_content/ABOUT/A-line.png);
   display: block;
   width: 63.758px;
   height: 8.001px;
+  margin-bottom: 38.646px;
+} */
+.about .textContent .subTitleLine{
+  background-image: url(../../../assets/images/20200501_content/ABOUT/A-line.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 63.758px;
+  height: 4px;
   margin-bottom: 38.646px;
 }
 
