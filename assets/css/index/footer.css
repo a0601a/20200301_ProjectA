@@ -1,3 +1,14 @@
 .footer {
   background-image: url('../../images/20200327_cutPic/element/Menu/Menu ground.png');
 }
+
+.footer .closeBtn{
+  top: 35px;
+  right: 65px;
+ }
+
+ .footer .linkText{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 700;
+}

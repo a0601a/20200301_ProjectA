@@ -1,5 +1,6 @@
 .staff{
   display: flex;
+  flex-wrap: wrap;
   padding: 154.161px 0;
 }
 .staff .textContent{
@@ -49,3 +50,22 @@
   position: relative;
   top: 130px;
 }
+
+.staff .staffArea{
+  width: 100%;
+  flex-basis: 100%;
+  /* 設計稿 61.15px */
+  display: flex;
+  margin-top: 185.15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.staff .staffArea .member{
+  margin: 0 6px 18.652px;
+  height: 697.844px;
+  width: 100%;
+  max-width: 710.086px;
+}
+
