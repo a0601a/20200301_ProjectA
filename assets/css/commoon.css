@@ -263,3 +263,13 @@ a:hover,
   100% { transform: rotate(5deg); }
 }
 /* swing */
+
+
+/* rotate */
+.rotateY{
+  transition: transform 2.6s ease;
+  /* transition: transform 2.6s cubic-bezier(0.19, 1, 0.22, 1); */
+}
+.rotateY:hover{
+  transform: rotateY(1260deg);
+}
