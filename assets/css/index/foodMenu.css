@@ -33,10 +33,21 @@
 }
 .foodMenuNavbar .dropdown-item{}
 
+.foodMenuNavbar.foodMenuNavbar .dropdown-item:focus,
+.foodMenuNavbar.foodMenuNavbar .dropdown-item:hover{
+  background-color: transparent;
+}
+
 .foodMenuNavbar .dropdown-item .text{
   width: 40.343px;
   padding-bottom: 4px;
-  border-bottom: 2px solid #f00;
+  border-bottom: 2px solid #EB6153;
+  color: #898989;
+  transition: color .3s ease;
+  font-size: 20px;  
+}
+.foodMenuNavbar .dropdown-item .text:hover{
+  color: #EB6153;
 }
 
 .foodMenuNavbar .nav-linkImg{
@@ -48,4 +59,10 @@
   /* width: 56.364px; */
   font-size: 26px;
   margin-top: 20.368px;
+  color: #4C4948;
+  transition: color .3s ease;
+}
+
+.foodMenuNavbar .nav-linkText:hover{
+  color: #EB6153;
 }
