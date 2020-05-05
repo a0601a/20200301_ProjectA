@@ -1,5 +1,6 @@
 .howToUse{
   display: flex;
+  flex-wrap: wrap;
   padding: 154.161px 0;
 }
 .howToUse .textContent{
@@ -52,4 +53,67 @@
   margin-left: 274.419px;
   width: 522.952px;
   height: 304.065px;
+}
+
+/* 步驟 */
+.howToUse .steps{
+  width: 100%;
+  max-width: 100%;
+  margin-top: 163.438px;
+}
+
+.howToUse .steps .step02,
+.howToUse .steps .step03{
+  margin-top: 142.406px;
+}
+
+/* 步驟 - 01*/
+.howToUse .steps .step01{
+  display: flex;
+}
+.howToUse .steps .step01 .textArea{
+  position: relative;
+  margin-top: 170px;
+  margin-left: 274.419px;
+  margin-right: auto;
+  max-width: 298.166px;
+
+}
+.howToUse .steps .step01 .stepImg{
+    height: 476px;
+    max-width: 778.555px;
+    width: 100%;
+}
+
+.howToUse .steps .step01 .nextArrow{
+  position: relative;
+  top: 90.038px;
+}
+
+.howToUse .steps .step01 .textArea .title{
+  display: flex;
+  align-items: flex-end;
+}
+.howToUse .steps .step01 .textArea .title .img{
+  width: 54px;
+  height: 57.906px;
+}
+
+.howToUse .steps .step01 .textArea .title .text{
+  margin-left: 33.933px;
+  font-weight: 700;
+  font-size: 26px;
+}
+.howToUse .steps .step01 .textArea .subTitle{
+  margin-top: 35.053px;
+  
+  font-size: 17px;
+  letter-spacing: 1.5px;
+
+}
+
+
+.howToUse .steps .step02{
+}
+.howToUse .steps .step03{
 }
