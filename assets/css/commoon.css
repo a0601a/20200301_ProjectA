@@ -273,3 +273,23 @@ a:hover,
 .rotateY:hover{
   transform: rotateY(1260deg);
 }
+
+/* 線條特效 d*/
+.testOIJFIDFJIDFJ::before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #3B4043;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.testOIJFIDFJIDFJ:hover::before{
+  transform-origin: left;
+  transform: scaleX(1);
+}
