@@ -11,7 +11,7 @@
 }
 
 /* == staff == */
-.banner .staff {
+.banner .staffImgArea {
   top: 486px;
   left: 336px;
   width: 452px;
@@ -19,28 +19,28 @@
   /* border: 1px solid #000; */
 }
 
-.banner .staff .staffImg {
+.banner .staffImgArea .staffImg {
   width: 100%;
 }
-.banner .staff .staffImg_1 {
+.banner .staffImgArea .staffImg_1 {
   bottom: 0;
   right: 100px;
 }
-.banner .staff .staffImg_2 {
+.banner .staffImgArea .staffImg_2 {
   bottom: 0;
   right: 70px;
 }
-.banner .staff .font{
+.banner .staffImgArea .font{
   /* animation:  swingggg ease-in-out 1s alternate; */
   /* transform-style: preserve-3d; */
   font-size: 0;
 
 }
 
-.banner .top100Of .fontAnim,
-.banner .about .fontAnim,
-.banner .howToUse .fontAnim,
-.banner .staff .fontAnim{
+.banner .top100OfImgArea .fontAnim,
+.banner .aboutImgArea .fontAnim,
+.banner .howToUseImgArea .fontAnim,
+.banner .staffImgArea .fontAnim{
   /* animation:  swingggg2 ease-in-out 1s alternate; */
   animation:  swingggg2 ease-in-out 1s;
   transform-style: preserve-3d;
@@ -49,17 +49,17 @@
   animation-fill-mode: both;
 }
 
-.banner .top100Of:hover,
-.banner .about:hover,
-.banner .howToUse:hover,
+.banner .top100OfImgArea:hover,
+.banner .aboutImgArea:hover,
+.banner .howToUseImgArea:hover,
 .banner .staff:hover{
   transition: transform .4s ease-in-out;
   transform: translateY(-15px);
 }
 
-.banner .top100Of:hover .fontAnim,
-.banner .about:hover .fontAnim,
-.banner .howToUse:hover .fontAnim,
+.banner .top100OfImgArea:hover .fontAnim,
+.banner .aboutImgArea:hover .fontAnim,
+.banner .howToUseImgArea:hover .fontAnim,
 .banner .staff:hover .fontAnim{
   /* animation:  swingggg ease-in-out 1s alternate; */
   animation:  swingggg ease-in-out 1s;
@@ -71,204 +71,204 @@
 }
 
 /* == howToUse == */
-.banner .howToUse {
+.banner .howToUseImgArea {
   top: 331.5px;
   left: 580px;
   height: 288px;
   width: 463px;
 }
-.banner .howToUse .htuImg {
+.banner .howToUseImgArea .htuImg {
   width: 100%;
 }
-.banner .howToUse .symbolImg {
+.banner .howToUseImgArea .symbolImg {
   top: -18px;
   left: -50px;
 }
 
 /* == institute == */
-.banner .institute {
+.banner .instituteImgArea {
   top: 618.5px;
   left: 714px;
   height: 355px;
   width: 509px;
 }
-.banner .institute .instituteImg {
+.banner .instituteImgArea .instituteImg {
   width: 100%;
 }
-.banner .institute .lightImg {
+.banner .instituteImgArea .lightImg {
 }
 
 /* common font setting */
-.banner .top100Of .font,
-.banner .about .font,
-.banner .howToUse .font,
+.banner .top100OfImgArea .font,
+.banner .aboutImgArea .font,
+.banner .howToUseImgArea .font,
 .banner .staff .font {
   height: 72px;
   width: 208px;
   font-weight: 700;
-  color: #f00;
+  color: #D26757;
   font-size: 50px;
 }
-.banner .top100Of .fontAnim:nth-child(2),
-.banner .about .fontAnim:nth-child(2),
-.banner .howToUse .fontAnim:nth-child(2),
+.banner .top100OfImgArea .fontAnim:nth-child(2),
+.banner .aboutImgArea .fontAnim:nth-child(2),
+.banner .howToUseImgArea .fontAnim:nth-child(2),
 .banner .staff .fontAnim:nth-child(2) {
   animation-delay: .2s;
 }
-.banner .top100Of .fontAnim:nth-child(3),
-.banner .about .fontAnim:nth-child(3),
-.banner .howToUse .fontAnim:nth-child(3),
+.banner .top100OfImgArea .fontAnim:nth-child(3),
+.banner .aboutImgArea .fontAnim:nth-child(3),
+.banner .howToUseImgArea .fontAnim:nth-child(3),
 .banner .staff .fontAnim:nth-child(3) {
   animation-delay: .4s;
 }
-.banner .top100Of .fontAnim:nth-child(4),
-.banner .about .fontAnim:nth-child(4),
-.banner .howToUse .fontAnim:nth-child(4),
+.banner .top100OfImgArea .fontAnim:nth-child(4),
+.banner .aboutImgArea .fontAnim:nth-child(4),
+.banner .howToUseImgArea .fontAnim:nth-child(4),
 .banner .staff .fontAnim:nth-child(4) {
   animation-delay: .6s;
 }
-.banner .top100Of .fontAnim:nth-child(5),
-.banner .about .fontAnim:nth-child(5),
-.banner .howToUse .fontAnim:nth-child(5),
+.banner .top100OfImgArea .fontAnim:nth-child(5),
+.banner .aboutImgArea .fontAnim:nth-child(5),
+.banner .howToUseImgArea .fontAnim:nth-child(5),
 .banner .staff .fontAnim:nth-child(5) {
   animation-delay: .8s;
 }
-.banner .top100Of .fontAnim:nth-child(6),
-.banner .about .fontAnim:nth-child(6),
-.banner .howToUse .fontAnim:nth-child(6),
+.banner .top100OfImgArea .fontAnim:nth-child(6),
+.banner .aboutImgArea .fontAnim:nth-child(6),
+.banner .howToUseImgArea .fontAnim:nth-child(6),
 .banner .staff .fontAnim:nth-child(6) {
   animation-delay: 1s;
 }
-.banner .top100Of .fontAnim:nth-child(7),
-.banner .about .fontAnim:nth-child(7),
-.banner .howToUse .fontAnim:nth-child(7),
+.banner .top100OfImgArea .fontAnim:nth-child(7),
+.banner .aboutImgArea .fontAnim:nth-child(7),
+.banner .howToUseImgArea .fontAnim:nth-child(7),
 .banner .staff .fontAnim:nth-child(7) {
   animation-delay: 1.2s;
 }
-.banner .top100Of .fontAnim:nth-child(8),
-.banner .about .fontAnim:nth-child(8),
-.banner .howToUse .fontAnim:nth-child(8),
+.banner .top100OfImgArea .fontAnim:nth-child(8),
+.banner .aboutImgArea .fontAnim:nth-child(8),
+.banner .howToUseImgArea .fontAnim:nth-child(8),
 .banner .staff .fontAnim:nth-child(8) {
   animation-delay: 1.4s;
 }
-.banner .top100Of .fontAnim:nth-child(9),
-.banner .about .fontAnim:nth-child(9),
-.banner .howToUse .fontAnim:nth-child(9),
+.banner .top100OfImgArea .fontAnim:nth-child(9),
+.banner .aboutImgArea .fontAnim:nth-child(9),
+.banner .howToUseImgArea .fontAnim:nth-child(9),
 .banner .staff .fontAnim:nth-child(9) {
   animation-delay: 1.6s;
 }
-.banner .top100Of .fontAnim:nth-child(10),
-.banner .about .fontAnim:nth-child(10),
-.banner .howToUse .fontAnim:nth-child(10),
+.banner .top100OfImgArea .fontAnim:nth-child(10),
+.banner .aboutImgArea .fontAnim:nth-child(10),
+.banner .howToUseImgArea .fontAnim:nth-child(10),
 .banner .staff .fontAnim:nth-child(10) {
   animation-delay: 1.8s;
 }
-.banner .top100Of .fontAnim:nth-child(11),
-.banner .about .fontAnim:nth-child(11),
-.banner .howToUse .fontAnim:nth-child(11),
+.banner .top100OfImgArea .fontAnim:nth-child(11),
+.banner .aboutImgArea .fontAnim:nth-child(11),
+.banner .howToUseImgArea .fontAnim:nth-child(11),
 .banner .staff .fontAnim:nth-child(11) {
   animation-delay: 2.0s;
 }
-.banner .top100Of .fontAnim:nth-child(12),
-.banner .about .fontAnim:nth-child(12),
-.banner .howToUse .fontAnim:nth-child(12),
+.banner .top100OfImgArea .fontAnim:nth-child(12),
+.banner .aboutImgArea .fontAnim:nth-child(12),
+.banner .howToUseImgArea .fontAnim:nth-child(12),
 .banner .staff .fontAnim:nth-child(12) {
   animation-delay: 2.2s;
 }
-.banner .top100Of .fontAnim:nth-child(13),
-.banner .about .fontAnim:nth-child(13),
-.banner .howToUse .fontAnim:nth-child(13),
+.banner .top100OfImgArea .fontAnim:nth-child(13),
+.banner .aboutImgArea .fontAnim:nth-child(13),
+.banner .howToUseImgArea .fontAnim:nth-child(13),
 .banner .staff .fontAnim:nth-child(13) {
   animation-delay: 2.4s;
 }
-.banner .top100Of .fontAnim:nth-child(14),
-.banner .about .fontAnim:nth-child(14),
-.banner .howToUse .fontAnim:nth-child(14),
+.banner .top100OfImgArea .fontAnim:nth-child(14),
+.banner .aboutImgArea .fontAnim:nth-child(14),
+.banner .howToUseImgArea .fontAnim:nth-child(14),
 .banner .staff .fontAnim:nth-child(14) {
   animation-delay: 2.6s;
 }
-.banner .top100Of .fontAnim:nth-child(15),
-.banner .about .fontAnim:nth-child(15),
-.banner .howToUse .fontAnim:nth-child(15),
+.banner .top100OfImgArea .fontAnim:nth-child(15),
+.banner .aboutImgArea .fontAnim:nth-child(15),
+.banner .howToUseImgArea .fontAnim:nth-child(15),
 .banner .staff .fontAnim:nth-child(15) {
   animation-delay: 2.8s;
 }
-.banner .top100Of .fontAnim:nth-child(16),
-.banner .about .fontAnim:nth-child(16),
-.banner .howToUse .fontAnim:nth-child(16),
+.banner .top100OfImgArea .fontAnim:nth-child(16),
+.banner .aboutImgArea .fontAnim:nth-child(16),
+.banner .howToUseImgArea .fontAnim:nth-child(16),
 .banner .staff .fontAnim:nth-child(16) {
   animation-delay: 3.0s;
 }
-.banner .top100Of .fontAnim:nth-child(17),
-.banner .about .fontAnim:nth-child(17),
-.banner .howToUse .fontAnim:nth-child(17),
+.banner .top100OfImgArea .fontAnim:nth-child(17),
+.banner .aboutImgArea .fontAnim:nth-child(17),
+.banner .howToUseImgArea .fontAnim:nth-child(17),
 .banner .staff .fontAnim:nth-child(17) {
   animation-delay: 3.2s;
 }
-.banner .top100Of .fontAnim:nth-child(18),
-.banner .about .fontAnim:nth-child(18),
-.banner .howToUse .fontAnim:nth-child(18),
+.banner .top100OfImgArea .fontAnim:nth-child(18),
+.banner .aboutImgArea .fontAnim:nth-child(18),
+.banner .howToUseImgArea .fontAnim:nth-child(18),
 .banner .staff .fontAnim:nth-child(18) {
   animation-delay: 3.4s;
 }
-.banner .top100Of .fontAnim:nth-child(19),
-.banner .about .fontAnim:nth-child(19),
-.banner .howToUse .fontAnim:nth-child(19),
+.banner .top100OfImgArea .fontAnim:nth-child(19),
+.banner .aboutImgArea .fontAnim:nth-child(19),
+.banner .howToUseImgArea .fontAnim:nth-child(19),
 .banner .staff .fontAnim:nth-child(19) {
   animation-delay: 3.6s;
 }
-.banner .top100Of .fontAnim:nth-child(20),
-.banner .about .fontAnim:nth-child(20),
-.banner .howToUse .fontAnim:nth-child(20),
+.banner .top100OfImgArea .fontAnim:nth-child(20),
+.banner .aboutImgArea .fontAnim:nth-child(20),
+.banner .howToUseImgArea .fontAnim:nth-child(20),
 .banner .staff .fontAnim:nth-child(20) {
   animation-delay: 3.8s;
 }
 
-.banner .about .font,
-.banner .howToUse .font,
+.banner .aboutImgArea .font,
+.banner .howToUseImgArea .font,
 .banner .staff .font{
   left: -80px;
 }
 
-.banner .top100Of .font{
+.banner .top100OfImgArea .font{
   top: -133px;
   right: -25px;
   z-index: 1;
 }
 
 /* == about == */
-.banner .about {
+.banner .aboutImgArea {
   top: 146px;
   left: 935.5px;
   width: 459px;
   height: 446px;
 }
-.banner .about .aboutImg {
+.banner .aboutImgArea .aboutImg {
   width: 100%;
 }
-.banner .about .airplaneImg {
+.banner .aboutImgArea .airplaneImg {
   top: 45px;
   left: 75px;
 
 /* 完成要打開 */
   /* animation: move 4s infinite; */
 }
-.banner .about .taxiImg {
+.banner .aboutImgArea .taxiImg {
   right: 37px;
   bottom: -26px;
 }
 
 /* == top100Oftaiwanese foods == */
-.banner .top100Of {
+.banner .top100OfImgArea {
   top: 521px;
   left: 1207px;
   width: 433px;
   height: 419px;
 }
-.banner .top100Of .foodsImg {
+.banner .top100OfImgArea .foodsImg {
   width: 100%;
 }
-.banner .top100Of .lanternImg {
+.banner .top100OfImgArea .lanternImg {
   top: 23px;
   right: 106px;
 }
