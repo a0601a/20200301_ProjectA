@@ -68,10 +68,14 @@
 }
 
 /* 步驟 - 01*/
-.howToUse .steps .step01{
+.howToUse .steps .step01,
+.howToUse .steps .step02,
+.howToUse .steps .step03{
   display: flex;
 }
-.howToUse .steps .step01 .textArea{
+.howToUse .steps .step01 .textArea,
+.howToUse .steps .step02 .textArea,
+.howToUse .steps .step03 .textArea{
   position: relative;
   margin-top: 170px;
   margin-left: 274.419px;
@@ -85,26 +89,35 @@
     width: 100%;
 }
 
-.howToUse .steps .step01 .nextArrow{
+.howToUse .steps .step01 .nextArrow,
+.howToUse .steps .step02 .nextArrow{
   position: relative;
   top: 90.038px;
 }
 
-.howToUse .steps .step01 .textArea .title{
+.howToUse .steps .step01 .textArea .title,
+.howToUse .steps .step02 .textArea .title,
+.howToUse .steps .step03 .textArea .title{
   display: flex;
   align-items: flex-end;
 }
-.howToUse .steps .step01 .textArea .title .img{
+.howToUse .steps .step01 .textArea .title .img,
+.howToUse .steps .step02 .textArea .title .img,
+.howToUse .steps .step03 .textArea .title .img{
   width: 54px;
   height: 57.906px;
 }
 
-.howToUse .steps .step01 .textArea .title .text{
+.howToUse .steps .step01 .textArea .title .text,
+.howToUse .steps .step02 .textArea .title .text,
+.howToUse .steps .step03 .textArea .title .text{
   margin-left: 33.933px;
   font-weight: 700;
   font-size: 26px;
 }
-.howToUse .steps .step01 .textArea .subTitle{
+.howToUse .steps .step01 .textArea .subTitle,
+.howToUse .steps .step02 .textArea .subTitle,
+.howToUse .steps .step03 .textArea .subTitle{
   margin-top: 35.053px;
   
   font-size: 17px;
