@@ -1,3 +1,32 @@
+  // 附加DOM
+  function appendDots(){
+    var slickDots = $('.slick-dots')
+    if (slickDots[0]) {
+      var aa = slickDots.find('li:first-child')
+      if (aa) {
+        aa.before(
+          '<li class="slick-active" >' +
+            '  <button class="position-relative" type="button">' +
+            '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow.png" alt="" style="top:-1px;left:0;">' +
+            '  </button>' +
+            '</li>'
+        )
+      }
+
+      var aaa = slickDots.find('li:last-child')
+      if (aaa) {
+        aaa.after(
+          '<li class="slick-active" >' +
+            '  <button class="position-relative" type="button">' +
+            '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow2.png" alt="" style="top:-1px;left:0;">' +
+            '  </button>' +
+            '</li>'
+        )
+      }
+    }
+  }
+
+
 $(document).ready(function() {
   // 隨機模組 - https://stackoverflow.com/questions/31459832/randomise-and-order-divs-slick-js
   $.fn.randomize = function (selector) {
@@ -32,32 +61,40 @@ $(document).ready(function() {
     dots: true,
     focusOnSelect: true
   })
+  
+
+  appendDots()
 })
 
-$(document).ready(function() {
-  // 附加DOM
-  var slickDots = $('.slick-dots')
-  if (slickDots[0]) {
-    var aa = slickDots.find('li:first-child')
-    if (aa) {
-      aa.before(
-        '<li class="slick-active" >' +
-          '  <button class="position-relative" type="button">' +
-          '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow.png" alt="" style="top:-1px;left:0;">' +
-          '  </button>' +
-          '</li>'
-      )
-    }
 
-    var aaa = slickDots.find('li:last-child')
-    if (aaa) {
-      aaa.after(
-        '<li class="slick-active" >' +
-          '  <button class="position-relative" type="button">' +
-          '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow2.png" alt="" style="top:-1px;left:0;">' +
-          '  </button>' +
-          '</li>'
-      )
-    }
-  }
+
+
+
+
+
+// 隨機按鈕
+
+$(document).ready(function() {
+  var sliderNavDom =  $('.slider-nav')
+  var randomBtnDom = $('#randomBtn')
+
+
+  randomBtnDom.click(function(){
+    sliderNavDom.slick('destroy')
+    sliderNavDom.randomize().slick({
+      infinite: true,
+      slidesPerRow: 4,
+      rows: 4,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      asNavFor: '.slider-for',
+      dots: true,
+      focusOnSelect: true
+    })
+
+    appendDots()
+  })
+
+
 })
