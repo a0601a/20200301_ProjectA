@@ -220,6 +220,7 @@
               <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-t.png" alt="">
               <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="">
               <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-f.png" alt="">
+              <div class="" id="fb"></div>
               <img class="ml-auto rotateY" src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
             </div>
             <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
@@ -297,6 +298,10 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
   integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
 
 <script>
   // 001.牛肉麵2_OK
@@ -365,7 +370,17 @@
         $(".text.text8").removeClass("text_8");
       }
     })
-  })()
+  })();
+
+  // fbShare
+  $(function() {
+    fbShare({
+      dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+      href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+    }) 
+  
+  })
+
 </script>
 
 
