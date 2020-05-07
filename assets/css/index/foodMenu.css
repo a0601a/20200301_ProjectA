@@ -45,6 +45,7 @@
   color: #898989;
   transition: color .3s ease;
   font-size: 20px;  
+  pointer-events: none;
 }
 .foodMenuNavbar .dropdown-item .text:hover{
   color: #EB6153;

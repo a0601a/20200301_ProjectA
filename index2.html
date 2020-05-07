@@ -17,10 +17,13 @@
   <link rel="stylesheet" href="assets/css/navbar.css">
 
   <!-- slick -->
-  <link rel="stylesheet" type="text/css"
+  <!-- <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
   <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
   <link rel="stylesheet" type="text/css" href="assets/package/slick/slick.css">
   <script type="javascript" src="assets/package/slick/slick.js"></script>
 
@@ -352,8 +355,16 @@
               <span class="w-100 d-block text-center nav-linkText">種類</span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-center" href="javascript:void(0)"><span class="text">飯類</span></a>
-              <a class="dropdown-item text-center" href="javascript:void(0)"><span class="text">麵類</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="all" href="javascript:void(0)"><span class="text">全部</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="aaaaa" href="javascript:void(0)"><span class="text">飯類</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="bbbbb" href="javascript:void(0)"><span class="text">麵類</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="ccccc" href="javascript:void(0)"><span class="text">飲料類</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="ddddd" href="javascript:void(0)"><span class="text">小吃</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="all" href="javascript:void(0)"><span class="text">甜食</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="all" href="javascript:void(0)"><span class="text">湯類</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="all" href="javascript:void(0)"><span class="text">配菜類</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="all" href="javascript:void(0)"><span class="text">傳統糕點類</span></a>
+              <a class="dropdown-item text-center foodFilter" data-filter-heading="all" href="javascript:void(0)"><span class="text">炸物</span></a>
             </div>
           </li>
         </div>
@@ -364,262 +375,264 @@
     <div class="row" style="padding: 0 320px 280px;margin-top: 261.058px;">
 
       <!-- food start -->
-      <div class="col slider slider-nav">
+      <div class="col slider slider-nav" id="slider">
 
         <!-- group -->
-        <div class="">
+        <div class="aaaaa">
           <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
               class="width-190px mx-auto"></a>
+
+              <!-- asdfafd -->
         </div>
-        <div class="">
+        <div class="bbbbb">
           <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2.Taiwanese chicken nuggets.png"
               alt="" class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ccccc">
           <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3.stinky tofu.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4. mango shaved ice.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
 
-        <div class="">
+        <div class="ddddd">
           <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/8.Pineapple cake.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt="" class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/10.Barrel broiled chicken.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/11.sweet soup with herbal jelly.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/23Oyster vermicelli.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/16.Barbecued.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/20.sesame oil chicken soup.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
         <!-- //group -->
         <!-- group -->
-        <div class="">
+        <div class="ddddd">
           <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3 white gourd drink.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/5Beef Soup.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/8mung bean smoothie.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/9pan-fried bun.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt="" class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/14danzai noodles.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/16Tube Rice Pudding.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/18Fried dumpling.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/19rice dumpling.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/20Flaky scallion pancake.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
         <!-- //group -->
         <!-- group -->
-        <div class="">
+        <div class="ddddd">
           <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3 white gourd drink.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/5Beef Soup.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/8mung bean smoothie.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/9pan-fried bun.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt="" class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/14danzai noodles.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/16Tube Rice Pudding.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
 
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/18Fried dumpling.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/19rice dumpling.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
-        <div class="">
+        <div class="ddddd">
           <a href="javascript:void(0)" target="_blank"><img src="assets/images/FOOD/20Flaky scallion pancake.png" alt=""
               class="width-190px mx-auto"></a>
         </div>
@@ -732,8 +745,10 @@
 
   <!-- <script src="http://font-awesome/5.12.1/js/all.min.js"></script> -->
   <!-- slick -->
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+  <!-- <script type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script> -->
   <script src="assets/package/slick/slick.js"></script>
   <script src="assets/javaScript/navBar.js"></script>
   <script src="assets/javaScript/banner.js"></script>
