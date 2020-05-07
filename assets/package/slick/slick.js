@@ -66,6 +66,9 @@
                   slider.append( newSlides );
                   slider.slick( settings.slick );
 
+                  // 20200507 - add -defined function
+                  appendDots()
+
                   return;
               }
 
@@ -88,6 +91,8 @@
               slider.find( settings.slideSelector ).remove();
               slider.append( newSlides );
               slider.slick( settings.slick );
+
+
           });
       });
   };
