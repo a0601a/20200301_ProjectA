@@ -47,7 +47,7 @@
   font-size: 20px;  
   pointer-events: none;
 }
-.foodMenuNavbar .dropdown-item .text:hover{
+.foodMenuNavbar .dropdown-item:hover .text{
   color: #EB6153;
 }
 
@@ -66,4 +66,8 @@
 
 .foodMenuNavbar .nav-linkText:hover{
   color: #EB6153;
+}
+
+.foodMenuNavbar .dropdown-menu{
+  background-color: transparent;
 }
