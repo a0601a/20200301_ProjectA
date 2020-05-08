@@ -1,14 +1,13 @@
-.foodMenuNavbar{
-
+.foodMenuNavbar {
 }
 
-.foodMenuNavbar .nav-link{
+.foodMenuNavbar .nav-link {
   margin: 0 17px;
   position: relative;
 }
 
 .foodMenuNavbar .nav-link::before,
-.foodMenuNavbar .nav-link::after{
+.foodMenuNavbar .nav-link::after {
   content: '';
   height: calc(100% - 16px); /* padding */
   width: 4px;
@@ -16,76 +15,84 @@
   position: absolute;
 }
 
-.foodMenuNavbar .nav-link::before{
+.foodMenuNavbar .nav-link::before {
   left: 0;
 }
 
-.foodMenuNavbar .nav-link::after{
+.foodMenuNavbar .nav-link::after {
   right: 0;
 }
 
-.foodMenuNavbar .dropdown-toggle::after{
+.foodMenuNavbar .dropdown-toggle::after {
   border: none; /* 隱藏下拉式選單箭頭 */
 }
 
-.foodMenuNavbar .dropdown-menu{
+.foodMenuNavbar .dropdown-menu {
   border: 1px solid transparent;
 }
-.foodMenuNavbar .dropdown-item{}
+.foodMenuNavbar .dropdown-item {
+}
 
 .foodMenuNavbar.foodMenuNavbar .dropdown-item:focus,
-.foodMenuNavbar.foodMenuNavbar .dropdown-item:hover{
+.foodMenuNavbar.foodMenuNavbar .dropdown-item:hover {
   background-color: transparent;
 }
 
-.foodMenuNavbar .dropdown-item .text{
+.foodMenuNavbar .dropdown-item .text {
   width: 40.343px;
   padding-bottom: 4px;
-  border-bottom: 2px solid #EB6153;
+  border-bottom: 2px solid #eb6153;
   color: #898989;
-  transition: color .3s ease;
-  font-size: 20px;  
+  transition: color 0.3s ease;
+  font-size: 20px;
   pointer-events: none;
 }
-.foodMenuNavbar .dropdown-item:hover .text{
-  color: #EB6153;
+.foodMenuNavbar .dropdown-item:hover .text {
+  color: #eb6153;
 }
 
-.foodMenuNavbar .nav-linkImg{
+.foodMenuNavbar .nav-linkImg {
   width: 112.774px;
   position: relative;
 }
 
-.foodMenuNavbar .nav-linkImg::after{
+.foodMenuNavbar .nav-linkImg::after {
   content: '';
   display: block;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0);
-  transition: .25s background-color .3s;
+  transition: 0.25s background-color 0.3s;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.foodMenuNavbar .nav-linkImg:hover::after{
-  background-color: rgba(0, 0, 0, .25)
+.foodMenuNavbar .nav-linkImg:hover::after {
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
-.foodMenuNavbar .nav-linkText{
+.foodMenuNavbar .nav-linkText {
   /* height: 26.152px; */
   /* width: 56.364px; */
   font-size: 26px;
   margin-top: 20.368px;
-  color: #4C4948;
-  transition: color .3s ease;
+  color: #4c4948;
+  transition: color 0.3s ease;
 }
 
-.foodMenuNavbar .nav-linkText:hover{
-  color: #EB6153;
+.foodMenuNavbar .nav-linkText:hover {
+  color: #eb6153;
 }
 
-.foodMenuNavbar .dropdown-menu{
+.foodMenuNavbar .dropdown-menu {
   background-color: transparent;
+}
+
+.foodMenuNavbar + .foodList {
+  padding: 0 320px 280px;
+  /* 設計稿設定 */
+  /* margin-top: 261.058px; */ 
+  margin-top: 160.058px; 
 }
