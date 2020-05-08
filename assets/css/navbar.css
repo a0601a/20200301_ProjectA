@@ -78,6 +78,7 @@ body {
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  visibility: hidden;
 }
 .navigation .navigation__list {
   position: absolute;
@@ -102,6 +103,7 @@ body {
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 220%;
   transition: all .4s;
+
 }
 .navigation .navigation__link:link span, .navigation .navigation__link:visited span {
   margin-right: 1.5rem;
@@ -118,6 +120,7 @@ body {
 .navigation .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
   width: 100%;
+  visibility: visible;
 }
 .navigation .navigation__icon {
   font-size: 8px;
