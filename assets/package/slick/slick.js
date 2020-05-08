@@ -169,7 +169,7 @@ $(document).ready(function() {
     },
     slick:   {
   infinite: true,
-  slidesPerRow: 4,
+  slidesPerRow: 5,
   rows: 4,
   speed: 500,
   fade: true,
@@ -206,7 +206,7 @@ $(document).ready(function() {
     sliderNavDom.slick('destroy')
     sliderNavDom.randomize().slick({
       infinite: true,
-      slidesPerRow: 4,
+      slidesPerRow: 5,
       rows: 4,
       speed: 500,
       fade: true,
