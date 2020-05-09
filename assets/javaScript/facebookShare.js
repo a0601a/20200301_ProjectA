@@ -14,12 +14,19 @@ function fbShare(obj) {
 }
 
 $(function () {
-  $(document).on('click', '#facebookBtn', function (e) {
-    var self = e.target
-    var fbShareBtnDom = $('#fbShareBtn')
-    // if (self) if (fbShareBtnDom) fbShareBtnDom.click()
-
-
-
+  $(function(){
+    $('#fbShareBtn').hover(
+      function(){
+        $('#facebookBtn').stop().css({
+          transform: 'rotateY(1260deg)',
+          transition: 'transform 2.6s ease'
+        }, 2600)
+      },
+      function(){
+        $('#facebookBtn').stop().css({
+          transform: 'rotateY(0deg)'
+        }, 2600)
+      }
+)
   })
 })
