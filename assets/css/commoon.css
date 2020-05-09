@@ -274,6 +274,12 @@ a:hover,
   transform: rotateY(1260deg);
 }
 
+.rotateYHover{
+  transition: transform 2.6s ease;
+
+  transform: rotateY(1260deg);
+}
+
 /* 線條特效 d*/
 .testOIJFIDFJIDFJ::before{
   content: '';

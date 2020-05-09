@@ -6,3 +6,10 @@
 #fbShareBtn ._2vmz{
   /* border: 1px solid #000; */
 }
+
+#fbShareBtn{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
