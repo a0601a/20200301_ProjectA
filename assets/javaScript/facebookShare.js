@@ -13,7 +13,6 @@ function fbShare(obj) {
   if (fbDom) fbDom.append(fbShareTemplate(obj))
 }
 
-$(function () {
   $(function(){
     $('#fbShareBtn').hover(
       function(){
@@ -29,4 +28,15 @@ $(function () {
       }
 )
   })
-})
+
+
+// 方法二
+// refer - https://codepen.io/Huskie/pen/wKphk
+var facebookShare = document.querySelector('[data-js="facebook-share"]');
+
+facebookShare.onclick = function(e) {
+  e.preventDefault();
+  var facebookWindow = window.open('https://www.facebook.com/sharer/sharer.php?u=' + window.shareUrl, 'facebook-popup', 'height=350,width=600');
+  if(facebookWindow.focus) { facebookWindow.focus(); }
+    return false;
+}

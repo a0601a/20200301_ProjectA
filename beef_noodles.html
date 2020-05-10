@@ -220,16 +220,16 @@
             </h3>
             <div class="iconList d-flex align-items-center">
               <div class="imgg">
-                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
               </div>
               <div class="imgg">
                 <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
               </div>
               <div class="imgg">
-                <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
-                <div class="" id="fb"></div>
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
               </div>
-              <!-- <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn"> -->
              
               <img class="ml-auto rotateY" src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
             </div>
@@ -312,7 +312,14 @@
   src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
   <script src="./assets/javaScript/facebookShare.js"></script>
   <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
 
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA//beef_noodles.html'
+</script>
 <script>
   // 001.牛肉麵2_OK
   (function () {
@@ -383,13 +390,13 @@
   })();
 
   // fbShare
-  $(function() {
-    fbShare({
-      dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
-      href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
-    }) 
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
   
-  })
+  // })
 
 </script>
 </html>
