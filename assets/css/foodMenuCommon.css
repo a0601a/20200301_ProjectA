@@ -1,0 +1,66 @@
+.con {
+  height: 82vh;
+}
+
+.foodContent {
+  width: 100%;
+  max-width: 371.839px;
+}
+
+.iconList {
+  margin-bottom: 72.738px;
+}
+.iconList .imgg{
+  position: relative;
+}
+.iconList .imgg:not(:last-child) {
+  margin-right: 23.601px;
+}
+
+.iconList .imgg:nth-child(1) {
+  width: 25.851px;
+  height: 22.933px;
+}
+
+.iconList .imgg:nth-child(2) {
+  width: 20.839px;
+  height: 22.933px;
+}
+
+.iconList .imgg:nth-child(3) {
+  width: 24.285px;
+  height: 24.285px;
+}
+
+.title {
+  margin-top: 118.047px;
+  margin-bottom: 0;
+}
+
+.subTitle {
+  margin-top: 36.363px;
+  margin-bottom: 75.702px;
+}
+
+.japanLang {
+
+  letter-spacing: 6px;
+  line-height: 1.7;
+  margin-bottom: 47.238px;
+}
+
+.chTWLang {
+  letter-spacing: 4px;
+  line-height: 2;
+}
+
+.foodContent .notice {
+  margin-top: 74.153px;
+  margin-bottom: 53.804px;
+}
+
+.foodMenu {}
+
+.foodMenu .food:first-child {
+  margin-right: 94.964px;
+}
