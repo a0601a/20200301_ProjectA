@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 520px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+#greenbean, #greenbean2, #ice, #ice2 {
+  width: 400px;
+}
+
+.text {
+  position: absolute;
+  left: 43%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 530px);
+}
+
+.text2 {
+  transform: translate(400px, 270px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, 50px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(400px, -70px);
+  transition-delay: 0.15s;
+}
+
+.text5 {
+  transform: translate(400px, -210px);
+  transition-delay: 0.2s;
+}
+
+.text6 {
+  transform: translate(400px, -340px);
+  transition-delay: 0.25s;
+}
+
+.text_1 {
+  transform: translate(250px, 530px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(250px, 270px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(250px, 50px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(250px, -70px);
+  opacity: 1;
+}
+
+.text_5 {
+  transform: translate(250px, -210px);
+  opacity: 1;
+}
+
+.text_6 {
+  transform: translate(250px, -340px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">緑豆スムージー</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">綠豆沙</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E7%B6%A0%E8%B1%86%E6%B2%99&oq=%E7%B6%A0%E8%B1%86%E6%B2%99&aqs=chrome..69i57j0l7.1871j0j9&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            緑豆スムージーは暑い夏に最適。新鮮な緑豆と氷を混ぜた飲み物。綿密で飲みやすい食感をもっと楽しみたいなら、ミルクやタピオカを入れるのがおすすめ。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            夏天就是吃綠豆沙的好季節，以冰沙為基底，加上新鮮綠豆當日現做而成，口感綿密順口。為增加豐富度，也可多加牛奶跟珍珠。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+            <div class="con"><img class="img" id="cup" src="https://res.cloudinary.com/fssalad/image/upload/v1589109278/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E6%9D%AF%E5%AD%90_n9bkse.png"/><img class="img" id="greenbeanslush" src="https://res.cloudinary.com/fssalad/image/upload/v1589109279/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E8%8C%B6%E6%B1%81_j3ymeo.png"/><img class="img" id="greenbean" src="https://res.cloudinary.com/fssalad/image/upload/v1583569609/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E7%B6%A0%E8%B1%861_wnc0ax.png"/><img class="img" id="greenbean2" src="https://res.cloudinary.com/fssalad/image/upload/v1583569609/008.%E7%B6%A0%E8%B1%86%E6%B2%99/ok%E7%B6%A0%E8%B1%86%E6%B2%99_%E7%B6%A0%E8%B1%862_gppzas.png"/><img class="img" id="ice" src="https://res.cloudinary.com/fssalad/image/upload/v1583569608/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E7%A2%8E%E5%86%B0%E5%A1%8A1_fhfgfe.png"/><img class="img" id="ice2" src="https://res.cloudinary.com/fssalad/image/upload/v1583569608/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E7%A2%8E%E5%86%B0%E5%A1%8A2_e9cqbx.png"/><img class="img" id="cup2" src="https://res.cloudinary.com/fssalad/image/upload/v1583569605/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E6%9D%AF%E7%B7%A3_jnlznc.png"/><img class="img" id="cuptop" src="https://res.cloudinary.com/fssalad/image/upload/v1589109278/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E5%B0%81%E8%86%9C_z3ppkv.png"/><img class="img" id="straw_t" src="https://res.cloudinary.com/fssalad/image/upload/v1583569605/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E5%90%B8%E7%AE%A1_%E4%B8%8A_bpla8a.png"/>
+                <div class="text text1"><span class="right">───────</span>　 杯子．カップ</div>
+                <div class="text text2"><span class="right">───────</span>　 綠豆沙．緑豆スムージー</div>
+                <div class="text text3"><span class="right">──────</span>　 綠豆．緑豆</div>
+                <div class="text text4"><span class="right">──────</span>　 碎冰．氷</div>
+                <div class="text text5"><span class="right">─────</span>　 封膜．蓋</div>
+                <div class="text text6"><span class="right">───────</span>　 吸管．ストロー</div>
+              </div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/mungBeanSmoothie.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#cup").css("transform","translateY(490px) scale(0.8)");
+    $("#cup2").css("transform","translateY(490px) scale(0.8)");
+    $("#greenbeanslush").css("transform","translateY(230px) scale(0.8)");
+    $("#greenbean").css("transform","translateY(110px) scale(1.6)");  
+    $("#greenbean2").css("transform","translate(-20px,110px) scale(1.6)");
+    $("#ice").css("transform","translateY(-20px) scale(1.6)");
+    $("#ice2").css("transform","translate(-10px,-20px) scale(1.6)");
+    $("#cuptop").css("transform","translateY(-165px) scale(0.8)");  
+    $("#straw_t").css("transform","translate(30px,-330px) rotate(-65deg) scale(0.8)");
+    
+    
+    $("#ice2").css("transition-delay","0.2s");
+    $("#greenbean2").css("transition-delay","0.3s");
+
+    $("#straw_t").attr("src","https://res.cloudinary.com/fssalad/image/upload/v1583569605/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E5%90%B8%E7%AE%A1_%E5%85%A8_rfs40m.png");
+   
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+    $(".text.text5").addClass("text_5");
+    $(".text.text6").addClass("text_6");
+    
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#cup").css("transform","translate(0px)");
+    $("#cup2").css("transform","translate(0px)");
+    $("#greenbeanslush").css("transform","translate(0px)");
+    $("#greenbean").css("transform","translate(0px)");
+    $("#greenbean2").css("transform","translate(0px)");
+    $("#ice").css("transform","translate(0px)");
+    $("#ice2").css("transform","translate(0px)");
+    $("#cuptop").css("transform","translate(0px)");
+    $("#straw_t").css("transform","translate(0px)");
+
+    $("#straw_t").attr("src","https://res.cloudinary.com/fssalad/image/upload/v1583569605/008.%E7%B6%A0%E8%B1%86%E6%B2%99/OK%E7%B6%A0%E8%B1%86%E6%B2%99_%E5%90%B8%E7%AE%A1_%E4%B8%8A_bpla8a.png");
+   
+    
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+    $(".text.text5").removeClass("text_5");
+    $(".text.text6").removeClass("text_6");
+    
+    
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
