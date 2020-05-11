@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+    .con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 600px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+.text {
+  position: absolute;
+  left: 43%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 320px);
+}
+
+.text2 {
+  transform: translate(400px, -40px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, -320px);
+  transition-delay: 0.1s;
+}
+
+.text_1 {
+  transform: translate(280px, 320px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(280px, -40px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(280px, -320px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">台湾風ベビーカステラ</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">雞蛋糕</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E9%9B%9E%E8%9B%8B%E7%B3%95&oq=%E9%9B%9E%E8%9B%8B%E7%B3%95&aqs=chrome..69i57j0l7.2157j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            台湾人が愛してやまないスイーツ。ふんわりとした卵の香り、しっとりした食感、ちょうどいいサイズ感で何個でも食べられる。手軽なおやつとして最適。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            台灣人小時候最喜歡古早風味的點心之一。香濃的蛋味，口感綿密，小小的，一口一個，當作下午茶點最幸福了。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+            <div class="con"><img class="img" id="bag" src="https://res.cloudinary.com/fssalad/image/upload/v1589172938/092.%E9%9B%9E%E8%9B%8B%E7%B3%95/Paper-bag-under_yfzs38.png"/><img class="img" id="sticks" src="https://res.cloudinary.com/fssalad/image/upload/v1589126649/092.%E9%9B%9E%E8%9B%8B%E7%B3%95/Bamboo-sticks1_a97xtw.png"/><img class="img" id="cake" src="https://res.cloudinary.com/fssalad/image/upload/v1589172937/092.%E9%9B%9E%E8%9B%8B%E7%B3%95/cake_aptcsl.png"/><img class="img" id="cake2" src="https://res.cloudinary.com/fssalad/image/upload/v1589172937/092.%E9%9B%9E%E8%9B%8B%E7%B3%95/cake2_ii9xiz.png"/><img class="img" id="sticks2" src="https://res.cloudinary.com/fssalad/image/upload/v1589126646/092.%E9%9B%9E%E8%9B%8B%E7%B3%95/Bamboo-sticks2_lepr1w.png"/><img class="img" id="bag2" src="https://res.cloudinary.com/fssalad/image/upload/v1589172938/092.%E9%9B%9E%E8%9B%8B%E7%B3%95/Paper-bag-top_zeg2el.png"/>
+                <div class="text text1"><span class="right">──────</span>　 紙袋・袋</div>
+                <div class="text text2"><span class="right">──────────</span>　 蛋糕・ケーキ</div>
+                <div class="text text3"><span class="right">─────────</span>　 竹籤・串</div>
+              </div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/eggedShapedPancakes.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#bag").css("transform","translateY(250px) scale(0.9)");
+    $("#bag2").css("transform","translateY(250px) scale(0.9)");
+    $("#cake").css("transform","translate(0px,-80px) scale(1.1)"); 
+    $("#cake2").css("transform","translate(0px,-80px) scale(1.1)");
+    $("#sticks").css("transform","translate(-50px,-200px)");
+    $("#sticks2").css("transform","translate(-220px,-240px) rotate(20deg) scale(1.1)");
+    
+    $("#sticks2").css("transition-delay","0.1s");
+    $("#cake2").css("transition-delay","0.15s");
+    
+    $("#sticks").css("opacity","0");
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+  
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#bag").css("transform","translate(0px)");
+    $("#bag2").css("transform","translate(0px)");
+    $("#sticks").css("transform","translate(0px)");
+    $("#sticks2").css("transform","translate(0px)");
+    $("#cake").css("transform","translate(0px)");
+    $("#cake2").css("transform","translate(0px)");
+    
+    $("#sticks").css("opacity","1");
+    
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
