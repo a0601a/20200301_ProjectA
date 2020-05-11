@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 500px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+.text {
+  position: absolute;
+  left: 46%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 680px);
+}
+
+.text2 {
+  transform: translate(400px, 460px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, 310px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(400px, 230px);
+  transition-delay: 0.15s;
+}
+
+.text5 {
+  transform: translate(400px, 150px);
+  transition-delay: 0.2s;
+}
+
+.text6 {
+  transform: translate(400px, 65px);
+  transition-delay: 0.25s;
+}
+
+.text7 {
+  transform: translate(400px, -5px);
+  transition-delay: 0.3s;
+}
+
+.text8 {
+  transform: translate(400px, -75px);
+  transition-delay: 0.35s;
+}
+
+.text9 {
+  transform: translate(400px, -150px);
+  transition-delay: 0.4s;
+}
+
+.text10 {
+  transform: translate(400px, -230px);
+  transition-delay: 0.45s;
+}
+
+.text11 {
+  transform: translate(400px, -305px);
+  transition-delay: 0.5s;
+}
+
+.text12 {
+  transform: translate(400px, -360px);
+  transition-delay: 0.55s;
+}
+
+.text_1 {
+  transform: translate(280px, 680px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(280px, 460px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(280px, 310px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(280px, 230px);
+  opacity: 1;
+}
+
+.text_5 {
+  transform: translate(280px, 150px);
+  opacity: 1;
+}
+
+.text_6 {
+  transform: translate(280px, 65px);
+  opacity: 1;
+}
+
+.text_7 {
+  transform: translate(280px, -5px);
+  opacity: 1;
+}
+
+.text_8 {
+  transform: translate(280px, -75px);
+  opacity: 1;
+}
+
+.text_9 {
+  transform: translate(280px, -150px);
+  opacity: 1;
+}
+
+.text_10 {
+  transform: translate(280px, -230px);
+  opacity: 1;
+}
+
+.text_11 {
+  transform: translate(280px, -305px);
+  opacity: 1;
+}
+
+.text_12 {
+  transform: translate(280px, -360px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">サンラータン</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">酸辣湯</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E9%85%B8%E8%BE%A3%E6%B9%AF&oq=%E9%85%B8%E8%BE%A3%E6%B9%AF&aqs=chrome..69i57j0l7.2798j0j9&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            とろみスープにキクラゲ、豆腐、たけのこなどの食材を入れ、辛酸っぱい味が、季節問わず食欲をそそる。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            濃稠勾芡的湯裡，加入黑木耳、豆腐、竹筍、鴨血等食材，酸酸辣辣的口感十分開胃，且不管是夏天還是冬天都很適合品嘗。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+<div class="con"><img class="img" id="bowl" src="https://res.cloudinary.com/fssalad/image/upload/v1589132001/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%A2%97_nvr1uq.png"/><img class="img" id="soup" src="https://res.cloudinary.com/fssalad/image/upload/v1589132001/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%BE%B9_%E5%85%A8_lpt633.png"/><img class="img" id="bowl2" src="https://res.cloudinary.com/fssalad/image/upload/v1589132001/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%A2%972_zu2cwn.png"/><img class="img" id="egg" src="https://res.cloudinary.com/fssalad/image/upload/v1583576209/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%9B%8B%E8%8A%B1_onwvk9.png"/><img class="img" id="egg2" src="https://res.cloudinary.com/fssalad/image/upload/v1587376871/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%9B%8B%E8%8A%B12_kva0aj.png"/><img class="img" id="egg3" src="https://res.cloudinary.com/fssalad/image/upload/v1587376863/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%9B%8B%E8%8A%B13_gvlaid.png"/><img class="img" id="bamboo" src="https://res.cloudinary.com/fssalad/image/upload/v1583576209/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%AD%8D%E7%B5%B2_tkpll6.png"/><img class="img" id="bamboo2" src="https://res.cloudinary.com/fssalad/image/upload/v1587376308/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%AD%8D%E7%B5%B22_iqafla.png"/><img class="img" id="bamboo3" src="https://res.cloudinary.com/fssalad/image/upload/v1587376308/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%AD%8D%E7%B5%B23_bxrl8e.png"/><img class="img" id="carrot" src="https://res.cloudinary.com/fssalad/image/upload/v1587375715/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%B4%85%E8%98%BF%E8%94%94%E7%B5%B2_odyefm.png"/><img class="img" id="carrot2" src="https://res.cloudinary.com/fssalad/image/upload/v1587317778/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%B4%85%E8%98%BF%E8%94%94%E7%B5%B22_yutupo.png"/><img class="img" id="carrot3" src="https://res.cloudinary.com/fssalad/image/upload/v1587375718/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E7%B4%85%E8%98%BF%E8%94%94%E7%B5%B23_uuskdj.png"/><img class="img" id="carrotsilk" src="https://res.cloudinary.com/fssalad/image/upload/v1587374990/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%AC%E8%A1%80_cia3so.png"/><img class="img" id="carrotsilk2" src="https://res.cloudinary.com/fssalad/image/upload/v1587374998/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%AC%E8%A1%802_di3yqx.png"/><img class="img" id="carrotsilk3" src="https://res.cloudinary.com/fssalad/image/upload/v1587375006/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%AC%E8%A1%803_tid16y.png"/><img class="img" id="tofu" src="https://res.cloudinary.com/fssalad/image/upload/v1587374518/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%86%E8%85%90%E5%A1%8A_b51tfm.png"/><img class="img" id="tofu2" src="https://res.cloudinary.com/fssalad/image/upload/v1587374514/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%86%E8%85%90%E5%A1%8A2_p9gkdc.png"/><img class="img" id="tofu3" src="https://res.cloudinary.com/fssalad/image/upload/v1587374512/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%86%E8%85%90%E5%A1%8A3_vmvwb5.png"/><img class="img" id="meat" src="https://res.cloudinary.com/fssalad/image/upload/v1587373958/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%AC%E8%82%89%E7%B5%B2_ousqd8.png"/><img class="img" id="meat2" src="https://res.cloudinary.com/fssalad/image/upload/v1588095140/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%AC%E8%82%89%E7%B5%B22_uabh3t.png"/><img class="img" id="meat3" src="https://res.cloudinary.com/fssalad/image/upload/v1587373956/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%B1%AC%E8%82%89%E7%B5%B23_kayyki.png"/><img class="img" id="mushroom" src="https://res.cloudinary.com/fssalad/image/upload/v1583576208/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E9%A6%99%E8%8F%87%E7%B5%B2_zqyvnk.png"/><img class="img" id="mushroom2" src="https://res.cloudinary.com/fssalad/image/upload/v1583576208/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E9%A6%99%E8%8F%87%E7%B5%B22_e5vrcc.png"/><img class="img" id="blackfungus" src="https://res.cloudinary.com/fssalad/image/upload/v1587318523/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E6%9C%A8%E8%80%B3%E7%B5%B2_ydibgq.png"/><img class="img" id="blackfungus2" src="https://res.cloudinary.com/fssalad/image/upload/v1587318262/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E6%9C%A8%E8%80%B3%E7%B5%B22_ps2mbi.png"/><img class="img" id="blackfungus3" src="https://res.cloudinary.com/fssalad/image/upload/v1587318458/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E6%9C%A8%E8%80%B3%E7%B5%B23_fmpspx.png"/><img class="img" id="blackricevinegar" src="https://res.cloudinary.com/fssalad/image/upload/v1583576209/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E9%BB%91%E9%86%8B_z64p1z.png"/><img class="img" id="scallion" src="https://res.cloudinary.com/fssalad/image/upload/v1583576210/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%94%A5_01_umkoc4.png"/><img class="img" id="scallion2" src="https://res.cloudinary.com/fssalad/image/upload/v1583576210/022.%E9%85%B8%E8%BE%A3%E6%B9%AF/%E9%85%B8%E8%BE%A3%E6%B9%AF_%E8%94%A5_02_cabyxm.png"/>
+  <div class="text text1"><span class="right">─────</span>　 碗．お碗</div>
+  <div class="text text2"><span class="right">───────</span>　 羹．とろみスープ</div>
+  <div class="text text3"><span class="right">───────</span>　 蛋花．溶ける卵</div>
+  <div class="text text4"><span class="right">──────────</span>　 筍絲．たけのこの千切り</div>
+  <div class="text text5"><span class="right">────────</span>　 紅蘿蔔絲．ニンジンの千切り</div>
+  <div class="text text6"><span class="right">────────────</span>　 豬血．豚の血</div>
+  <div class="text text7"><span class="right">────────────</span>　 豆腐塊．豆腐</div>
+  <div class="text text8"><span class="right">──────────</span>　 豬肉絲．豚肉</div>
+  <div class="text text9"><span class="right">────────────</span>　 香菇．しいたけ</div>
+  <div class="text text10"><span class="right">─────────</span>　 木耳絲．キクラゲ</div>
+  <div class="text text11"><span class="right">────────────</span>　 黑醋．黒酢</div>
+  <div class="text text12"><span class="right">────────────</span>　 蔥末．刻みネギ</div>
+</div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/sweetSourSoup.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#bowl").css("transform","translateY(680px) scale(0.85)");
+    $("#bowl2").css("transform","translateY(680px) scale(0.85)");
+    $("#soup").css("transform","translateY(445px) scale(0.85)");
+    $("#egg").css("transform","translate(15px,250px)"); 
+    $("#egg2").css("transform","translate(20px,250px) scale(1.4) rotate(40deg)");
+    $("#egg3").css("transform","translate(-40px,245px) scale(1.4) rotate(10deg)");
+    $("#bamboo").css("transform","translate(-25px,105px) scale(1.4)");
+    $("#bamboo2").css("transform","translate(75px,140px) scale(1.4) rotate(-5deg)");
+    $("#bamboo3").css("transform","translate(20px,130px) scale(1.4) ");
+    $("#carrot").css("transform","translate(-45px,190px) scale(1.2)");
+    $("#carrot2").css("transform","translate(25px,165px) scale(1.2)");
+    $("#carrot3").css("transform","translate(15px,140px) scale(1.2) rotate(-5deg)");
+    $("#carrotsilk").css("transform","translate(45px,40px) scale(1.8) rotate(-10deg)");
+    $("#carrotsilk2").css("transform","translate(-10px,35px)");
+    $("#carrotsilk3").css("transform","translate(-40px,80px)");
+    $("#tofu").css("transform","translate(50px,30px) scale(2) rotate(-10deg)");
+    $("#tofu2").css("transform","translate(-30px,-40px)");
+    $("#tofu3").css("transform","translate(-10px,-20px)");
+    $("#meat").css("transform","translate(-20px,-10px) rotate(-25deg) scale(1.5)");
+    $("#meat2").css("transform","translate(-20px,-70px)");
+    $("#meat3").css("transform","translate(-15px,-60px) scale(1.5)");
+    $("#mushroom").css("transform","translate(30px,-140px)");
+    $("#mushroom2").css("transform","translate(-55px,-195px) rotate(-15deg)");
+    $("#blackfungus").css("transform","translate(35px,-270px) scale(1.1)");
+    $("#blackfungus2").css("transform","translate(30px,-270px) scale(1.2)");
+    $("#blackfungus3").css("transform","translate(60px,-300px) scale(1.2)");
+    $("#blackricevinegar").css("transform","translate(5px,-310px) scale(1.1)");
+    $("#scallion").css("transform","translate(5px,-365px) scale(1.6)");
+    $("#scallion2").css("transform","translate(10px,-365px) scale(1.5)");
+    
+    
+    $("#egg2").css("transition-delay","0.1s");
+    $("#bamboo2").css("transition-delay","0.15s");
+    $("#carrot3").css("transition-delay","0.1s");
+    $("#carrotsilk2").css("transition-delay","0.15s");
+    $("#carrotsilk3").css("transition-delay","0.1s");
+    $("#tofu2").css("transition-delay","0.1s");
+    $("#meat3").css("transition-delay","0.15s");
+    $("#blackfungus3").css("transition-delay","0.1s");
+    $("#scallion2").css("transition-delay","0.15s");
+    
+    $("#egg").css("opacity","0");
+    $("#bamboo").css("opacity","0");
+    $("#carrot2").css("opacity","0");
+    $("#meat2").css("opacity","0");
+    $("#mushroom").css("opacity","0");
+    $("#blackfungus2").css("opacity","0");
+    $("#tofu2").css("opacity","0");
+    $("#tofu3").css("opacity","0");
+    $("#carrotsilk2").css("opacity","0");
+    $("#carrotsilk3").css("opacity","0");
+
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+    $(".text.text5").addClass("text_5");
+    $(".text.text6").addClass("text_6");
+    $(".text.text7").addClass("text_7");
+    $(".text.text8").addClass("text_8");
+    $(".text.text9").addClass("text_9");
+    $(".text.text10").addClass("text_10");
+    $(".text.text11").addClass("text_11");
+    $(".text.text12").addClass("text_12");
+    
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#bowl").css("transform","translate(0px)");
+    $("#bowl2").css("transform","translate(0px)");
+    $("#soup").css("transform","translate(0px)");
+    $("#egg").css("transform","translate(0px)");
+    $("#egg2").css("transform","translate(0px)");
+    $("#egg3").css("transform","translate(0px)");
+    $("#bamboo").css("transform","translate(0px)");
+    $("#bamboo2").css("transform","translate(0px)");
+    $("#bamboo3").css("transform","translate(0px)");
+    $("#carrot").css("transform","translate(0px)");
+    $("#carrot2").css("transform","translate(0px)");
+    $("#carrot3").css("transform","translate(0px)");
+    $("#carrotsilk").css("transform","translate(0px)");
+    $("#carrotsilk2").css("transform","translate(0px)");
+    $("#carrotsilk3").css("transform","translate(0px)");
+    $("#tofu").css("transform","translate(0px)");
+    $("#tofu2").css("transform","translate(0px)");
+    $("#tofu3").css("transform","translate(0px)");
+    $("#meat").css("transform","translate(0px)");
+    $("#meat2").css("transform","translate(0px)");
+    $("#meat3").css("transform","translate(0px)");
+    $("#mushroom").css("transform","translate(0px)");
+    $("#mushroom2").css("transform","translate(0px)");
+    $("#blackfungus").css("transform","translate(0px)");
+    $("#blackfungus2").css("transform","translate(0px)");
+    $("#blackfungus3").css("transform","translate(0px)");
+    $("#blackricevinegar").css("transform","translate(0px)");
+    $("#scallion").css("transform","translate(0px)");
+    $("#scallion2").css("transform","translate(0px)");
+    
+    $("#egg").css("opacity","1");
+    $("#bamboo").css("opacity","1");
+    $("#carrot2").css("opacity","1");
+    $("#meat2").css("opacity","1");
+    $("#mushroom").css("opacity","1");
+    $("#blackfungus2").css("opacity","1");
+    $("#tofu2").css("opacity","1");
+    $("#tofu3").css("opacity","1");
+    $("#carrotsilk2").css("opacity","1");
+    $("#carrotsilk3").css("opacity","1");
+ 
+  
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+    $(".text.text5").removeClass("text_5");
+    $(".text.text6").removeClass("text_6");
+    $(".text.text7").removeClass("text_7");
+    $(".text.text8").removeClass("text_8");
+    $(".text.text9").removeClass("text_9");
+    $(".text.text10").removeClass("text_10");
+    $(".text.text11").removeClass("text_11");
+    $(".text.text12").removeClass("text_12");
+  
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
