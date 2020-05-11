@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 420px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+#Packing2 {
+  opacity: 0.2;
+}
+
+.text {
+  position: absolute;
+  left: 46%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 300px);
+}
+
+.text2 {
+  transform: translate(400px, 50px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, -150px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(400px, -305px);
+  transition-delay: 0.15s;
+}
+
+.text_1 {
+  transform: translate(290px, 300px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(290px, 50px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(290px, -150px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(290px, -305px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">金門コンタン</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">金門貢糖</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96&oq=%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            台湾の金門（キンモン）の名物。ピーナッツ、砂糖、麦芽糖を原料にして使って、棒で叩き上げた食べ物。口に入れるとすぐ溶けるように、おやつには最適なチョイス。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            是金門著名傳統特產。使用花生、白砂糖、麥芽糖經民間傳統工藝用木棒「打」出來。口感酥鬆香綿，入口即化，非常適合當小茶點享用。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+            <div class="con"><img class="img" id="Packing" src="https://res.cloudinary.com/fssalad/image/upload/v1589177819/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/Packing-bag_lwoysk.png"/><img class="img" id="maltose" src="https://res.cloudinary.com/fssalad/image/upload/v1589177819/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/maltose_b8l6on.png"/><img class="img" id="peanut" src="https://res.cloudinary.com/fssalad/image/upload/v1589128197/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/peanut_gg7qir.png"/><img class="img" id="peanut2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128196/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/peanut2_eulymf.png"/><img class="img" id="peanut3" src="https://res.cloudinary.com/fssalad/image/upload/v1589128202/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/peanut3_l9wknx.png"/><img class="img" id="sesame" src="https://res.cloudinary.com/fssalad/image/upload/v1589128195/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/Black-sesame_ekaoua.png"/><img class="img" id="sesame2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128196/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/Black-sesame2_ryymtm.png"/><img class="img" id="sesame3" src="https://res.cloudinary.com/fssalad/image/upload/v1589128195/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/Black-sesame3_o1cbuo.png"/><img class="img" id="Tribute" src="https://res.cloudinary.com/fssalad/image/upload/v1589177821/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/Tribute_kpzzna.png"/><img class="img" id="Packing2" src="https://res.cloudinary.com/fssalad/image/upload/v1589177818/098.%E9%87%91%E9%96%80%E8%B2%A2%E7%B3%96/Packing-bag2_duuzvt.png"/>
+                <div class="text text1"><span class="right">────</span>　 包裝袋・包装紙</div>
+                <div class="text text2"><span class="right">────────</span>　 麥芽糖・麦芽糖</div>
+                <div class="text text3"><span class="right">────────</span>　 花生・ピーナッツ</div>
+                <div class="text text4"><span class="right">───────</span>　 黑芝麻・ごま</div>
+              </div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/kinmenPeanutCandy.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#Packing").css("transform","translate(0px,280px) scale(0.9)");
+    $("#Packing2").css("transform","translate(0px,280px) scale(0.9)");
+    $("#maltose").css("transform","translate(10px,50px) scale(1.1)");
+    $("#peanut").css("transform","translate(10px,-150px) scale(1.2)");
+    $("#peanut2").css("transform","translate(10px,-150px) scale(1.2)");
+    $("#peanut3").css("transform","translate(10px,-160px) scale(1.2)");
+    $("#sesame").css("transform","translate(0px,-300px)");
+    $("#sesame2").css("transform","translate(0px,-300px)");
+    $("#sesame3").css("transform","translate(0px,-310px)");
+    $("#Tribute").css("transform","translate(0px,-300px)");
+
+    $("#sesame2").css("transition-delay","0.1s");
+    $("#sesame3").css("transition-delay","0.2s");
+    $("#peanut2").css("transition-delay","0.1s");
+    $("#peanut3").css("transition-delay","0.2s");
+    
+    $("#Tribute").css("opacity","0");
+
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#Packing").css("transform","translate(0px)");
+    $("#Packing2").css("transform","translate(0px)");
+    $("#maltose").css("transform","translate(0px)");
+    $("#peanut").css("transform","translate(0px)");
+    $("#peanut2").css("transform","translate(0px)");
+    $("#peanut3").css("transform","translate(0px)");
+    $("#sesame").css("transform","translate(0px)");
+    $("#sesame2").css("transform","translate(0px)");
+    $("#sesame3").css("transform","translate(0px)");
+    $("#Tribute").css("transform","translate(0px)");
+    
+    $("#Packing2").css("opacity","0.2");
+    $("#Tribute").css("opacity","1");
+  
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
