@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 430px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+.text {
+  position: absolute;
+  left: 46%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 630px);
+}
+
+.text2 {
+  transform: translate(400px, 500px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, 370px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(400px, 270px);
+  transition-delay: 0.15s;
+}
+
+.text5 {
+  transform: translate(400px, 180px);
+  transition-delay: 0.2s;
+}
+
+.text6 {
+  transform: translate(400px, 80px);
+  transition-delay: 0.25s;
+}
+
+.text7 {
+  transform: translate(400px, 0px);
+  transition-delay: 0.3s;
+}
+
+.text8 {
+  transform: translate(400px, -70px);
+  transition-delay: 0.35s;
+}
+
+.text9 {
+  transform: translate(400px, -130px);
+  transition-delay: 0.2s;
+}
+
+.text10 {
+  transform: translate(400px, -200px);
+  transition-delay: 0.25s;
+}
+
+.text11 {
+  transform: translate(400px, -270px);
+  transition-delay: 0.3s;
+}
+
+.text12 {
+  transform: translate(400px, -350px);
+  transition-delay: 0.35s;
+}
+
+.text_1 {
+  transform: translate(300px, 630px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(300px, 500px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(300px, 370px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(300px, 270px);
+  opacity: 1;
+}
+
+.text_5 {
+  transform: translate(300px, 180px);
+  opacity: 1;
+}
+
+.text_6 {
+  transform: translate(300px, 80px);
+  opacity: 1;
+}
+
+.text_7 {
+  transform: translate(300px, 0px);
+  opacity: 1;
+}
+
+.text_8 {
+  transform: translate(300px, -70px);
+  opacity: 1;
+}
+
+.text_9 {
+  transform: translate(300px, -130px);
+  opacity: 1;
+}
+
+.text_10 {
+  transform: translate(300px, -200px);
+  opacity: 1;
+}
+
+.text_11 {
+  transform: translate(300px, -270px);
+  opacity: 1;
+}
+
+.text_12 {
+  transform: translate(300px, -350px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">イェンスウェイチー</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">鹽水雞</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E9%B9%BD%E6%B0%B4%E9%9B%9E&oq=%E9%B9%BD%E6%B0%B4%E9%9B%9E&aqs=chrome.0.69i59j0l7.1691j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            塩水でゆで上がった鶏を冷水に入れて冷却させ、この工程によって鶏肉の食感はさらに良くなる。歯ごたえがある塩水鶏と新鮮な野菜の組み合わせは絶妙。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            以雞齡較老的蛋雞用鹽水燙煮再泡水冷卻，讓雞皮收縮緊實，口感爽脆，肉質較硬、有咬勁。再搭配時蔬，清爽好吃。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+<div class="con"><img class="img" id="plate" src="https://res.cloudinary.com/fssalad/image/upload/v1589178061/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/plate_j9qvfd.png"/><img class="img" id="Sauce" src="https://res.cloudinary.com/fssalad/image/upload/v1589178060/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Sauce_phi1th.png"/><img class="img" id="Bell" src="https://res.cloudinary.com/fssalad/image/upload/v1589128467/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Bell-pepper_o8rs3w.png"/><img class="img" id="Bell2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128467/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Bell-pepper2_i5mthp.png"/><img class="img" id="Broccoli" src="https://res.cloudinary.com/fssalad/image/upload/v1589128467/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Broccoli_auctjs.png"/><img class="img" id="Broccoli2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128468/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Broccoli2_fhtviw.png"/><img class="img" id="chicken" src="https://res.cloudinary.com/fssalad/image/upload/v1589128468/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/chicken_o7wjpe.png"/><img class="img" id="chicken2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128468/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/chicken2_znkmfs.png"/><img class="img" id="bamboo" src="https://res.cloudinary.com/fssalad/image/upload/v1589128470/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Crispy-bamboo-shoots_wdjgae.png"/><img class="img" id="bamboo2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128471/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Crispy-bamboo-shoots2_nc7sxb.png"/><img class="img" id="Gherkin" src="https://res.cloudinary.com/fssalad/image/upload/v1589128473/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Gherkin_oiyuii.png"/><img class="img" id="Gherkin2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128474/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Gherkin2_rcp4c6.png"/><img class="img" id="Corn" src="https://res.cloudinary.com/fssalad/image/upload/v1589128469/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Corn-shoots_av7hji.png"/><img class="img" id="Corn2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128470/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Corn-shoots2_sjzm48.png"/><img class="img" id="Garlic" src="https://res.cloudinary.com/fssalad/image/upload/v1589128473/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Garlic_oy9wb4.png"/><img class="img" id="onion" src="https://res.cloudinary.com/fssalad/image/upload/v1589128476/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Green-onion_ncn9da.png"/><img class="img" id="onion2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128477/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Green-onion2_mo3dy7.png"/><img class="img" id="onion3" src="https://res.cloudinary.com/fssalad/image/upload/v1589128478/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/Green-onion3_llm4tr.png"/><img class="img" id="ginger" src="https://res.cloudinary.com/fssalad/image/upload/v1589128474/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/ginger_gbjkpq.png"/><img class="img" id="ginger2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128475/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/ginger2_gctmhl.png"/><img class="img" id="pepper" src="https://res.cloudinary.com/fssalad/image/upload/v1589128478/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/pepper_xwzzcu.png"/><img class="img" id="pepper2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128478/100.%E9%B9%BD%E6%B0%B4%E9%9B%9E/pepper2_klugjd.png"/>
+  <div class="text text1"><span class="right">─────</span>　 盤子．お皿</div>
+  <div class="text text2"><span class="right">──────────</span>　 醬汁．ソース</div>
+  <div class="text text3"><span class="right">──────────</span>　 雞肉塊．鶏肉</div>
+  <div class="text text4"><span class="right">──────────</span>　 甜椒．パプリカ</div>
+  <div class="text text5"><span class="right">─────────────</span>　 青花菜．ブロッコリー</div>
+  <div class="text text6"><span class="right">──────────────</span>　 脆筍．たけのこ</div>
+  <div class="text text7"><span class="right">────────────</span>　 小黃瓜塊．きゅうり</div>
+  <div class="text text8"><span class="right">───────────────</span>　 玉米筍．ヤングコーン</div>
+  <div class="text text9"><span class="right">──────────────</span>　 蒜泥．ニンニクおろし</div>
+  <div class="text text10"><span class="right">─────────────</span>　 蔥末．刻みネギ</div>
+  <div class="text text11"><span class="right">─────────</span>　 薑絲．生姜千切り</div>
+  <div class="text text12"><span class="right">───────────────</span>　 黑胡椒．黒コショウ</div>
+</div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/taiwaneseSaltyChicken.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#plate").css("transform","translate(-5px,620px) scale(0.9)");
+    $("#Sauce").css("transform","translate(-8px,470px) scale(0.9)");
+    $("#chicken").css("transform","translate(-40px,375px) scale(1.3)");
+    $("#chicken2").css("transform","translate(0px,350px) scale(1.2)");
+    $("#Bell").css("transform","translate(0px,280px) scale(1.2) rotate(10deg)");  
+    $("#Bell2").css("transform","translate(-80px,205px) scale(1.2) rotate(15deg)");
+    $("#Broccoli").css("transform","translate(10px,210px) scale(1.5)");
+    $("#Broccoli2").css("transform","translate(10px,210px) scale(1.5) rotate(15deg)");
+    $("#bamboo").css("transform","translate(0px,60px) scale(2)");
+    $("#bamboo2").css("transform","translate(-190px,60px) scale(2)");
+    $("#Gherkin").css("transform","translate(0px,-30px) scale(1.4)");
+    $("#Gherkin2").css("transform","translate(-130px,-30px) scale(1.8)");
+    $("#Corn").css("transform","translate(-15px,-150px) scale(1.5)");
+    $("#Corn2").css("transform","translate(25px,-150px) scale(1.5) rotate(20deg)");
+    $("#Garlic").css("transform","translate(-25px,-140px) scale(1.5)");
+    $("#onion").css("transform","translate(-20px,-210px) scale(2)");
+    $("#onion2").css("transform","translate(-80px,-270px) scale(2) rotate(10deg)");
+    $("#onion3").css("transform","translate(-110px,-190px) scale(2)");
+    $("#ginger").css("transform","translate(20px,-340px) scale(1.8) rotate(-10deg)");
+    $("#ginger2").css("transform","translate(-130px,-210px) scale(1.8) rotate(-30deg)");
+    $("#pepper").css("transform","translate(5px,-450px) scale(2.8) rotate(70deg)");
+    $("#pepper2").css("transform","translate(-30px,-390px) scale(1.5)");
+   
+    $("#pepper2").css("transition-delay","0.15s");
+    $("#ginger2").css("transition-delay","0.15s");
+    $("#onion2").css("transition-delay","0.15s");
+    $("#onion3").css("transition-delay","0.1s");
+    $("#Corn2").css("transition-delay","0.15s");
+    $("#Gherkin2").css("transition-delay","0.1s");
+    $("#bamboo2").css("transition-delay","0.15s");
+    $("#Broccoli").css("transition-delay","0.1s");
+    $("#Bell2").css("transition-delay","0.15s");
+    $("#chicken2").css("transition-delay","0.1s");
+    
+    $("#pepper2").css("opacity","0");
+    $("#onion").css("opacity","0");
+    $("#Corn").css("opacity","0");
+    $("#Gherkin").css("opacity","0");
+    $("#bamboo").css("opacity","0");
+    $("#Broccoli").css("opacity","0");
+    $("#chicken2").css("opacity","0");
+   
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+    $(".text.text5").addClass("text_5");
+    $(".text.text6").addClass("text_6");
+    $(".text.text7").addClass("text_7");
+    $(".text.text8").addClass("text_8");
+    $(".text.text9").addClass("text_9");
+    $(".text.text10").addClass("text_10");
+    $(".text.text11").addClass("text_11");
+    $(".text.text12").addClass("text_12");
+ 
+    
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#plate").css("transform","translate(0px)");
+    $("#Sauce").css("transform","translate(0px)");
+    $("#chicken").css("transform","translate(0px)");
+    $("#chicken2").css("transform","translate(0px)"); 
+    $("#Bell").css("transform","translate(0px)");  
+    $("#Bell2").css("transform","translate(0px)");
+    $("#Broccoli").css("transform","translate(0px)");
+    $("#Broccoli2").css("transform","translate(0px)");
+    $("#bamboo").css("transform","translate(0px)");
+    $("#bamboo2").css("transform","translate(0px)");
+    $("#Gherkin").css("transform","translate(0px)");
+    $("#Gherkin2").css("transform","translate(0px)");
+    $("#Corn").css("transform","translate(0px)");
+    $("#Corn2").css("transform","translate(0px)");
+    $("#Garlic").css("transform","translate(0px)");
+    $("#onion").css("transform","translate(0px)");
+    $("#onion2").css("transform","translate(0px)");
+    $("#onion3").css("transform","translate(0px)");
+    $("#ginger").css("transform","translate(0px)");
+    $("#ginger2").css("transform","translate(0px)");
+    $("#pepper").css("transform","translate(0px)");
+    $("#pepper2").css("transform","translate(0px)");
+    
+    $("#pepper2").css("opacity","1");
+    $("#onion").css("opacity","1");
+    $("#Corn").css("opacity","1");
+    $("#Gherkin").css("opacity","1");
+    $("#bamboo").css("opacity","1");
+    $("#Broccoli").css("opacity","1");
+    $("#chicken2").css("opacity","1");
+  
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+    $(".text.text5").removeClass("text_5");
+    $(".text.text6").removeClass("text_6");
+    $(".text.text7").removeClass("text_7");
+    $(".text.text8").removeClass("text_8");
+    $(".text.text9").removeClass("text_9");
+    $(".text.text10").removeClass("text_10");
+    $(".text.text11").removeClass("text_11");
+    $(".text.text12").removeClass("text_12");
+
+  
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
