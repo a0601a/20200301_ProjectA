@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 450px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+.text {
+  position: absolute;
+  left: 44%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 400px);
+}
+
+.text2 {
+  transform: translate(400px, 60px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, -250px);
+  transition-delay: 0.1s;
+}
+
+.text_1 {
+  transform: translate(320px, 400px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(320px, 60px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(320px, -250px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">赤い亀まんじゅう</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">紅龜粿</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E7%B4%85%E9%BE%9C%E7%B2%BF&oq=%E7%B4%85%E9%BE%9C%E7%B2%BF&aqs=chrome..69i57j0l6j69i61.815j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            台湾の祝祭日に欠かせないお供え。もち米をすり潰して作られた生地に色を付けるため、有色米を入れて着色する。それにつぶし餡を包み込む。お餅のような食感で甘く、一口食べると、餡がすぐあふれ出して最高で幸せ。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            逢年過節祭拜時，不可少的祭拜品之一。糯米研磨成漿狀，加入有色米染色，捏出巴掌大小一塊，包入紅豆沙餡，吃起來口感像麻糬、甜滋滋，一口咬下是滿嘴的餡，很幸福。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+            <div class="con"><img class="img" id="leaf" src="https://res.cloudinary.com/fssalad/image/upload/v1589177912/099.%E7%B4%85%E9%BE%9C%E7%B2%BF/leaf_aahue8.png"/><img class="img" id="leaf2" src="https://res.cloudinary.com/fssalad/image/upload/v1589177910/099.%E7%B4%85%E9%BE%9C%E7%B2%BF/leaf2_it4ibl.png"/><img class="img" id="Redbean" src="https://res.cloudinary.com/fssalad/image/upload/v1589177911/099.%E7%B4%85%E9%BE%9C%E7%B2%BF/Red-bean-paste-full_duhcle.png"/><img class="img" id="skin2" src="https://res.cloudinary.com/fssalad/image/upload/v1589177910/099.%E7%B4%85%E9%BE%9C%E7%B2%BF/skin2_zwl66p.png"/><img class="img" id="skin" src="https://res.cloudinary.com/fssalad/image/upload/v1589177912/099.%E7%B4%85%E9%BE%9C%E7%B2%BF/skin_pifjmd.png"/><img class="img" id="Redbean2" src="https://res.cloudinary.com/fssalad/image/upload/v1589128358/099.%E7%B4%85%E9%BE%9C%E7%B2%BF/Red-bean-paste-half_w9tam0.png"/>
+                <div class="text text1"><span class="right">──────</span>　 葉子・葉</div>
+                <div class="text text2"><span class="right">───────</span>　 粿皮・生地</div>
+                <div class="text text3"><span class="right">────────</span>　 紅豆沙・つぶし餡</div>
+              </div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/turtleShapedRiceCake.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#leaf").css("transform","translate(-70px,340px) scale(1.1) rotate(30deg)");
+    $("#leaf2").css("transform","translate(0px,340px) scale(1.1)");
+    $("#skin").css("transform","translate(90px,-10px) scale(1.2) rotate(-30deg)");
+    $("#skin2").css("transform","translate(-50px,10px) scale(1.2)");
+    $("#Redbean").css("transform","translate(-100px,-220px) scale(1.2)");
+    $("#Redbean2").css("transform","translate(200px,-380px) scale(1.3)");
+    
+    $("#leaf2").css("transition-delay","0.1s");
+    $("#skin2").css("transition-delay","0.15s");
+    $("#Redbean2").css("transition-delay","0.1s");
+   
+    $("#Redbean2").css("opacity","0");
+    $("#skin2").css("opacity","0");
+    $("#leaf2").css("opacity","0");
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#leaf").css("transform","translate(0px)");
+    $("#leaf2").css("transform","translate(0px)");
+    $("#skin").css("transform","translate(0px)");
+    $("#skin2").css("transform","translate(0px)");
+    $("#Redbean").css("transform","translate(0px)");
+    $("#Redbean2").css("transform","translate(0px)");
+    
+    $("#Redbean2").css("opacity","1");
+    $("#skin2").css("opacity","1");
+    $("#leaf2").css("opacity","1");
+
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+
+
+
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
