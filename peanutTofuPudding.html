@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 380px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+.text {
+  position: absolute;
+  left: 48%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 360px);
+}
+
+.text2 {
+  transform: translate(400px, 120px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, -85px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(420px, -320px);
+  transition-delay: 0.15s;
+}
+
+.text_1 {
+  transform: translate(290px, 360px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(290px, 120px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(290px, -85px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(290px, -320px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">ピーナッツ豆花</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">花生豆花</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1&oq=%E8%8A%B1%E7%94%9F%E8%B1%86&aqs=chrome.2.69i57j0l7.3820j0j4&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            豆花（トウファ）とは豆乳で作られ、豆腐のような台湾の伝統スイーツ。それに、柔らかいピーナッツをトッピングし、甘さ控えめたシロップをかけて仕上がり。冬になると、暖かい豆花（トウファ）も食べることができ、一年中で楽しめる。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            豆花滑嫩可口，花生也是煮到入口即化，加上碎冰清涼、糖水甜而不膩。到了冬天會將碎冰改成薑汁，不管冬天夏天都有照顧到。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+            <div class="con"><img class="img" id="bowl" src="https://res.cloudinary.com/fssalad/image/upload/v1589134567/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E7%A2%97_%E4%B8%8B_zsmvms.png"/><img class="img" id="soup" src="https://res.cloudinary.com/fssalad/image/upload/v1589134567/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E9%BB%91%E7%B3%96%E6%B0%B4_mreuwk.png"/><img class="img" id="tofu" src="https://res.cloudinary.com/fssalad/image/upload/v1583649410/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E8%B1%86%E8%8A%B1_lcxvz6.png"/><img class="img" id="tofu2" src="https://res.cloudinary.com/fssalad/image/upload/v1583649410/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E8%B1%86%E8%8A%B12_mvgwie.png"/><img class="img" id="peanut" src="https://res.cloudinary.com/fssalad/image/upload/v1583649410/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E8%8A%B1%E7%94%9F_mllyqo.png"/><img class="img" id="peanut2" src="https://res.cloudinary.com/fssalad/image/upload/v1583649410/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E8%8A%B1%E7%94%9F2_gmbdzy.png"/><img class="img" id="peanut3" src="https://res.cloudinary.com/fssalad/image/upload/v1583649410/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E8%8A%B1%E7%94%9F3_ev744q.png"/><img class="img" id="peanut4" src="https://res.cloudinary.com/fssalad/image/upload/v1583649410/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E8%8A%B1%E7%94%9F4_zcb1nj.png"/><img class="img" id="bowl2" src="https://res.cloudinary.com/fssalad/image/upload/v1589134567/046.%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1/%E8%8A%B1%E7%94%9F%E8%B1%86%E8%8A%B1_%E7%A2%97_%E4%B8%8A_tpq4hn.png"/>
+                <div class="text text1"><span class="right">─────</span>　 碗．お碗</div>
+                <div class="text text2"><span class="right">───────</span>　 黑糖水．黒糖シロップ</div>
+                <div class="text text3"><span class="right">───────</span>　 豆花．トウファ</div>
+                <div class="text text4"><span class="right">──────────</span>　 花生．ピーナッツ</div>
+              </div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/peanutTofuPudding.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#bowl").css("transform","translateY(360px) scale(0.95)");
+    $("#bowl2").css("transform","translateY(360px) scale(0.95)");
+    $("#soup").css("transform","translate(0px,110px) scale(0.95)");
+    $("#tofu").css("transform","translate(-10px,-100px) scale(1.2)"); 
+    $("#tofu2").css("transform","translate(10px,-90px) scale(1.2)");
+    $("#peanut").css("transform","translate(80px,-280px) scale(1.4)");
+    $("#peanut2").css("transform","translate(60px,-340px) scale(1.4)");
+    $("#peanut3").css("transform","translate(40px,-300px) scale(1.4)");
+    $("#peanut4").css("transform","translate(60px,-330px) scale(1.4)");
+    
+    
+    $("#tofu2").css("transition-delay","0.1s");
+    $("#peanut2").css("transition-delay","0.2s");
+    $("#peanut3").css("transition-delay","0.1s");
+    $("#peanut4").css("transition-delay","0.15s");
+    
+    
+
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+   
+
+   
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#bowl").css("transform","translate(0px)");
+    $("#bowl2").css("transform","translate(0px)");
+    $("#soup").css("transform","translate(0px)");
+    $("#tofu").css("transform","translate(0px)");
+    $("#tofu2").css("transform","translate(0px)");
+    $("#peanut").css("transform","translate(0px)");
+    $("#peanut2").css("transform","translate(0px)");
+    $("#peanut3").css("transform","translate(0px)");
+    $("#peanut4").css("transform","translate(0px)");
+    
+    
+
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+
+
+
+  
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
