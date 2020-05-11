@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 420px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+#stick {
+  transform: translate(60px, 125px);
+}
+
+.text {
+  position: absolute;
+  left: 45%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 500px);
+}
+
+.text2 {
+  transform: translate(400px, 260px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, 80px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(400px, -30px);
+  transition-delay: 0.15s;
+}
+
+.text5 {
+  transform: translate(440px, -140px);
+  transition-delay: 0.2s;
+}
+
+.text6 {
+  transform: translate(400px, -235px);
+  transition-delay: 0.25s;
+}
+
+.text7 {
+  transform: translate(400px, -345px);
+  transition-delay: 0.3s;
+}
+
+.text_1 {
+  transform: translate(300px, 500px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(300px, 260px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(300px, 80px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(300px, -30px);
+  opacity: 1;
+}
+
+.text_5 {
+  transform: translate(300px, -140px);
+  opacity: 1;
+}
+
+.text_6 {
+  transform: translate(300px, -235px);
+  opacity: 1;
+}
+
+.text_7 {
+  transform: translate(300px, -345px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">はっかれいちゃ</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">客家擂茶</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6&oq=%E5%AE%A2%E5%AE%B6%E6%93%82&aqs=chrome.1.69i57j0l7.8858j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            客家（ハッカ）人の改良によりできたお茶。炒めたごま、落花生、玄米や茶葉をすり鉢に入れ、丁寧にすり潰してお湯を注ぐと仕上がり。飲みやすく、深い味わいが感じれる。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+             經過客家人的改良，將穀糧炒熟與茶葉置於擂缽中細磨，然後用熱水沖泡，喝起來清涼可口，口味甘醇，四季可飲，是充滿鄉土味的好滋味。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+<div class="con"><img class="img" id="teacup" src="https://res.cloudinary.com/fssalad/image/upload/v1589177235/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/teacup-under2_sm4pqx.png"/><img class="img" id="water" src="https://res.cloudinary.com/fssalad/image/upload/v1589177235/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Hot-water_zqxlsx.png"/><img class="img" id="tea" src="https://res.cloudinary.com/fssalad/image/upload/v1589127011/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/tea_cunipk.png"/><img class="img" id="tea2" src="https://res.cloudinary.com/fssalad/image/upload/v1589127011/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/tea2_n6cvm8.png"/><img class="img" id="peanut" src="https://res.cloudinary.com/fssalad/image/upload/v1589127010/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/peanut_rldpqb.png"/><img class="img" id="peanut2" src="https://res.cloudinary.com/fssalad/image/upload/v1589127010/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/peanut2_h1vzcl.png"/><img class="img" id="peanut3" src="https://res.cloudinary.com/fssalad/image/upload/v1589127011/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/peanut3_xv12fn.png"/><img class="img" id="Rice" src="https://res.cloudinary.com/fssalad/image/upload/v1589127010/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Brown-Rice_kxp5up.png"/><img class="img" id="Rice2" src="https://res.cloudinary.com/fssalad/image/upload/v1589127010/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Brown-Rice2_t828e1.png"/><img class="img" id="Rice3" src="https://res.cloudinary.com/fssalad/image/upload/v1589127009/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Brown-Rice3_il2neb.png"/><img class="img" id="LeiCha" src="https://res.cloudinary.com/fssalad/image/upload/v1589177235/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Lei-Cha_frhiuo.png"/><img class="img" id="BlackSemen" src="https://res.cloudinary.com/fssalad/image/upload/v1589127009/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Black-sesame_njmlda.png"/><img class="img" id="BlackSemen2" src="https://res.cloudinary.com/fssalad/image/upload/v1589127009/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Black-sesame2_ipaom9.png"/><img class="img" id="BlackSemen3" src="https://res.cloudinary.com/fssalad/image/upload/v1589127009/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/Black-sesame3_zo8fps.png"/><img class="img" id="Whitesesame" src="https://res.cloudinary.com/fssalad/image/upload/v1589127013/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/White-sesame_ojajm1.png"/><img class="img" id="Whitesesame2" src="https://res.cloudinary.com/fssalad/image/upload/v1589127013/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/White-sesame2_wcrpfp.png"/><img class="img" id="teacup2" src="https://res.cloudinary.com/fssalad/image/upload/v1589177235/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/teacup-top_vjpzvv.png"/><img class="img" id="stick" src="https://res.cloudinary.com/fssalad/image/upload/v1589177233/094.%E5%AE%A2%E5%AE%B6%E6%93%82%E8%8C%B6/stick_wocbw2.png"/>
+  <div class="text text1"><span class="right">──────</span>　 茶碗・茶碗</div>
+  <div class="text text2"><span class="right">───────</span>　 熱開水．お湯</div>
+  <div class="text text3"><span class="right">──────────</span>　 茶葉．茶葉</div>
+  <div class="text text4"><span class="right">──────────</span>　 花生．落花生</div>
+  <div class="text text5"><span class="right">──────────</span>　 玄米．玄米</div>
+  <div class="text text6"><span class="right">──────────</span>　 芝麻．ごま</div>
+  <div class="text text7"><span class="right">───────</span>　 擂茶棒．すり棒</div>
+</div>
+            <!-- // === 001.牛肉麵2_OK === -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/hakkaGroundTea.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#teacup").css("transform","translateY(480px) scale(0.9)");
+    $("#teacup2").css("transform","translateY(480px) scale(0.9)");
+    $("#water").css("transform","translateY(240px) scale(0.9)");
+    $("#LeiCha").css("transform","translate(0px,240px) scale(0.9)"); 
+    $("#tea").css("transform","translate(60px,60px) scale(1.5)");
+    $("#tea2").css("transform","translate(-50px,60px) scale(1.5) rotate(15deg)");
+    $("#peanut").css("transform","translate(40px,-60px) scale(1.5) rotate(-10deg)");
+    $("#peanut2").css("transform","translate(20px,-80px) scale(1.5) rotate(-10deg)");
+    $("#peanut3").css("transform","translate(-80px,-140px) scale(1.5) rotate(10deg)");
+    $("#Rice").css("transform","translate(10px,-140px) scale(1.5)");
+    $("#Rice2").css("transform","translate(0px,-170px) scale(1.5)");
+    $("#Rice3").css("transform","translate(-20px,-155px) scale(1.5)");
+    
+    $("#BlackSemen").css("transform","translate(-10px,-200px) scale(1.4)");
+    $("#BlackSemen2").css("transform","translate(-10px,-200px) scale(1.4)");
+    $("#BlackSemen3").css("transform","translate(-10px,-200px) scale(1.4)");
+    $("#Whitesesame").css("transform","translate(-30px,-190px) scale(2)");
+    $("#Whitesesame2").css("transform","translate(-30px,-190px) scale(2)");
+    $("#stick").css("transform","translate(0px,-330px) scale(0.9) rotate(5deg)");
+    
+    $("#Whitesesame2").css("transition-delay","0.1s");
+    $("#BlackSemen2").css("transition-delay","0.15s");
+    $("#BlackSemen3").css("transition-delay","0.1s");
+    $("#Rice2").css("transition-delay","0.15s");
+    $("#Rice3").css("transition-delay","0.1s");
+    $("#peanut3").css("transition-delay","0.1s");
+    $("#peanut2").css("transition-delay","0.15s");
+    $("#tea2").css("transition-delay","0.1s");
+
+    $("#LeiCha").css("opacity","0");
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+    $(".text.text5").addClass("text_5");
+    $(".text.text6").addClass("text_6");
+    $(".text.text7").addClass("text_7");
+
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#teacup").css("transform","translate(0px)");
+    $("#teacup2").css("transform","translate(0px)");
+    $("#water").css("transform","translate(0px)");
+    $("#LeiCha").css("transform","translate(0px)");
+    $("#tea").css("transform","translate(0px)");
+    $("#tea2").css("transform","translate(0px)");
+    $("#peanut").css("transform","translate(0px)");
+    $("#peanut2").css("transform","translate(0px)");
+    $("#peanut3").css("transform","translate(0px)");
+    $("#Rice").css("transform","translate(0px)");
+    $("#Rice2").css("transform","translate(0px)");
+    $("#Rice3").css("transform","translate(0px)");
+    $("#BlackSemen").css("transform","translate(0px)");
+    $("#BlackSemen2").css("transform","translate(0px)");
+    $("#BlackSemen3").css("transform","translate(0px)");
+    $("#Whitesesame").css("transform","translate(0px)");
+    $("#Whitesesame2").css("transform","translate(0px)");
+    $("#stick").css("transform","translate(60px,125px)");
+    
+    $("#LeiCha").css("opacity","1");
+
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+    $(".text.text5").removeClass("text_5");
+    $(".text.text6").removeClass("text_6");
+    $(".text.text7").removeClass("text_7");
+
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
