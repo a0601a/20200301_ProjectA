@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/commoon.css">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <!-- // === 001.牛肉麵2_OK === -->
+  <style>
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 500px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+.text {
+  position: absolute;
+  left: 46%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 15px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 420px);
+}
+
+.text2 {
+  transform: translate(400px, 170px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, -10px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(400px, -170px);
+  transition-delay: 0.15s;
+}
+
+.text5 {
+  transform: translate(440px, -335px);
+  transition-delay: 0.2s;
+}
+
+.text_1 {
+  transform: translate(280px, 420px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(280px, 170px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(280px, -10px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(280px, -170px);
+  opacity: 1;
+}
+
+.text_5 {
+  transform: translate(280px, -335px);
+  opacity: 1;
+}
+  </style>
+  <!-- // === 001.牛肉麵2_OK === -->
+
+  <!-- // 調整 - 勿覆蓋 -->
+  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+  <!-- // 調整 - 勿覆蓋 -->
+
+</head>
+
+<body>
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row justify-content-center  position-relative">
+          <a href="index.html" class="position-absolute" style="top: 105.337px; left: 108.667px;">
+            <img src="./assets/images/20200501_content/FOOD/T-back.png" alt="">
+          </a>
+          <div class="col-12 foodContent">
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 title">豚の血のスープ</h2>
+            <h3 class="text-center d-flex justify-content-center font-weight-bold subTitle">
+              <span class=" position-relative fz-38px color-4C4948">豬血湯</span>
+            </h3>
+            <div class="iconList d-flex align-items-center">
+              <div class="imgg">
+                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+              </div>
+              <div class="imgg">
+                <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
+              </div>
+              <div class="imgg">
+                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <div class="" id="fb"></div> -->
+              </div>
+              
+              <a class="ml-auto rotateY" href="http://tinyurl.com/urnfnog" target="_blank">
+                <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
+              </a>
+            </div>
+            <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
+            豚の血は「赤い豆腐」とも呼ばれる。豚の血を蒸して固めたもの、それとニラ、サンサイ（酸菜）を豚骨スープに加えて煮立ち、スープと歯ごたえがある豚の血は絶妙な組み合わせ。
+            </h4>
+            <h5 class="chTWLang fz-16px color-2F2725">
+            豬血有「紅豆腐」的稱號，是採用豬血蒸熟製成。使用豬大骨熬成湯頭配上新鮮韭菜、酸菜與豬血，湯頭鮮甜，口感滑嫩。
+            </h5>
+            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-beef.png" alt="">
+              </div>
+              <div class="food color-AEADAD position-relative">
+                <img src="./assets/images/20200501_content/FOOD/T-shallot.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // === 001.牛肉麵2_OK === -->
+            <div class="con"><img class="img" id="bowl" src="https://res.cloudinary.com/fssalad/image/upload/v1589132393/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E7%A2%97_vny4gr.png"/><img class="img" id="soup" src="https://res.cloudinary.com/fssalad/image/upload/v1589132393/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E6%B9%AF_%E5%85%A8_agyluu.png"/><img class="img" id="bowl2" src="https://res.cloudinary.com/fssalad/image/upload/v1583576866/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E7%A2%972_%E6%94%B9_h1vwp8.png"/><img class="img" id="pickledcabbage" src="https://res.cloudinary.com/fssalad/image/upload/v1583576866/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E9%85%B8%E8%8F%9C_cn4jbt.png"/><img class="img" id="pickledcabbage2" src="https://res.cloudinary.com/fssalad/image/upload/v1583576867/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E9%85%B8%E8%8F%9C2_krimmw.png"/><img class="img" id="pigblood" src="https://res.cloudinary.com/fssalad/image/upload/v1583576867/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E8%B1%AC%E8%A1%801_fbj3yq.png"/><img class="img" id="pigblood2" src="https://res.cloudinary.com/fssalad/image/upload/v1583576867/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E8%B1%AC%E8%A1%802_vvvwir.png"/><img class="img" id="pigblood3" src="https://res.cloudinary.com/fssalad/image/upload/v1583576867/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E8%B1%AC%E8%A1%803_oyywif.png"/><img class="img" id="scallion" src="https://res.cloudinary.com/fssalad/image/upload/v1583576866/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E9%9F%AD%E8%8F%9C%E6%AE%B5_01_g5nefc.png"/><img class="img" id="scallion2" src="https://res.cloudinary.com/fssalad/image/upload/v1583576867/025.%E8%B1%AC%E8%A1%80%E6%B9%AF/%E8%B1%AC%E8%A1%80%E6%B9%AF_%E9%9F%AD%E8%8F%9C%E6%AE%B5_02_za457l.png"/>
+                <div class="text text1"><span class="right">─────</span>　 碗．お碗</div>
+                <div class="text text2"><span class="right">──────</span>　 湯．スープ</div>
+                <div class="text text3"><span class="right">──────</span>　 酸菜．サンサイ</div>
+                <div class="text text4"><span class="right">─────────</span>　 豬血．豚の血</div>
+                <div class="text text5"><span class="right">──────────</span>　 韭菜段．ニラ</div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- facebookShare -->
+  <script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
+  <script src="./assets/javaScript/facebookShare.js"></script>
+  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<!-- twitterShare -->
+<script src="./assets/javaScript/twitterShare.js"></script>
+
+
+<!-- fbShare -->
+<script>
+  window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/PorkBloodSoup.html'
+</script>
+<script>
+  // === 001.牛肉麵2_OK ===
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#bowl").css("transform","translateY(400px) scale(0.85)");
+    $("#bowl2").css("transform","translateY(400px) scale(0.85)");
+    $("#soup").css("transform","translateY(140px)");
+    $("#pickledcabbage").css("transform","translate(10px,-75px) rotate(-20deg) scale(1.2)"); 
+    $("#pickledcabbage2").css("transform","translate(-45px,25px) rotate(-30deg) scale(1.2)");  
+    $("#pigblood").css("transform","translate(0px,-190px)");
+    $("#pigblood2").css("transform","translate(0px,-170px)");
+    $("#pigblood3").css("transform","translate(0px,-190px)");
+    $("#scallion").css("transform","translate(15px,-330px)");
+    $("#scallion2").css("transform","translate(50px,-330px)");
+
+    
+    $("#pickledcabbage2").css("transition-delay","0.1s");
+    $("#pigblood2").css("transition-delay","0.1s");
+    $("#pigblood3").css("transition-delay","0.2s");
+    $("#scallion2").css("transition-delay","0.15s");
+
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+    $(".text.text5").addClass("text_5");
+    
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#bowl").css("transform","translate(0px)");
+    $("#bowl2").css("transform","translate(0px)");
+    $("#soup").css("transform","translate(0px)");
+    $("#pickledcabbage").css("transform","translate(0px)");
+    $("#pickledcabbage2").css("transform","translate(0px)");
+    $("#pigblood").css("transform","translate(0px)");
+    $("#pigblood2").css("transform","translate(0px)");
+    $("#pigblood3").css("transform","translate(0px)");
+    $("#garlic").css("transform","translate(0px)");
+    $("#scallion").css("transform","translate(0px)");
+    $("#scallion2").css("transform","translate(0px)");
+ 
+  
+
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+    $(".text.text5").removeClass("text_5");
+  
+  }
+})
+  })();
+
+  // fbShare
+  // $(function() {
+  //   fbShare({
+  //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
+  //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
+  //   }) 
+  
+  // })
+
+</script>
+</html>
