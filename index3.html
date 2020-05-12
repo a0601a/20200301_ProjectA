@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project A - before</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/commoon.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+
+  <!-- slick -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/package/slick/slick.css">
+  <script type="javascript" src="assets/package/slick/slick.js"></script>
+
+  <!-- header -->
+  <style>
+    .navbar-light .navbar-toggler-icon {
+      background-image: url('./assets/images/20200327_cutPic/element/burger.png');
+    }
+
+    .navbar-light .navbar-toggler {
+      color: transparent;
+      outline: none;
+    }
+  </style>
+  <!-- header -->
+
+  <!-- // 001.牛肉麵2_OK -->
+  <style>
+    
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.img {
+  width: 260px;
+  position: absolute;
+  transition: 1.5s;
+}
+
+.text {
+  position: absolute;
+  left: 46%;
+  color: #565857;
+  font-weight: 500;
+  transition: 1s;
+  opacity: 0;
+  font-size: 13px;
+}
+
+.right {
+  position: absolute;
+  right: 100%;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+.text1 {
+  transform: translate(400px, 420px);
+}
+
+.text2 {
+  transform: translate(400px, 240px);
+  transition-delay: 0.05s;
+}
+
+.text3 {
+  transform: translate(400px, 110px);
+  transition-delay: 0.1s;
+}
+
+.text4 {
+  transform: translate(400px, 30px);
+  transition-delay: 0.15s;
+}
+
+.text5 {
+  transform: translate(400px, -40px);
+  transition-delay: 0.2s;
+}
+
+.text6 {
+  transform: translate(400px, -110px);
+  transition-delay: 0.25s;
+}
+
+.text7 {
+  transform: translate(400px, -190px);
+  transition-delay: 0.3s;
+}
+
+.text8 {
+  transform: translate(400px, -260px);
+  transition-delay: 0.35s;
+}
+
+.text_1 {
+  transform: translate(230px, 420px);
+  opacity: 1;
+}
+
+.text_2 {
+  transform: translate(230px, 240px);
+  opacity: 1;
+}
+
+.text_3 {
+  transform: translate(230px, 110px);
+  opacity: 1;
+}
+
+.text_4 {
+  transform: translate(230px, 30px);
+  opacity: 1;
+}
+
+.text_5 {
+  transform: translate(230px, -40px);
+  opacity: 1;
+}
+
+.text_6 {
+  transform: translate(230px, -110px);
+  opacity: 1;
+}
+
+.text_7 {
+  transform: translate(230px, -190px);
+  opacity: 1;
+}
+
+.text_8 {
+  transform: translate(230px, -260px);
+  opacity: 1;
+}
+  </style>
+  <!-- // 001.牛肉麵2_OK -->
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese"
+    rel="stylesheet">
+  <style>
+    .font-Noto-Sans-JP {
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .font-Arial {
+      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    }
+
+    /* 
+    @font-face {
+      font-family: "Yu Gothic";
+      src: local("Yu Gothic Medium");
+      font-weight: 100;
+    }
+
+    @font-face {
+      font-family: "Yu Gothic";
+      src: local("Yu Gothic Medium");
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: "Yu Gothic";
+      src: local("Yu Gothic Medium");
+      font-weight: 300;
+    }
+
+    @font-face {
+      font-family: "Yu Gothic";
+      src: local("Yu Gothic Medium");
+      font-weight: 400;
+    } */
+
+    @font-face {
+      font-family: "Yu Gothic";
+      src: local("Yu Gothic Bold");
+      font-weight: bold;
+    }
+
+    .font-Yu-Gothic-Bold {
+      font-family: 'Yu Gothic';
+    }
+
+    @font-face {
+      font-family: "Yu Gothic";
+      src: local("Yu Gothic Medium");
+      font-weight: 200;
+    }
+
+    .font-Yu-Gothic-Medium {
+      font-family: 'Yu Gothic';
+    }
+  </style>
+  <!-- font -->
+
+  <!-- about -->
+  <style>
+    .about {}
+
+    .about .title {
+      margin-top: 66.84px;
+      margin-bottom: 37.237px;
+    }
+
+    .aboutBg {
+      background-image: url('./assets/images/20200327_cutPic/element/ABOUT/about ground.png');
+    }
+  </style>
+  <!-- about -->
+
+  <!-- howtoUse -->
+  <style>
+    .howtoUse .title {
+      margin-top: 176.096px;
+      margin-bottom: 42.968px;
+    }
+
+    .howtoUseBg {
+      background-image: url('./assets/images/20200327_cutPic/element/HTU/HTU ground.png');
+    }
+  </style>
+  <!-- howtoUse -->
+
+  <!-- howtoUseAction -->
+  <style>
+  .howtoUseAction{}
+  .howtoUseActionBg{}
+  </style>
+  <!-- howtoUseAction -->
+
+
+  <!-- top100OfTaiwaneseFoods -->
+  <style>
+    .top100OfTaiwaneseFoods {}
+
+    .top100OfTaiwaneseFoods .title {
+      margin-top: 55.922px;
+      margin-bottom: 43.362px;
+    }
+
+    .top100OfTaiwaneseFoodsBg {
+      background-image: url('./assets/images/20200327_cutPic/element/TOP/TOP ground .png');
+
+    }
+  </style>
+  <!-- top100OfTaiwaneseFoods -->
+
+
+  <!-- staffIntroduction -->
+  <style>
+    .staffIntroduction {}
+
+    .staffIntroduction .title {
+      margin-top: 74.492px;
+      margin-bottom: 47.226px;
+    }
+
+    .staffIntroductionBg {
+      background-image: url('./assets/images/20200327_cutPic/element/STAFF/STAFF ground .png');
+
+    }
+  </style>
+  <!-- staffIntroduction -->
+
+<!-- staff -->
+<style>
+  .staff{} 
+  .staffBg{
+    /* background-image: url('./assets/images/20200327_cutPic/element/STAFF/staff_2.png'); */
+    /* background-size: cover; */
+    /* width: 100%; */
+  }
+</style>
+<!-- staff -->
+
+  <!-- footer -->
+  <style>
+    .footer {
+      background-image: url('./assets/images/20200327_cutPic/element/Menu/Menu ground.png');
+    }
+  </style>
+  <!-- footer -->
+</head>
+
+<body>
+
+
+  <!-- banner -->
+  <section class="banner bg-57dce794">
+    <nav class="navbar navbar-light sticky z-100" id="navbar" style="margin-top: 73.333px;">
+
+      <button type="button" class="btn ml-auto mr-4 btn-57dce795 font-Noto-Sans-JP fz-14px color-EB6153 d-none">
+        お問合わせ
+      </button>
+
+      <div class="languageList ml-auto d-flex" style="margin-right: 89.56px;">
+        <a href="#">
+          <img src="./assets/images/20200327_cutPic/element/C.png" alt="">
+        </a>
+        <span class="color-EB6153 ">/</span>
+        <a href="#">
+          <img src="./assets/images/20200327_cutPic/element/J.png" alt="">
+        </a>
+      </div>
+
+
+      <div class="pos-f-t">
+
+
+        <div class="navigation">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      
+          <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+          </label>
+      
+          <div class="navigation__background">&nbsp;</div>
+      
+          <nav class="navigation__nav">
+              <ul class="navigation__list">
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Us</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                  <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                  </ul>
+          </nav>
+      </div>
+      
+        <!-- <div class="collapse" id="navbarToggleExternalContent">
+          <div class="p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="">
+          <button class="navbar-toggler color-57dce795 border-0" type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav> -->
+
+
+
+      </div>
+    </nav>
+
+
+
+
+    <div class="position-relative overflow-hidden">
+
+      <a class="d-none" href="#">
+        <img src="assets/images/scroll/scroll(72dpi).png" alt="" class="position-absolute"
+          style="left: 4px;bottom: 55px;">
+      </a>
+
+      <img class="position-absolute trans-rotate-3-tranY--20-move" src="./assets/images/20200327_cutPic/banner/about.png" style="
+      top: 25px;
+      right: 90px;
+      width: 62%;
+      transform: rotate(3deg);
+  ">
+      <img class="position-absolute trans-rotate-3-tranY--20-move" src="./assets/images/20200327_cutPic/banner/howtouse.png" style="
+
+top: 45px;
+      left: 44px;
+      width: 63%;
+      transform: rotate(3deg);
+  
+  ">
+      <img class="position-absolute trans-rotate-3-tranY--20-move" src="./assets/images/20200327_cutPic/banner/foods.png" style="
+ 
+ top: 363px;
+      right: 0px;
+      transform: rotate(3deg);
+  
+  ">
+      <img class="position-absolute trans-tranY--20-move" src="./assets/images/20200327_cutPic/banner/staff.png" style="
+
+top: 460px;
+      left: 0;
+  
+  ">
+
+
+      <img class="position-absolute trans-tranY--20-move" src="./assets/images/20200327_cutPic/banner/institute.png" style="
+
+top: 700px;
+      right: 0;
+  
+  ">
+
+
+      <img class="w-100 d-block" src="./assets/images/20200327_cutPic/banner/logoline.png">
+
+<!-- 燈籠 -->
+<img class="position-absolute swing" src="./assets/images/20200327_cutPic/banner/lantern_1.png" style="
+ 
+
+ top: 20px;
+ left: 398px;
+ 
+ 
+ ">
+ <img class="position-absolute swing2" src="./assets/images/20200327_cutPic/banner/lantern_2.png" style="
+top: 409px;
+ left: 0px;
+ ">
+<img class="position-absolute swing" src="./assets/images/20200327_cutPic/banner/lantern_3.png" style="
+
+top: 324px;
+ right: 178px;
+ 
+ 
+ ">
+<img class="position-absolute swing2" src="./assets/images/20200327_cutPic/banner/lantern_4.png" style="
+
+top: 929px;
+ left: 583px;
+ width: 4%;
+ 
+ 
+ ">
+
+
+    </div>
+
+  </section>
+  <!-- banner -->
+
+  <!-- about -->
+  <section class="container-fluid about aboutBg bgCommonSetting trans-tranY--5 onverflow-hidden">
+    <div class="row">
+      <div class="col position-relative zi-0">
+
+        <img src="./assets/images/20200327_cutPic/element/ABOUT/about airplan.png" alt="" class="HTUg position-absolute"
+          style="
+        top: 189.097px;
+        left: 0;
+      ">
+
+
+        <img src="./assets/images/20200327_cutPic/element/ABOUT/about rider.png" alt=""
+          class="aboutRider position-absolute zi-3" style="
+        top: 289.08px;
+        left: 1234.032px;
+      ">
+        <img src="./assets/images/20200327_cutPic/element/ABOUT/about temple.png" alt=""
+          class="aboutTemple position-absolute zi-2" style="
+        top: 209.338px;
+        left: 1289.516px;
+      ">
+        <img src="./assets/images/20200327_cutPic/element/ABOUT/about-cloud.png" alt=""
+          class="aboutCloud position-absolute zi-1" style="
+        top: 57.596px;
+        left: 1322.29px;
+      ">
+
+        <div class="textArea" style="
+        width: 655px;
+        margin-left: 390.1px;
+        margin-right: auto;
+        margin-bottom: 155px;
+    ">
+          <h3 class="title">
+            <img src="./assets/images/20200327_cutPic/element/ABOUT/about .png" alt="">
+          </h3>
+          <h4 class="subTitle" style="margin-bottom: 38.704px;">
+            <span class="d-block" style="margin-bottom: 8.503px;;">關於吃</span>
+            <img src="./assets/images/20200327_cutPic/element/ABOUT/about line.png" alt="" class="d-block">
+          </h4>
+          <p class="lh-32 ls-1-807px">「食」除了是生存的根本，也是我們對於各國的第一聯想，如:日本的壽司和拉麵、美國的大亨堡和炸物等，當地的食物會是外國遊客既親切又害怕的存在。近年來日本來台的旅客比例居高，台灣的美食也在日本興起話題性。 因此我們「饕客研究所」以方便瀏覽的網站為載體，來台旅遊的日本觀光客為主要的目標對象，將票選出來台灣人推薦給外國人士的一百樣台灣美食用動圖與文字做介紹，呼應我們的主題「饕客」與「研究所」—喜歡品嚐美食的人和分解之意，解決大家對於異國食物的困擾—有何內容物、何關鍵字與何處可尋，在獲得小樂趣的同時也從中取得認識與嘗試的勇氣，進而付諸行動。</p>
+        </div>
+
+      </div>
+  </section>
+  <!-- about -->
+
+  <!-- howtoUse -->
+  <section class="container-fluid howtoUse howtoUseBg bgCommonSetting trans-tranY--15 onverflow-hidden">
+    <div class="row">
+      <div class="col position-relative">
+
+        <img src="./assets/images/20200327_cutPic/element/HTU/HTU g.png" alt="" class="HTUg position-absolute" style="
+          top: 60.252px;
+          left: 0;
+          max-width: 620px;
+        ">
+
+        <img src="./assets/images/20200327_cutPic/element/HTU/HTU wifi.png" alt="" class="HTUg position-absolute" style="
+          top:157.899px;
+          left: 220.524px;
+        ">
+        <img src="./assets/images/20200327_cutPic/element/HTU/HTU girl.png" alt="" class="HTUg position-absolute" style="
+          top:280.996px;
+          left:376.653px;
+        ">
+        <img src="./assets/images/20200327_cutPic/element/HTU/HTU boy.png" alt="" class="HTUg position-absolute" style="
+          top:223.706px;
+          left:535.766px;
+        ">
+        <img src="./assets/images/20200327_cutPic/element/HTU/HTU telescope .png" alt="" class="HTUg position-absolute"
+          style="
+          top:178.028px;
+          left:683.105px;
+        ">
+
+
+
+
+        <img src="./assets/images/20200327_cutPic/element/HTU/HTU question1.png" alt="" class="HTUg position-absolute"
+          style="
+top: 204.157px;
+left: 1561.722px;
+">
+        <img src="./assets/images/20200327_cutPic/element/HTU/HTU question2.png" alt="" class="HTUg position-absolute"
+          style="
+top: 255.254px;
+left: 1596.722px;
+">
+
+
+
+        <div class="textArea" style="
+        width: 655px;
+        margin-left: 1018.718px;
+        margin-right: auto;
+    ">
+          <h3 class="title">
+            <img src="./assets/images/20200327_cutPic/element/HTU/HTU.png" alt="">
+          </h3>
+          <h4 class="subTitle" style="margin-bottom: 38.607px;">
+            <span class="d-block" style="margin-bottom: 8.266px;">使用方式</span>
+            <img src="./assets/images/20200327_cutPic/element/HTU/HTU line.png" alt="" class="d-block">
+          </h4>
+          <p class="lh-32 ls-1-807px">從起初的好奇心到購買到食物不再是難事，在樂趣中認識台灣美食。</p>
+
+          <p class="position-relative readMore" style="margin-top: 63.178px;margin-bottom: 120px;">
+            <span>
+                <a href="howtoUseAction.html" target="_blank">READ MORE</a>
+            </span>
+            <img class="position-absolute" src="./assets/images/20200327_cutPic/element/HTU/HTU RM.png" alt="" style="
+              top: 10px;
+              left: -3px;
+            ">
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- howtoUse -->
+
+  <!-- howtoUseAction -->
+  <section class="container-fluid howtoUseAction howtoUseActionBg onverflow-hidden d-none" id="howtoUseAction">
+    <div class="row">
+      <img src="./assets/images/20200327_cutPic/element/HTU/HTU_3.png" alt="" class="w-100">
+  </div>
+  </section>
+  <!-- howtoUseAction -->
+
+
+  <!-- banner2 -->
+
+  <section class="banner2 d-none">
+
+    <nav class="navbar navbar-light d-none">
+      <a class="navbar-brand">
+        <img src="assets/images/LOGE/loge1(72dpi).png" alt="">
+      </a>
+
+      <button type="button" class="btn ml-auto mr-4 btn-57dce795 font-Noto-Sans-JP">
+        お問合わせ
+      </button>
+
+      <div class="pos-f-t">
+
+
+        <div class="collapse" id="navbarToggleExternalContent2">
+          <div class="p-4">
+            <h5 class="text-white h4">Collapsed content</h5>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="">
+          <button class="navbar-toggler color-57dce795 border-0" type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent2"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+
+
+      </div>
+    </nav>
+
+
+    <div class="content position-relative bg-57dce795 overflow-hidden">
+      <img class="contentImg position-absolute layer6Foods" src="assets/images/vision/Layer6 foods(72dpi).png" alt="">
+
+      <div class="text-center py-5 fz-20px">
+        <h1 class="mb-4 font-Aria font-weight-boldl fz-39px color-3E3A39">TOP 100 OF ＴＷ FOODS</h1>
+        <h3 class="mb-5">
+          <span class="textUnderLine font-Yu-Gothic-Bold fz-19px color-3E3A39">台湾おすすめグルメ100選</span>
+        </h3>
+        <h5 class="font-Yu-Gothic-Medium fz-14px color-3E3A39"><br>地域によってグルメの味や具材は少し違いがある。</br>
+          <br>私たちは資料を集め、台湾の人々にアンケートを取った結果を用い、海外観光客におすすめしたい台湾グルメを100個を描いてWebサイトに載せた。</br>
+          <br>ランキング・ジャンル・ランダムに使い分け、ユーザーは違う状況によって使える。</br>
+          <br>紹介ページはインタラクティブを使用し、シンプルな文字を加えて紹介する。</br></h5>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- banner2 -->
+
+
+
+  <!-- textLing -->
+  <div class="container-fluid bg-57dce794 d-none">
+    <div class="row justify-content-center py-5">
+      <div class="col-2 text-center">
+        <span class="textUnderLine color-57dce795 font-Yu-Gothic-Bold fz-22px color-EB6153">ランキング</span>
+      </div>
+      <div class="col-2 text-center">
+        <span class="textUnderLine color-57dce795 font-Yu-Gothic-Bold fz-22px color-EB6153">ランダム</span>
+      </div>
+      <div class="col-2 text-center">
+        <span class="textUnderLine color-57dce795 font-Yu-Gothic-Bold fz-22px color-EB6153">タイプ</span>
+      </div>
+    </div>
+  </div>
+  <!-- textLing -->
+
+
+  <!-- foodMenu -->
+  <div class="container-fluid d-none">
+    <div class="row py-5 align-items-center">
+      <div class="col-md-3 text-center">
+        <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3 white gourd drink.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
+            class="width-150px"></a>
+      </div>
+
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/5Beef Soup.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/8mung bean smoothie.png" alt=""
+            class="width-150px"></a>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/9pan-fried bun.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt="" class="width-150px"></a>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/14danzai noodles.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/16Tube Rice Pudding.png" alt=""
+            class="width-150px"></a>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/18Fried dumpling.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/19rice dumpling.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/20Flaky scallion pancake.png" alt=""
+            class="width-150px"></a>
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col-12">
+        <div class="dotList d-flex justify-content-center align-content-center">
+          <div class="dot px-5">&nbsp;</div>
+          <div class="dot px-5">&nbsp;</div>
+          <div class="dot px-5">&nbsp;</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- foodMenu -->
+
+
+  <!-- top100OfTaiwaneseFoods -->
+  <section
+    class="container-fluid top100OfTaiwaneseFoods top100OfTaiwaneseFoodsBg bgCommonSetting trans-tranY--20 onverflow-hidden">
+    <div class="row">
+      <div class="col position-relative zi-0">
+
+        <img src="./assets/images/20200327_cutPic/element/TOP/TOP chair.png" alt="" class="HTUg position-absolute"
+          style="
+      top: 347.793px;
+      left: 0;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/TOP/TOP men.png" alt="" class="HTUg position-absolute" style="
+      top: 340.622px;
+      left: 1171.492px;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/TOP/TOP woman.png" alt="" class="HTUg position-absolute"
+          style="
+      top: 340.622px;
+      left: 1211.492px;
+    ">
+
+
+        <!-- // 餐車 -->
+        <img src="./assets/images/20200327_cutPic/element/TOP/TOP Stall.png" alt="" class="HTUg position-absolute"
+          style="
+
+top: 176.622px;
+    left: 1378.492px;
+  ">
+        <img src="./assets/images/20200327_cutPic/element/TOP/TOP boss.png" alt="" class="HTUg position-absolute"
+          style="top: 262.622px;left: 1501.492px;">
+        <img src="./assets/images/20200327_cutPic/element/TOP/TOP sign.png" alt="" class="HTUg position-absolute"
+          style="top: 357.622px;left: 1479.492px;">
+
+
+
+        <div class="textArea" style="
+      width: 505px;
+      margin-left: 390.1px;
+      margin-right: auto;
+  ">
+          <h3 class="title">
+            <img src="./assets/images/20200327_cutPic/element/TOP/TOP .png" alt="">
+          </h3>
+          <h4 class="subTitle" style="margin-bottom: 38.904px;">
+            <span class="d-block" style="margin-bottom: 9.681px;">台湾おすすめグルメ100選</span>
+            <img src="./assets/images/20200327_cutPic/element/TOP/TOP line2.png" alt="" class="d-block"
+              style="width: 281.447px;">
+          </h4>
+          <p class="lh-32 ls-1-807px">食物依據在台灣地區的不同，口味、用料與處理上可能有些許的差異，經過我們資料的蒐集與問卷調查的結果，列出台灣人推薦給外國人士的前一百樣在地美食，繪製出普遍台灣民眾常見的美食樣貌，藉由名次、隨機與類型三種分類排列呈現，可依使用的情形去做點選瀏覽，並以互動性的圖像搭配文字做簡易的介紹。</p>
+
+          <p class="position-relative readMore" style="margin-top: 64.733px;margin-bottom: 82px;">
+            <span>READ MORE</span>
+            <img class="position-absolute" src="./assets/images/20200327_cutPic/element/HTU/HTU RM.png" alt="" style="
+              top: 7.639px;
+              left: -3px;
+            ">
+          </p>
+        </div>
+
+      </div>
+  </section>
+  <!-- top100OfTaiwaneseFoods -->
+
+
+  <!-- foodMenu -->
+  <div class="container-fluid">
+    <div class="d-none row py-5 align-items-center">
+      <div class="col-md-3 text-center">
+        <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3 white gourd drink.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
+            class="width-150px"></a>
+      </div>
+
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/5Beef Soup.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/8mung bean smoothie.png" alt=""
+            class="width-150px"></a>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/9pan-fried bun.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt="" class="width-150px"></a>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/14danzai noodles.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
+            class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/16Tube Rice Pudding.png" alt=""
+            class="width-150px"></a>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/18Fried dumpling.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/19rice dumpling.png" alt="" class="width-150px"></a>
+      </div>
+      <div class="col-md-3 text-center">
+        <a href="#" target="_blank"><img src="assets/images/FOOD/20Flaky scallion pancake.png" alt=""
+            class="width-150px"></a>
+      </div>
+    </div>
+    <div class="d-none row pb-5">
+      <div class="col-12">
+        <div class="dotList d-flex justify-content-center align-content-center">
+          <div class="dot px-5">&nbsp;</div>
+          <div class="dot px-5">&nbsp;</div>
+          <div class="dot px-5">&nbsp;</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center" style="
+    margin: 60px 0 120px;
+">
+      <img src="assets/images/20200327_cutPic/element/TOP/inside/TOP rank.png" alt="" style="
+      margin: 0 30px;
+  ">
+      <img src="assets/images/20200327_cutPic/element/TOP/inside/TOP free.png" alt="" style="
+      margin: 0 30px;
+  ">
+      <img src="assets/images/20200327_cutPic/element/TOP/inside/TOP type.png" alt="" style="
+      margin: 0 30px;
+  ">
+    </div>
+
+    <div class="row position-relative">
+      <!-- 桌子 -->
+      <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP orange.png" alt="" style="
+      top: 42.068px;
+      left: 0;
+      ">
+      <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP table.png" alt="" style="
+      top: 96.068px;
+      left: 56.134px;
+      ">
+
+      <!-- 椅子 -->
+      <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP blue.png" alt="" style="
+      top: 808.068px;
+      left: 0;
+      ">
+      <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP chair2.png" alt="" style="
+      top: 808.068px;
+      left: 0;
+      ">
+
+      <!-- 餐車 -->
+      <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP red.png" alt="" style="
+      top: 490.068px;
+      right: 0;
+      ">
+      <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP Stall2.png" alt="" style="
+      top: 386.068px;
+      right: 9px;
+      
+      ">
+
+    </div>
+
+    <div class="row" style="padding: 0 320px 280px;">
+
+      <!-- food start -->
+      <div class="col slider slider-nav">
+
+        <!-- group -->
+        <div class="">
+          <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2.Taiwanese chicken nuggets.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3.stinky tofu.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4. mango shaved ice.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+
+        <div class="">
+          <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/8.Pineapple cake.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/10.Barrel broiled chicken.png" alt="" class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/11.sweet soup with herbal jelly.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/23Oyster vermicelli.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/16.Barbecued.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/20.sesame oil chicken soup.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <!-- //group -->
+        <!-- group -->
+        <div class="">
+          <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3 white gourd drink.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/5Beef Soup.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/8mung bean smoothie.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/9pan-fried bun.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt="" class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/14danzai noodles.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/16Tube Rice Pudding.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/18Fried dumpling.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/19rice dumpling.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/20Flaky scallion pancake.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <!-- //group -->
+        <!-- group -->
+        <div class="">
+          <a href="beef_noodles.html" target="_blank"><img src="assets/images/FOOD/1beef noodles.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="limeIceJell.html" target="_blank"><img src="assets/images/FOOD/2Lime Ice-Jell.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="whiteGourdDrink.html" target="_blank"><img src="assets/images/FOOD/3 white gourd drink.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="tapiocaMilktea.html" target="_blank"><img src="assets/images/FOOD/4tapioca milktea.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/5Beef Soup.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/6 Xiaolongbao.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/7Papaya Smoothie.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/8mung bean smoothie.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/9pan-fried bun.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/10Ba wan.png" alt="" class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/11Savory Rice Cake.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/12Hakka Mochi.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/13oyster omelet.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/14danzai noodles.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/15Braised pork rice.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/16Tube Rice Pudding.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/17Turkey rice.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/18Fried dumpling.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/19rice dumpling.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <div class="">
+          <a href="#" target="_blank"><img src="assets/images/FOOD/20Flaky scallion pancake.png" alt=""
+              class="width-190px mx-auto"></a>
+        </div>
+        <!-- //group -->
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- foodMenu -->
+
+
+
+  <!-- foodIntroduction -->
+  <div class="container-fluid d-none">
+    <div class="row">
+      <div class="col-md-5 bg-57dce794">
+        <div class="row">
+          <div class="col-12 py-5 position-relative px-175px">
+            <a href="index.html">
+              <img src="./assets/images/20200327_cutPic/element/TOP/inside/TOP arrow(watercolcor).png" alt="">
+            </a>
+            <h2 class="text-center font-Yu-Gothic-Medium fz-38px color-4C4948 mt-20px">ニョーローメン</h2>
+
+            <h3 class="text-center mt-3 d-flex justify-content-center">
+              <span class=" position-relative fz-38px color-4C4948">牛肉麵
+                <a href="https://www.google.com/search?q=%E7%89%9B%E8%82%89%E9%BA%B5&oq=%E7%89%9B%E8%82%89%E9%BA%B5&aqs=chrome..69i57j0l4j69i61l3.4924j0j7&sourceid=chrome&ie=UTF-8"
+                  target="_blank" rel="noopener noreferrer" class="position-absolute" style="top: -10px;right: -72px;">
+                  <img src="assets/images/ICON/MAP.png" alt="" style="width: 55px;">
+                </a>
+              </span>
+            </h3>
+            <h4 class="text-center py-5 px-3 font-Yu-Gothic-Bold fz-16px color-2F2725">
+              <br>醤油をベースにしたスープ、歯ごたえがある</br>
+              <br>麺とゆっくり煮込んでいた牛肉、さらに新鮮</br>
+              <br>なチンゲン菜をのせ、一口目から牛肉の味を</br>
+              <br>堪能できる。</br></h4>
+            <h5 class="text-center py-5 px-3 fz-16px color-2F2725">
+              <br>湯頭以濃厚的紅燒口味為主，加上有嚼勁的麵條、燉</br>
+              <br>煮到軟嫩牛腱肉、新鮮的時蔬，每一口都享受著牛肉</br>
+              <br>所帶來的精華。</br></h5>
+            <h3 class="text-center pb-4 font-Yu-Gothic-Bold fz-24px color-595757" style="margin-bottom: 30px;">
+              <img src="./assets/images/20200327_cutPic/element/TOP/inside/TOP notice.png" alt="">
+            </h3>
+            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
+            margin-bottom: 110px;
+        ">
+              <div class="food px-3 color-AEADAD position-relative">
+                <img src="./assets/images/20200327_cutPic/element/TOP/inside/TOP beef.png" alt="">
+                <img src="assets/images/ICON/icon-shallot(300).png" alt="" class="w-60px transCenter">
+              </div>
+              <div class="food px-3 color-AEADAD position-relative">
+                <img src="./assets/images/20200327_cutPic/element/TOP/inside/TOP onion.png" alt="">
+                <img src="assets/images/ICON/icon-beef(300).png" alt="" class="w-60px transCenter">
+              </div>
+            </div>
+            <div class="iconList text-center py-5">
+              <i class="px-1 color-57dce795 fz-25px fab fa-twitter"></i>
+              <i class="px-1 color-57dce795 fz-25px fab fa-instagram"></i>
+              <i class="px-1 color-57dce795 fz-25px fab fa-facebook-f"></i>
+            </div>
+
+            <img class="position-absolute" src="assets/images/20200327_cutPic/element/TOP/inside/TOP girl.png" alt="" style="bottom: 120px;right: 100px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 bg-white">
+        <div class="h-100 row">
+          <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
+            <!-- // 001.牛肉麵2_OK -->
+        <div class="con"><img class="img" id="bolw" src="https://res.cloudinary.com/fssalad/image/upload/v1583157796/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%A2%97_jds1rp.png"/><img class="img" id="soup" src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E6%B9%AF_qjtnkz.png"/><img class="img" id="noodles" src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E9%BA%B5_nh6n6y.png"/><img class="img" id="bokcoy" src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E9%9D%92%E6%B1%9F%E8%8F%9C_envmbc.png"/><img class="img" id="radish" src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%99%BD%E8%98%BF%E8%94%94_jeatgn.png"/><img class="img" id="radish2" src="https://res.cloudinary.com/fssalad/image/upload/v1583157792/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%99%BD%E8%98%BF%E8%94%942_dkgbrd.png"/><img class="img" id="carrot" src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%B4%85%E8%98%BF%E8%94%94__alrsoo.png"/><img class="img" id="carrot2" src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%B4%85%E8%98%BF%E8%94%942_df95xk.png"/><img class="img" id="beef" src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%89%9B%E8%82%89_yjilww.png"/><img class="img" id="beef2" src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%89%9B%E8%82%892%E6%9D%90_uxhr8v.png"/><img class="img" id="beef3" src="https://res.cloudinary.com/fssalad/image/upload/v1583157793/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E7%89%9B%E8%82%893_bcgg48.png"/><img class="img" id="greenonion" src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E8%94%A5_i0jvkq.png"/><img class="img" id="greenonion2" src="https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E8%94%A52_hi65kf.png"/>
+  <div class="text text1"> <span class="right">─────</span>　 碗・お碗</div>
+  <div class="text text2"><span class="right">───────</span>　 湯・スープ</div>
+  <div class="text text3"><span class="right">───────</span>　 麵・麺</div>
+  <div class="text text4"><span class="right">────────</span>　 青江菜・チンゲン菜</div>
+  <div class="text text5"><span class="right">──────────</span>　 白蘿蔔・大根</div>
+  <div class="text text6"><span class="right">──────────</span>　 紅蘿蔔・ニンジン </div>
+  <div class="text text7"><span class="right">────────</span>　 牛肉・牛肉 </div>
+  <div class="text text8"><span class="right">─────────</span>　 蔥・ネギ</div>
+</div>
+            <!-- // 001.牛肉麵2_OK -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- foodIntroduction -->
+
+
+  <!-- staffIntroduction -->
+  <section class="container-fluid staffIntroduction staffIntroductionBg trans-tranY--5 onverflow-hidden">
+    <div class="row">
+      <div class="col position-relative zi-0">
+
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFFPull flag1.png" alt="" class="position-absolute"
+          style="
+      top: 0px;
+      left: 0;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF w.png" alt="" class="position-absolute" style="
+     top: 0px;
+      left: 0;
+      transform: translate3d(-8px, 194px, 0) scaleX(-1) rotate(-2deg);
+    ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF woman.png" alt="" class="position-absolute zi-1"
+          style="
+      top: 163.83px;
+      left: 204.879px;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF woman2.png" alt="" class="position-absolute zi-0"
+          style="
+      top: 154.879px;
+      left: 277.04px;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF woman3.png" alt="" class="position-absolute"
+          style="
+      top: 225.072px;
+      left: 366.331px;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF woman4.png" alt="" class="position-absolute"
+          style="
+      top: 225.072px;
+      left: 452.008px;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF woman4.png" alt="" class="position-absolute"
+          style="
+      top: 225.072px;
+      left: 452.008px;
+    ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF flag1.png" alt="" class="position-absolute" style="
+   top: 217.331px;
+   left: 697.516px;
+ ">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF flag2.png" alt="" class="position-absolute" style="
+   top: 243.137px;
+   left: 744.742px;
+ ">
+
+
+
+
+        <img src="./assets/images/20200327_cutPic/element/STAFF/STAFFPull flag2.png" alt="" class="position-absolute"
+          style="
+      top: 0px;
+      right: 0;
+    ">
+
+
+        <div class="textArea" style="
+      width: 655px;
+      margin-left: 1014.07px;
+      margin-right: auto;
+      margin-bottom: 80px;
+  ">
+          <h3 class="title">
+            <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF.png" alt="">
+          </h3>
+          <h4 class="subTitle" style="margin-bottom: 38.59px;">
+            <span class="d-block" style="margin-bottom: 8.168px;">成員</span>
+            <img src="./assets/images/20200327_cutPic/element/STAFF/STAFF line.png" alt="" class="d-block">
+          </h4>
+          <p class="lh-32 ls-1-807px">我們來自於台灣，是台中科技大學商業設計系的大四生，成員集結喜歡出國遊玩、熱愛台日文化與勇於探索美食的四位好夥伴。希望藉由大學的畢業製作，用我們擅長的文字圖像與創意構想，將我們台灣的美食推廣出去，讓人提起嚐試異國美食的勇氣，打破既定印象的框架，樂於享用到的好味道。</p>
+
+          <p class="position-relative readMore" style="margin-top: 67.533px;margin-bottom: 82px;">
+            <span>
+                <a href="staff.html" target="_blank">READ MORE</a>
+            </span>
+            <img class="position-absolute" src="./assets/images/20200327_cutPic/element/STAFF/STAFF RM.png" alt=""
+              style="
+              top: 7.63px;
+              left: -3px;
+            ">
+          </p>
+        </div>
+
+      </div>
+  </section>
+  <!-- staffIntroduction -->
+
+
+  <!-- staff -->
+  <section class="container-fluid staff staffBg onverflow-hidden d-none">
+    <div class="row">
+        <img src="./assets/images/20200327_cutPic/element/STAFF/staff_2.png" alt="" class="w-100">
+    </div>
+  </section>
+  <!-- staff -->
+
+  <!-- footer -->
+  <footer class="container-fluid footer trans-tranY--5">
+    <div class="row position-relative">
+
+      <div class="col-12 justify-content-center align-content-center text-center" style="margin-top: 169.692px;">
+        <img src="./assets/images/20200327_cutPic/element/Menu/Menu logo.png">
+      </div>
+      <div class="col-12 linkList d-flex flex-column fz-23px font-weight-bold">
+        <a href="#" class="link text-center py-3 color-3E3A39" style="margin-top: 40px;">ABOUT</a>
+        <a href="#" class="link text-center py-3 color-3E3A39">HOW TO USE</a>
+        <a href="#" class="link text-center py-3 color-3E3A39">TOP 100 OF TAIWANESE FOODS</a>
+        <a href="#" class="link text-center py-3 color-3E3A39">STAFF</a>
+      </div>
+      <div class="col-12 iconList d-flex justify-content-center align-content-center pb-5"
+        style="margin-top: 105.022px;">
+        <a href="#" class="px-2"> <i class="fz-23px pr-1 text-white fab fa-twitter"></i></a>
+        <a href="#" class="px-2"> <i class="fz-23px pr-1 text-white fab fa-instagram"></i></a>
+        <a href="#" class="px-2"> <i class="fz-23px pr-1 text-white fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+
+  <!-- <script src="http://font-awesome/5.12.1/js/all.min.js"></script> -->
+  <!-- slick -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+  <script src="assets/package/slick/slick.js"></script>
+
+</body>
+
+<!-- <script>
+// stricky navbar
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
+</html> -->
+
+<script>
+  // 001.牛肉麵2_OK
+  (function () {
+    $(window).mousemove(function(evt){
+  var x = evt.pageX;
+  var y = evt.pageY;
+  // console.log(x + "," + y);
+  
+  if (x>$(window).width()/2 + 50){
+    $("#bolw").css("transform","translateY(400px)");
+    $("#soup").css("transform","translateY(220px)");
+    $("#noodles").css("transform","translateY(90px)");  
+    $("#bokcoy").css("transform","translate(20px,55px)");
+    $("#radish").css("transform","translate(55px,-50px)");
+    $("#radish2").css("transform","translate(55px,-50px)");
+    $("#carrot").css("transform","translate(0px,-100px)");
+    $("#carrot2").css("transform","translate(0px,-100px)");
+    $("#beef").css("transform","translateY(-200px)");
+    $("#beef2").css("transform","translateY(-200px)");
+    $("#beef3").css("transform","translateY(-200px)");
+    $("#greenonion").css("transform","translateY(-290px)");
+    $("#greenonion2").css("transform","translateY(-290px)");
+    
+    $("#radish2").css("transition-delay","0.1s");
+    $("#carrot2").css("transition-delay","0.1s");
+    $("#beef2").css("transition-delay","0.1s");
+    $("#beef3").css("transition-delay","0.2s");
+    $("#greenonion2").css("transition-delay","0.1s");
+    $("#soup").attr("src","https://res.cloudinary.com/fssalad/image/upload/v1583157795/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E6%B9%AF2_efxkuu.png");
+    
+    $(".text.text1").addClass("text_1");
+    $(".text.text2").addClass("text_2");
+    $(".text.text3").addClass("text_3");
+    $(".text.text4").addClass("text_4");
+    $(".text.text5").addClass("text_5");
+    $(".text.text6").addClass("text_6");
+    $(".text.text7").addClass("text_7");
+    $(".text.text8").addClass("text_8");
+    
+  }else if (x<$(window).width()/2 - 50){
+    $("#bolw").css("transform","translate(0px)");
+    $("#soup").css("transform","translate(0px)");
+    $("#noodles").css("transform","translate(0px)");
+    $("#bokcoy").css("transform","translate(0px)");
+    $("#radish").css("transform","translate(0px)");
+    $("#radish2").css("transform","translate(0px)");
+    $("#carrot").css("transform","translate(0px)");
+    $("#carrot2").css("transform","translate(0px)");
+    $("#beef").css("transform","translate(0px)");
+    $("#beef2").css("transform","translate(0px)");
+    $("#beef3").css("transform","translate(0px)");
+    $("#greenonion").css("transform","translate(0px)");
+    $("#greenonion2").css("transform","translate(0px)");
+    
+    $("#beef3").css("transition-delay","0.15s");
+    $("#soup").attr("src","https://res.cloudinary.com/fssalad/image/upload/v1583157794/001.%E7%89%9B%E8%82%89%E9%BA%B5/OK%E7%89%9B%E8%82%89%E9%BA%B5_%E6%B9%AF_qjtnkz.png");
+    
+    $(".text.text1").removeClass("text_1");
+    $(".text.text2").removeClass("text_2");
+    $(".text.text3").removeClass("text_3");
+    $(".text.text4").removeClass("text_4");
+    $(".text.text5").removeClass("text_5");
+    $(".text.text6").removeClass("text_6");
+    $(".text.text7").removeClass("text_7");
+    $(".text.text8").removeClass("text_8");
+  }
+})
+  })()
+</script>
+
+
