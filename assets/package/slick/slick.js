@@ -106,7 +106,7 @@
       if (aa) {
         aa.before(
           '<li class="slick-active" >' +
-            '  <button class="position-relative" type="button">' +
+            '  <button class="position-relative" type="button" id="slickPrev">' +
             '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow.png" alt="" style="top:-1px;left:0;">' +
             '  </button>' +
             '</li>'
@@ -117,7 +117,7 @@
       if (aaa) {
         aaa.after(
           '<li class="slick-active" >' +
-            '  <button class="position-relative" type="button">' +
+            '  <button class="position-relative" type="button" id="slickNext">' +
             '    <img class="position-relative arrow" src="assets/images/20200501_content/FOOD/T-arrow2.png" alt="" style="top:-1px;left:0;">' +
             '  </button>' +
             '</li>'
@@ -218,6 +218,18 @@ $(document).ready(function() {
     })
 
     appendDots()
+  })
+})
+
+// 前一頁、下一頁
+$(document).ready(function() {
+  $(document).on('click', '#slickPrev', function(){
+    var btnDom = $('.slick-prev')
+    if ( btnDom ) btnDom.click()
+  })
+  $(document).on('click', '#slickNext', function(){
+    var btnDom = $('.slick-next')
+    if ( btnDom ) btnDom.click()
   })
 })
 
