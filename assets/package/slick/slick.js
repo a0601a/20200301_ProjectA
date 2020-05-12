@@ -181,18 +181,8 @@ $(document).ready(function() {
 }
 });
 
-
-
-
-  
-
   appendDots()
 })
-
-
-
-
-
 
 
 // 隨機按鈕

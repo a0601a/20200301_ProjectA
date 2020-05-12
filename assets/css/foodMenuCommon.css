@@ -57,10 +57,12 @@
 .foodContent .notice {
   margin-top: 74.153px;
   margin-bottom: 53.804px;
+  min-height: 97px;
 }
 
 .foodMenu {}
 
 .foodMenu .food:first-child {
   margin-right: 94.964px;
+  min-height: 90px;
 }
