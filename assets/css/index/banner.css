@@ -251,7 +251,7 @@
   left: 75px;
 
 /* 完成要打開 */
-  /* animation: move 4s infinite; */
+  animation: move 4s infinite;
 }
 .banner .aboutImgArea .taxiImg {
   right: 37px;
@@ -304,10 +304,10 @@
 
 /* swing */
 /* 完成要打開 */
-/* .swing {
+.swing {
   animation: swing ease-in-out 3s infinite alternate;
   transform-origin: center -20px;
-} */
+}
 
 @keyframes swing {
   0% { transform: rotate(5deg); }
