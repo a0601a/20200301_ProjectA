@@ -33,9 +33,12 @@
 .banner .staffImgArea .font{
   /* animation:  swingggg ease-in-out 1s alternate; */
   /* transform-style: preserve-3d; */
-  font-size: 0;
+  
+  left: -129px;
+  top: 26px;
 
 }
+
 
 .banner .top100OfImgArea .fontAnim,
 .banner .aboutImgArea .fontAnim,
@@ -86,6 +89,11 @@
   top: -18px;
   left: -50px;
 }
+.banner .howToUseImgArea .font.font{
+  top: -183px;
+  line-height: 115px;
+  left: -27px;
+}
 
 /* == institute == */
 .banner .instituteImgArea {
@@ -100,17 +108,20 @@
 .banner .instituteImgArea .lightImg {
 }
 
+
 /* common font setting */
 .banner .staffImgArea .font,
 .banner .top100OfImgArea .font,
 .banner .aboutImgArea .font,
 .banner .howToUseImgArea .font,
 .banner .staff .font {
-  height: 72px;
-  width: 208px;
-  font-weight: 700;
+  height: auto;
+  width: auto;
+  font-weight: 600;
   color: #D26757;
-  font-size: 50px;
+  font-size: 101.16px;
+  letter-spacing: -13px;
+  word-spacing: -2px;
 }
 .banner .staffImgArea .fontAnim:nth-child(2),
 .banner .top100OfImgArea .fontAnim:nth-child(2),
@@ -245,17 +256,81 @@
 .banner .staff .fontAnim:nth-child(20) {
   animation-delay: 3.8s;
 }
+.banner .staffImgArea .fontAnim:nth-child(21),
+.banner .top100OfImgArea .fontAnim:nth-child(21),
+.banner .aboutImgArea .fontAnim:nth-child(21),
+.banner .howToUseImgArea .fontAnim:nth-child(21),
+.banner .staff .fontAnim:nth-child(21) {
+  animation-delay: 4.0s;
+}
+.banner .staffImgArea .fontAnim:nth-child(22),
+.banner .top100OfImgArea .fontAnim:nth-child(22),
+.banner .aboutImgArea .fontAnim:nth-child(22),
+.banner .howToUseImgArea .fontAnim:nth-child(22),
+.banner .staff .fontAnim:nth-child(22) {
+  animation-delay: 4.2s;
+}
+.banner .staffImgArea .fontAnim:nth-child(23),
+.banner .top100OfImgArea .fontAnim:nth-child(23),
+.banner .aboutImgArea .fontAnim:nth-child(23),
+.banner .howToUseImgArea .fontAnim:nth-child(23),
+.banner .staff .fontAnim:nth-child(23) {
+  animation-delay: 4.4s;
+}
+.banner .staffImgArea .fontAnim:nth-child(24),
+.banner .top100OfImgArea .fontAnim:nth-child(24),
+.banner .aboutImgArea .fontAnim:nth-child(24),
+.banner .howToUseImgArea .fontAnim:nth-child(24),
+.banner .staff .fontAnim:nth-child(24) {
+  animation-delay: 4.6s;
+}
+.banner .staffImgArea .fontAnim:nth-child(25),
+.banner .top100OfImgArea .fontAnim:nth-child(25),
+.banner .aboutImgArea .fontAnim:nth-child(25),
+.banner .howToUseImgArea .fontAnim:nth-child(25),
+.banner .staff .fontAnim:nth-child(25) {
+  animation-delay: 4.8s;
+}
+.banner .staffImgArea .fontAnim:nth-child(26),
+.banner .top100OfImgArea .fontAnim:nth-child(26),
+.banner .aboutImgArea .fontAnim:nth-child(26),
+.banner .howToUseImgArea .fontAnim:nth-child(26),
+.banner .staff .fontAnim:nth-child(26) {
+  animation-delay: 5.0s;
+}
+.banner .staffImgArea .fontAnim:nth-child(27),
+.banner .top100OfImgArea .fontAnim:nth-child(27),
+.banner .aboutImgArea .fontAnim:nth-child(27),
+.banner .howToUseImgArea .fontAnim:nth-child(27),
+.banner .staff .fontAnim:nth-child(27) {
+  animation-delay: 5.2s;
+}
+.banner .staffImgArea .fontAnim:nth-child(28),
+.banner .top100OfImgArea .fontAnim:nth-child(28),
+.banner .aboutImgArea .fontAnim:nth-child(28),
+.banner .howToUseImgArea .fontAnim:nth-child(28),
+.banner .staff .fontAnim:nth-child(28) {
+  animation-delay: 5.4s;
+}
+.banner .staffImgArea .fontAnim:nth-child(29),
+.banner .top100OfImgArea .fontAnim:nth-child(29),
+.banner .aboutImgArea .fontAnim:nth-child(29),
+.banner .howToUseImgArea .fontAnim:nth-child(29),
+.banner .staff .fontAnim:nth-child(29) {
+  animation-delay: 5.6s;
+}
+.banner .staffImgArea .fontAnim:nth-child(30),
+.banner .top100OfImgArea .fontAnim:nth-child(30),
+.banner .aboutImgArea .fontAnim:nth-child(30),
+.banner .howToUseImgArea .fontAnim:nth-child(30),
+.banner .staff .fontAnim:nth-child(30) {
+  animation-delay: 5.8s;
+}
 
 .banner .aboutImgArea .font,
 .banner .howToUseImgArea .font,
 .banner .staff .font{
   left: -80px;
-}
-
-.banner .top100OfImgArea .font{
-  top: -133px;
-  right: -25px;
-  z-index: 1;
 }
 
 /* == about == */
@@ -280,6 +355,11 @@
   bottom: -26px;
 }
 
+.banner .aboutImgArea .font{
+  top: -50px;
+  left: -53px;
+}
+
 /* == top100Oftaiwanese foods == */
 .banner .top100OfImgArea {
   top: 521px;
@@ -293,6 +373,14 @@
 .banner .top100OfImgArea .lanternImg {
   top: 23px;
   right: 106px;
+}
+.banner .top100OfImgArea .font {
+  width: 125%;
+  text-align: right;
+  top: -133px;
+  right: -25px;
+  z-index: 1;
+  line-height: 1.3;
 }
 
 @keyframes move {
