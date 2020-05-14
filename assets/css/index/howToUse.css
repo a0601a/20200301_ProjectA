@@ -80,13 +80,20 @@
   margin-top: 170px;
   margin-left: 274.419px;
   margin-right: auto;
-  max-width: 298.166px;
+  max-width: 324.401px;
 
 }
 .howToUse .steps .step01 .stepImg{
     height: 476px;
     max-width: 778.555px;
     width: 100%;
+}
+
+.howToUse .steps .step01 .stepImg,
+.howToUse .steps .step02 .stepImg,
+.howToUse .steps .step03 .stepImg{
+  margin-right: 250px;
+  margin-top: 40px;
 }
 
 .howToUse .steps .step01 .nextArrow,
@@ -120,7 +127,7 @@
 .howToUse .steps .step03 .textArea .subTitle{
   margin-top: 35.053px;
   
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 1.5px;
 
 }
