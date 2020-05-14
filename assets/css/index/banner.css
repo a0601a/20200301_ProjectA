@@ -412,14 +412,14 @@
 }
 
 
-/* swing */
+/* swing3 */
 /* 完成要打開 */
-.swing {
-  animation: swing ease-in-out 3s infinite alternate;
+.swing3 {
+  animation: swing3 ease-in-out 3s infinite alternate;
   transform-origin: center -20px;
 }
 
-@keyframes swing {
+@keyframes swing3 {
   0% { transform: rotate(5deg); }
   100% { transform: rotate(-5deg); }
 }
