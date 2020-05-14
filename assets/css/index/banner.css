@@ -49,6 +49,7 @@
   animation-fill-mode: both;
 }
 
+.banner .staffImgArea:hover,
 .banner .top100OfImgArea:hover,
 .banner .aboutImgArea:hover,
 .banner .howToUseImgArea:hover,
@@ -57,6 +58,7 @@
   transform: translateY(-15px);
 }
 
+.banner .staffImgArea:hover .fontAnim,
 .banner .top100OfImgArea:hover .fontAnim,
 .banner .aboutImgArea:hover .fontAnim,
 .banner .howToUseImgArea:hover .fontAnim,
@@ -99,6 +101,7 @@
 }
 
 /* common font setting */
+.banner .staffImgArea .font,
 .banner .top100OfImgArea .font,
 .banner .aboutImgArea .font,
 .banner .howToUseImgArea .font,
@@ -109,114 +112,133 @@
   color: #D26757;
   font-size: 50px;
 }
+.banner .staffImgArea .fontAnim:nth-child(2),
 .banner .top100OfImgArea .fontAnim:nth-child(2),
 .banner .aboutImgArea .fontAnim:nth-child(2),
 .banner .howToUseImgArea .fontAnim:nth-child(2),
 .banner .staff .fontAnim:nth-child(2) {
   animation-delay: .2s;
 }
+.banner .staffImgArea .fontAnim:nth-child(3),
 .banner .top100OfImgArea .fontAnim:nth-child(3),
 .banner .aboutImgArea .fontAnim:nth-child(3),
 .banner .howToUseImgArea .fontAnim:nth-child(3),
 .banner .staff .fontAnim:nth-child(3) {
   animation-delay: .4s;
 }
+.banner .staffImgArea .fontAnim:nth-child(4),
 .banner .top100OfImgArea .fontAnim:nth-child(4),
 .banner .aboutImgArea .fontAnim:nth-child(4),
 .banner .howToUseImgArea .fontAnim:nth-child(4),
 .banner .staff .fontAnim:nth-child(4) {
   animation-delay: .6s;
 }
+.banner .staffImgArea .fontAnim:nth-child(5),
 .banner .top100OfImgArea .fontAnim:nth-child(5),
 .banner .aboutImgArea .fontAnim:nth-child(5),
 .banner .howToUseImgArea .fontAnim:nth-child(5),
 .banner .staff .fontAnim:nth-child(5) {
   animation-delay: .8s;
 }
+.banner .staffImgArea .fontAnim:nth-child(6),
 .banner .top100OfImgArea .fontAnim:nth-child(6),
 .banner .aboutImgArea .fontAnim:nth-child(6),
 .banner .howToUseImgArea .fontAnim:nth-child(6),
 .banner .staff .fontAnim:nth-child(6) {
   animation-delay: 1s;
 }
+.banner .staffImgArea .fontAnim:nth-child(7),
 .banner .top100OfImgArea .fontAnim:nth-child(7),
 .banner .aboutImgArea .fontAnim:nth-child(7),
 .banner .howToUseImgArea .fontAnim:nth-child(7),
 .banner .staff .fontAnim:nth-child(7) {
   animation-delay: 1.2s;
 }
+.banner .staffImgArea .fontAnim:nth-child(8),
 .banner .top100OfImgArea .fontAnim:nth-child(8),
 .banner .aboutImgArea .fontAnim:nth-child(8),
 .banner .howToUseImgArea .fontAnim:nth-child(8),
 .banner .staff .fontAnim:nth-child(8) {
   animation-delay: 1.4s;
 }
+.banner .staffImgArea .fontAnim:nth-child(9),
 .banner .top100OfImgArea .fontAnim:nth-child(9),
 .banner .aboutImgArea .fontAnim:nth-child(9),
 .banner .howToUseImgArea .fontAnim:nth-child(9),
 .banner .staff .fontAnim:nth-child(9) {
   animation-delay: 1.6s;
 }
+.banner .staffImgArea .fontAnim:nth-child(10),
 .banner .top100OfImgArea .fontAnim:nth-child(10),
 .banner .aboutImgArea .fontAnim:nth-child(10),
 .banner .howToUseImgArea .fontAnim:nth-child(10),
 .banner .staff .fontAnim:nth-child(10) {
   animation-delay: 1.8s;
 }
+.banner .staffImgArea .fontAnim:nth-child(11),
 .banner .top100OfImgArea .fontAnim:nth-child(11),
 .banner .aboutImgArea .fontAnim:nth-child(11),
 .banner .howToUseImgArea .fontAnim:nth-child(11),
 .banner .staff .fontAnim:nth-child(11) {
   animation-delay: 2.0s;
 }
+.banner .staffImgArea .fontAnim:nth-child(12),
 .banner .top100OfImgArea .fontAnim:nth-child(12),
 .banner .aboutImgArea .fontAnim:nth-child(12),
 .banner .howToUseImgArea .fontAnim:nth-child(12),
 .banner .staff .fontAnim:nth-child(12) {
   animation-delay: 2.2s;
 }
+.banner .staffImgArea .fontAnim:nth-child(13),
 .banner .top100OfImgArea .fontAnim:nth-child(13),
 .banner .aboutImgArea .fontAnim:nth-child(13),
 .banner .howToUseImgArea .fontAnim:nth-child(13),
 .banner .staff .fontAnim:nth-child(13) {
   animation-delay: 2.4s;
 }
+.banner .staffImgArea .fontAnim:nth-child(14),
 .banner .top100OfImgArea .fontAnim:nth-child(14),
 .banner .aboutImgArea .fontAnim:nth-child(14),
 .banner .howToUseImgArea .fontAnim:nth-child(14),
 .banner .staff .fontAnim:nth-child(14) {
   animation-delay: 2.6s;
 }
+.banner .staffImgArea .fontAnim:nth-child(15),
 .banner .top100OfImgArea .fontAnim:nth-child(15),
 .banner .aboutImgArea .fontAnim:nth-child(15),
 .banner .howToUseImgArea .fontAnim:nth-child(15),
 .banner .staff .fontAnim:nth-child(15) {
   animation-delay: 2.8s;
 }
+.banner .staffImgArea .fontAnim:nth-child(16),
 .banner .top100OfImgArea .fontAnim:nth-child(16),
 .banner .aboutImgArea .fontAnim:nth-child(16),
 .banner .howToUseImgArea .fontAnim:nth-child(16),
 .banner .staff .fontAnim:nth-child(16) {
   animation-delay: 3.0s;
 }
+.banner .staffImgArea .fontAnim:nth-child(17),
 .banner .top100OfImgArea .fontAnim:nth-child(17),
 .banner .aboutImgArea .fontAnim:nth-child(17),
 .banner .howToUseImgArea .fontAnim:nth-child(17),
 .banner .staff .fontAnim:nth-child(17) {
   animation-delay: 3.2s;
 }
+.banner .staffImgArea .fontAnim:nth-child(18),
 .banner .top100OfImgArea .fontAnim:nth-child(18),
 .banner .aboutImgArea .fontAnim:nth-child(18),
 .banner .howToUseImgArea .fontAnim:nth-child(18),
 .banner .staff .fontAnim:nth-child(18) {
   animation-delay: 3.4s;
 }
+.banner .staffImgArea .fontAnim:nth-child(19),
 .banner .top100OfImgArea .fontAnim:nth-child(19),
 .banner .aboutImgArea .fontAnim:nth-child(19),
 .banner .howToUseImgArea .fontAnim:nth-child(19),
 .banner .staff .fontAnim:nth-child(19) {
   animation-delay: 3.6s;
 }
+.banner .staffImgArea .fontAnim:nth-child(20),
 .banner .top100OfImgArea .fontAnim:nth-child(20),
 .banner .aboutImgArea .fontAnim:nth-child(20),
 .banner .howToUseImgArea .fontAnim:nth-child(20),
