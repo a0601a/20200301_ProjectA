@@ -52,8 +52,9 @@
 .chTWLang {
   letter-spacing: 4px;
   line-height: 2;
+  font-weight: 600;
+  color: #3E3A39;
 }
-
 .foodContent .notice {
   margin-top: 74.153px;
   margin-bottom: 53.804px;
