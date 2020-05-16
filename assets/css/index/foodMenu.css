@@ -87,7 +87,7 @@
 }
 
 .foodMenuNavbar .dropdown-menu {
-  background-color: transparent;
+  background-color: #fff;
 }
 
 .foodMenuNavbar + .foodList {
