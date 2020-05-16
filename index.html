@@ -48,7 +48,7 @@
   <link rel="stylesheet" href="./assets/css/index/footer.css">
 </head>
 
-<body>
+<body x-data="language()">
 
   <!-- banner -->
   <section class="banner" id="banner">
@@ -60,11 +60,11 @@
       </a>
 
       <div class="languageList ml-auto d-flex align-items-center">
-        <a href="javascript:void(0)" class="chinese">
+        <a href="javascript:void(0)" class="chinese"  id="lang_zhTW" data-lang="zhTW">
           <img src="./assets/images/20200327_cutPic/element/C.png" alt="">
         </a>
         <span class="color-EB6153 divider text-center">|</span>
-        <a href="javascript:void(0)" class="japanese">
+        <a href="javascript:void(0)" class="japanese" id="lang_japan" data-lang="japen">
           <img src="./assets/images/20200327_cutPic/element/J.png" alt="">
         </a>
       </div>
@@ -234,12 +234,19 @@
       <div class="subTitle">關於吃</div>
       <div class="subTitleLine"></div>
       <div class="content">
-        <p>「食」除了是生存的根本,也是我們對於各國的第一聯想,如:日本的壽司和拉麵、美國的大亨堡</p>
-        <p>和炸物等,然而它們也會是外國遊客既親切又害怕的存在。</p>
-        <p style="padding-top: 16px;">我們饕客研究所名稱取自「喜歡品嚐美食的人」與「分解」之意,由於近年來日本來台的旅客比</p>
-        <p>例居高,台灣的美食也在日本興起話題性,因此我們以方便瀏覧的網站為載體,來台旅遊的日</p>
-        <p>本觀光客為主要的目標對象,解決大家對於異國食物的困擾一有何內容物何關鍵字與何處可</p>
-        <p>尋,在獲得小樂趣的同時也從中取得認識與嘗試的勇氣,順利尋獲美食。</p>
+
+        <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+          <p>「食」除了是生存的根本,也是我們對於各國的第一聯想,如:日本的壽司和拉麵、美國的大亨堡</p>
+          <p>和炸物等,然而它們也會是外國遊客既親切又害怕的存在。</p>
+          <p style="padding-top: 16px;">我們饕客研究所名稱取自「喜歡品嚐美食的人」與「分解」之意,由於近年來日本來台的旅客比</p>
+          <p>例居高,台灣的美食也在日本興起話題性,因此我們以方便瀏覧的網站為載體,來台旅遊的日</p>
+          <p>本觀光客為主要的目標對象,解決大家對於異國食物的困擾一有何內容物何關鍵字與何處可</p>
+          <p>尋,在獲得小樂趣的同時也從中取得認識與嘗試的勇氣,順利尋獲美食。</p>
+        </template>
+        <template x-if="localStorage['lang'] === 'japen'">
+          <p>「食」は生きる基本。国に対しては、まずその国の「食」が頭の中に浮かぶと考えた。しかし、ご当地の「食」は海外観光客にとって知っているような、知らないような存在である。</p>
+          <p>近年、日本の観光客が台湾に訪ねることが多く、台湾のグルメも日本では話題になっている。そのため、私たちは使いやすいWebサイトを用い、観光客があまり知らないグルメのことを詳しく紹介する。グルメの原材料、キーワードや何処で食べれるかなどの疑問を解決し、今まで見たことないグルメを挑戦してみたいという勇気を台湾に来た観光客に与える。</p>
+        </template>
       </div>
     </div>
     <div class="imgArea">
@@ -260,9 +267,22 @@
       <div class="subTitle">使用方式</div>
       <div class="subTitleLine"></div>
       <div class="content">
-        <p>是否有從沒嚐試過的台灣美食?</p>
-        <p>是否困惑於該去哪搜索?是否想了解台灣人心中的美食名單?</p>
-        <p>從起初的好奇心到購買到食物不再是難事，在樂趣中認識台灣美食。</p>
+
+
+
+        <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+          <p>是否有從沒嚐試過的台灣美食?</p>
+          <p>是否困惑於該去哪搜索?是否想了解台灣人心中的美食名單?</p>
+          <p>從起初的好奇心到購買到食物不再是難事，在樂趣中認識台灣美食。</p>
+        </template>
+        <template x-if="localStorage['lang'] === 'japen'">
+          <p>食べたい台湾グルメがある？</p>
+          <p>どう検索すればいいと迷った？</p>
+          <p>台湾人がおすすめのグルメを知りたい？</p>
+          <p>ここにすべて答えがあり、楽しみながら台湾のグルメを知ることができる。</p>
+        </template>
+
+
       </div>
     </div>
     <div class="steps">
@@ -270,10 +290,23 @@
         <div class="textArea">
           <div class="title">
             <img class="img" src="./assets/images/20200501_content/HTU/H-01.png" alt="">
-            <span class="text">瀏覽美食</span>
+            <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+              <span class="text">瀏覽美食</span>
+            </template>
+            <template x-if="localStorage['lang'] === 'japen'">
+              <span class="text">グルメリストを見る</span>
+            </template>
+
           </div>
           <div class="subTitle">
-            <p>在百樣美食圖列中,點選想嚐試的台灣美食,進入介紹頁。</p>
+            
+            <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+              <p>在百樣美食圖列中,點選想嚐試的台灣美食,進入介紹頁。</p>
+            </template>
+            <template x-if="localStorage['lang'] === 'japen'">
+              <P>100個のグルメリストの中で、食べてみたいグルメをクリックすると、紹介ページに移る。</P>
+            </template>
+    
           </div>
           <img class="nextArrow" src="./assets/images/20200501_content/HTU/H-next.png" alt="">
         </div>
@@ -285,13 +318,24 @@
                 <div class="textArea">
           <div class="title">
             <img class="img" src="./assets/images/20200501_content/HTU/H-02.png" alt="">
-            <span class="text">查看介紹</span>
+            <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+              <span class="text">查看介紹</span>
+            </template>
+            <template x-if="localStorage['lang'] === 'japen'">
+              <span class="text">グルメ紹介を読む</span>
+            </template>
           </div>
           <div class="subTitle">
-            <p class="mb-0">滑鼠向右滑(手機版點一下右側),動態</p>
-            <p>食材一一展開,組合美食則反之操作。</p>
-            <p class="mb-0">左下方亦設有食材注意圖像標示,提醒</p>
-            <p>使用者宗教信仰、過敏和素食問題等等。</p>
+            <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+              <p class="mb-0">滑鼠向右滑(手機版點一下右側),動態</p>
+              <p>食材一一展開,組合美食則反之操作。</p>
+              <p class="mb-0">左下方亦設有食材注意圖像標示,提醒</p>
+              <p>使用者宗教信仰、過敏和素食問題等等。</p>
+            </template>
+            <template x-if="localStorage['lang'] === 'japen'">
+              <p>マウスカーソルを右に移動する（スマートフォンバージョンは右をタッチする）と、イラストは次々と開き、グルメの原材料が現れる。</p>
+              <p>ページの左下に、アレルギー物質の表示や宗教による食のタブーなどの注意アイコンを設けたことにより、安心して台湾のグルメを満喫できる。</p>
+            </template>
           </div>
           <img class="nextArrow" src="./assets/images/20200501_content/HTU/H-next.png" alt="">
         </div>
@@ -303,12 +347,23 @@
                 <div class="textArea">
           <div class="title">
             <img class="img" src="./assets/images/20200501_content/HTU/H-03.png" alt="">
-            <span class="text">尋找前往</span>
+              <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+                <span class="text">尋找前往</span>
+              </template>
+              <template x-if="localStorage['lang'] === 'japen'">
+                <span class="text">検索と向かう</span>
+              </template>
           </div>
           <div class="subTitle">
-            <p>點擊地圖圖像,會自動導往該美食關鍵</p>
-            <p>字的搜尋頁面,使用者可依定位與評價</p>
-            <p>去挑選想食用的店家。</p>
+            <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+              <p>點擊地圖圖像,會自動導往該美食關鍵</p>
+              <p>字的搜尋頁面,使用者可依定位與評價</p>
+              <p>去挑選想食用的店家。</p>
+            </template>
+            <template x-if="localStorage['lang'] === 'japen'">
+              <p>マップアイコンをクリックすると、Googleのキーワード検索ページに移り、GPS 測位による現在地を示される。それで、食べたいグルメの情報や評価を調べ、店にナビゲーションを使って向かう。</p>
+            </template>
+            
           </div>
           <!-- <img class="nextArrow" src="./assets/images/20200501_content/HTU/H-next.png" alt=""> -->
         </div>
@@ -329,11 +384,16 @@
       <div class="subTitle">台灣推薦美食100選</div>
       <div class="subTitleLine"></div>
       <div class="content">
-        <p>食物依據在台灣地區的不同，口味、用料與處理上可能有些許的差異，經過</p>
-        <p>我們資料的蒐集與問卷調查的結果，列出台灣人推薦給外國人士的前一百樣</p>
-        <p>在地美食，繪製出普遍台灣民眾常見的美食樣貌。</p>
-        <p>藉由名次、隨機與類型三種分類排列呈現，可依使用的情形去做點選瀏覽，</p>
-        <p>並以互動性的圖像搭配文字做簡易的介紹。</p>
+        <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+          <p class="p1">食物依據在台灣地區的不同，口味、用料與處理上可能有些許的差異，經過</p>
+          <p class="p2">我們資料的蒐集與問卷調查的結果，列出台灣人推薦給外國人士的前一百樣</p>
+          <p class="p3">在地美食，繪製出普遍台灣民眾常見的美食樣貌。</p>
+          <p class="p4">藉由名次、隨機與類型三種分類排列呈現，可依使用的情形去做點選瀏覽，</p>
+          <p class="p5">並以互動性的圖像搭配文字做簡易的介紹。</p>
+        </template>
+        <template x-if="localStorage['lang'] === 'japen'">
+          <p>地域によってグルメの味や具材は少し違いがある。私たちは資料を集め、台湾の人々にアンケートを取った結果を用い、海外観光客におすすめしたい台湾グルメを100個を描いてWebサイトに載せた。ランキング・ジャンル・ランダムに使い分け、ユーザーは違う状況によって使える。紹介ページはインタラクティブを使用し、シンプルな文字を加えて紹介する。</p>
+        </template>
       </div>
     </div>
     <div class="imgArea">
@@ -850,11 +910,19 @@
       <div class="subTitle">成員</div>
       <div class="subTitleLine"></div>
       <div class="content">
-        <p>我們來自於台灣，是台中科技大學商業設計系的大四生，成員集結喜歡出</p>
-        <p>國遊玩、熱愛台日文化與勇於探索美食的四位好夥伴。</p>
-        <p>希望藉由大學的畢業製作，用我們擅長的文字圖像與創意構想，將我們台</p>
-        <p>灣的美食推廣出去，讓人提起嚐試異國美食的勇氣，打破既定印象的框架，</p>
-        <p>樂於享用到的好味道。</p>
+
+        <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
+          <p>我們來自於台灣，是台中科技大學商業設計系的大四生，成員集結喜歡出</p>
+          <p>國遊玩、熱愛台日文化與勇於探索美食的四位好夥伴。</p>
+          <p class="p3">希望藉由大學的畢業製作，用我們擅長的文字圖像與創意構想，將我們台</p>
+          <p>灣的美食推廣出去，讓人提起嚐試異國美食的勇氣，打破既定印象的框架，</p>
+          <p>樂於享用到的好味道。</p>
+        </template>
+        <template x-if="localStorage['lang'] === 'japen'">
+          <p>私たちは台湾生まれ、台中科技大学に通う商業デザイン科の四年生。海外旅行、台湾・日本文化、グルメ探しが好きなメンバーを集まった4人グループ。</p>
+          <p>台湾のグルメを世界に広げられるように、今回の卒業制作を通し、食べたことないグルメを試したくなる勇気をみんなに与えられたら、という願いを込めて作った。</p>
+        </template>
+        
       </div>
     </div>
 
@@ -919,9 +987,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-
-
-
+  <!-- alpinejs -->
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
   <!-- <script src="http://font-awesome/5.12.1/js/all.min.js"></script> -->
   <!-- slick -->
@@ -933,6 +1000,7 @@
   <script src="assets/javaScript/banner.js"></script>
   <script src="assets/javaScript/foodIntroduction.js"></script>
   <script src="assets/javaScript/staff.js"></script>
+  <script src="assets/javaScript/setLanguage.js"></script>
 
 </body>
 

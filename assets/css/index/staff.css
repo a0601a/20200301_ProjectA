@@ -5,7 +5,7 @@
 }
 .staff .textContent{
   margin-left: 220.403px;
-  max-width: 498.524 px;
+  max-width: 498.524px;
 }
 .staff .textContent .title{
   text-align: left;
@@ -39,7 +39,7 @@
   font-size: 15px;
 }
 
-.staff .textContent .content p:nth-child(3){
+.staff .textContent .content .p3{
   margin-top: 42.775px;
 }
 

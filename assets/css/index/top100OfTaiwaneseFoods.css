@@ -45,14 +45,14 @@
   font-size: 15px;
 }
 
-.top100OfTaiwaneseFoods .textContent .content p:nth-child(1),
-.top100OfTaiwaneseFoods .textContent .content p:nth-child(2),
-.top100OfTaiwaneseFoods .textContent .content p:nth-child(4),
-.top100OfTaiwaneseFoods .textContent .content p:nth-child(5){
+.top100OfTaiwaneseFoods .textContent .content .p1,
+.top100OfTaiwaneseFoods .textContent .content .p2,
+.top100OfTaiwaneseFoods .textContent .content .p4,
+.top100OfTaiwaneseFoods .textContent .content .p5{
   margin-bottom: 26.397px;
 }
 
-.top100OfTaiwaneseFoods .textContent .content p:nth-child(3){
+.top100OfTaiwaneseFoods .textContent .content .p3{
   margin-bottom: 42.775px;
 }
 

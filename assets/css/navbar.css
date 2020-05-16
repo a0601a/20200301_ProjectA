@@ -204,6 +204,12 @@ body {
 }
 .languageList > * {
 }
+
+.languageList .chinese > img,
+.languageList .japanese > img{
+  pointer-events: none;
+}
+
 .languageList .chinese{
   /* width: 28px; */
   /* height: 13px; */
