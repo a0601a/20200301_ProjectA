@@ -195,6 +195,7 @@ body {
   height: 85.903px;
   margin: 0;
   visibility: hidden;
+  margin-left: 20px;
   transition: all .3s ease-in-out;
 }
 
