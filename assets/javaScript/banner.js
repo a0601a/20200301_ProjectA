@@ -121,3 +121,14 @@ if( false ){
     return tl 
   }
 }
+
+
+// Smooth scrolling when clicking an anchor link
+$(document).on('click', '.scrollingLink', function(e){
+  e.preventDefault();
+
+  var sec = 1
+  $('html, body').animate({
+      scrollTop: $($.attr(this, 'data-href')).offset().top
+  }, sec * 1000);
+})
