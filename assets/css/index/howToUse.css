@@ -48,22 +48,6 @@
   font-size: 16px;
 }
 
-
-
-
-.howToUse  #howToUseOpenBtn{
-  margin-top: 79.306px;
-  margin-left: 72.73px;
-  display: inline-block;
-}
-.howToUse #howToUseCloseBtn{
-  margin-left: auto;
-  margin-right: 138px;
-  position: relative;
-  top: 25px;
-  display: inline-block;
-}
-
 .howToUse .imgArea{
   margin-left: 274.419px;
   width: 522.952px;
@@ -155,7 +139,20 @@
 
 
 /* 控制隱藏顯示 */
-.howToUse .steps,
-.howToUse #howToUseCloseBtn{
+.howToUse.howToUse .steps,
+.howToUse.howToUse #howToUseCloseBtn{
   display: none;
+}
+
+.howToUse  #howToUseOpenBtn{
+  margin-top: 79.306px;
+  margin-left: 72.73px;
+  display: inline-block;
+}
+.howToUse #howToUseCloseBtn{
+  margin-left: auto;
+  margin-right: 138px;
+  position: relative;
+  top: 25px;
+  display: inline-block;
 }

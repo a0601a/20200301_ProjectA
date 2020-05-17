@@ -1,25 +1,26 @@
+/* 控制隱藏顯示 */
 $(function () {
   // 開
   $('#howToUseOpenBtn').on('click', function () {
     var stepDom = $('.howToUse .steps')
-    var howToUseCloseBtnDom = $('.howToUse #howToUseCloseBtn')
-    var howToUseOpenBtnDom = $('.howToUse  #howToUseOpenBtn')
-    if (stepDom && howToUseCloseBtnDom) {
+    var closeBtnDom = $('.howToUse #howToUseCloseBtn')
+    var openBtnDom = $('.howToUse  #howToUseOpenBtn')
+    if (stepDom && closeBtnDom) {
       stepDom.show()
-      howToUseCloseBtnDom.show()
-      howToUseOpenBtnDom.hide()
+      closeBtnDom.show()
+      openBtnDom.hide()
     }
   })
 
   // 關
   $('#howToUseCloseBtn').on('click', function () {
     var stepDom = $('.howToUse .steps')
-    var howToUseCloseBtnDom = $('.howToUse #howToUseCloseBtn')
-    var howToUseOpenBtnDom = $('.howToUse  #howToUseOpenBtn')
-    if (stepDom && howToUseCloseBtnDom) {
+    var closeBtnDom = $('.howToUse #howToUseCloseBtn')
+    var openBtnDom = $('.howToUse  #howToUseOpenBtn')
+    if (stepDom && closeBtnDom) {
       stepDom.hide()
-      howToUseCloseBtnDom.hide()
-      howToUseOpenBtnDom.show()
+      closeBtnDom.hide()
+      openBtnDom.show()
     }
   })
 })
