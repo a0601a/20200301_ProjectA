@@ -1,102 +1,105 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-  <!-- font - japen -->
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese"
-  rel="stylesheet">
-  <!-- font - zhTW -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <!-- font - japen -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap&subset=japanese"
+          rel="stylesheet">
+    <!-- font - zhTW -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/commoon.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/commoon.css">
 
-  <!-- icon -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
-    integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+          integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 
-  <!-- // === 001.牛肉麵2_OK === -->
-  <style>
-    .con {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1024px;
-    }
+    <!-- // === 001.牛肉麵2_OK === -->
+    <style>
+        .con {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1024px;
+        }
 
-    .img {
-      width: 450px;
-      position: absolute;
-      transition: 1.5s;
-    }
+        .img {
+            width: 450px;
+            position: absolute;
+            transition: 1.5s;
+        }
 
-    .text {
-      position: absolute;
-      left: 44%;
-      color: #565857;
-      font-weight: 500;
-      transition: 1s;
-      opacity: 0;
-      font-size: 15px;
-    }
+        .text {
+            position: absolute;
+            left: 44%;
+            color: #565857;
+            font-weight: 500;
+            transition: 1s;
+            opacity: 0;
+            font-size: 15px;
+        }
 
-    .right {
-      position: absolute;
-      right: 100%;
-      font-weight: lighter;
-      color: #bbb;
-    }
+        .right {
+            position: absolute;
+            right: 100%;
+            font-weight: lighter;
+            color: #bbb;
+        }
 
-    .text1 {
-      transform: translate(400px, 400px);
-    }
+        .text1 {
+            transform: translate(400px, 400px);
+        }
 
-    .text2 {
-      transform: translate(400px, 60px);
-      transition-delay: 0.05s;
-    }
+        .text2 {
+            transform: translate(400px, 60px);
+            transition-delay: 0.05s;
+        }
 
-    .text3 {
-      transform: translate(400px, -250px);
-      transition-delay: 0.1s;
-    }
+        .text3 {
+            transform: translate(400px, -250px);
+            transition-delay: 0.1s;
+        }
 
-    .text_1 {
-      transform: translate(320px, 400px);
-      opacity: 1;
-    }
+        .text_1 {
+            transform: translate(320px, 400px);
+            opacity: 1;
+        }
 
-    .text_2 {
-      transform: translate(320px, 60px);
-      opacity: 1;
-    }
+        .text_2 {
+            transform: translate(320px, 60px);
+            opacity: 1;
+        }
 
-    .text_3 {
-      transform: translate(320px, -250px);
-      opacity: 1;
-    }
-  </style>
-  <!-- // === 001.牛肉麵2_OK === -->
-
-  <!-- // 調整 - 勿覆蓋 -->
-  <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
-  <!-- // 調整 - 勿覆蓋 -->
-
+        .text_3 {
+            transform: translate(320px, -250px);
+            opacity: 1;
+        }
+    </style>
+    <!-- // === 001.牛肉麵2_OK === -->
+    <!-- // 調整 - 勿覆蓋 -->
+    <link rel="stylesheet" href="./assets/css/foodMenuCommon.css">
+    <!-- // 調整 - 勿覆蓋 -->
+    <style>
+        .con {
+            height: 109vh;
+        }
+    </style>
 </head>
 
 <body>
 
   <!-- foodIntroduction -->
-  <div class="container-fluid">
-    <div class="row">
+  <div class="container-fluid h-100">
+    <div class="row h-100">
       <div class="col-md-5 bg-57dce794">
         <div class="row justify-content-center  position-relative">
           <a href="index.html" class="position-absolute" style="top: 114.337px;left: 108.667px;">
@@ -134,19 +137,7 @@
             <h5 class="chTWLang fz-16px">
               逢年過節祭拜時，不可少的祭拜品之一。糯米研磨成漿狀，加入有色米染色，捏出巴掌大小一塊，包入紅豆沙餡，吃起來口感像麻糬、甜滋滋，一口咬下是滿嘴的餡，很幸福。
             </h5>
-            <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice">
-              <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
-            </h3>
-            <div class="foodMenu text-center d-flex justify-content-center font-Yu-Gothic-Bold" style="
-            margin-bottom: 110px;
-        ">
-              <div class="food color-AEADAD position-relative">
-                <img src="./assets/images/20200504_content/FOOD/notice/T-beef.png" alt="">
-              </div>
-              <div class="food color-AEADAD position-relative">
-                <img src="./assets/images/20200504_content/FOOD/notice/T-shallot.png" alt="">
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
