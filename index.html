@@ -267,9 +267,6 @@
       <div class="subTitle">使用方式</div>
       <div class="subTitleLine"></div>
       <div class="content">
-
-
-
         <template x-if="localStorage['lang'] === undefined || localStorage['lang'] === 'zhTW'">
           <p>是否有從沒嚐試過的台灣美食?</p>
           <p>是否困惑於該去哪搜索?是否想了解台灣人心中的美食名單?</p>
@@ -281,9 +278,10 @@
           <p>台湾人がおすすめのグルメを知りたい？</p>
           <p>ここにすべて答えがあり、楽しみながら台湾のグルメを知ることができる。</p>
         </template>
-
-
       </div>
+      <a href="javascript:void(0);" class="readMore" id="howToUseOpenBtn">
+        <img class="w-100" src="./assets/images/20200501_content/HTU/H-RM.png" alt="">
+      </a>
     </div>
     <div class="steps">
       <div class="step01">
@@ -372,6 +370,9 @@
         </div>
       </div>
     </div>
+    <a href="javascript:void(0);" class="readMore" id="howToUseCloseBtn">
+      <img class="w-100" src="./assets/images/20200501_content/HTU/H-back.png" alt="">
+    </a>
   </section>
   <!-- howToUse -->
 
@@ -998,6 +999,7 @@
   <script src="assets/package/slick/slick.js"></script>
   <script src="assets/javaScript/navBar.js"></script>
   <script src="assets/javaScript/banner.js"></script>
+  <script src="assets/javaScript/howToUse.js"></script>
   <script src="assets/javaScript/foodIntroduction.js"></script>
   <script src="assets/javaScript/staff.js"></script>
   <script src="assets/javaScript/setLanguage.js"></script>

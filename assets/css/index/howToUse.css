@@ -46,7 +46,22 @@
 .howToUse .textContent .content{
   width: 100%;
   font-size: 16px;
-  
+}
+
+
+
+
+.howToUse  #howToUseOpenBtn{
+  margin-top: 79.306px;
+  margin-left: 72.73px;
+  display: inline-block;
+}
+.howToUse #howToUseCloseBtn{
+  margin-left: auto;
+  margin-right: 138px;
+  position: relative;
+  top: 25px;
+  display: inline-block;
 }
 
 .howToUse .imgArea{
@@ -136,4 +151,11 @@
 .howToUse .steps .step02{
 }
 .howToUse .steps .step03{
+}
+
+
+/* 控制隱藏顯示 */
+.howToUse .steps,
+.howToUse #howToUseCloseBtn{
+  display: none;
 }
