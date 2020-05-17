@@ -69,3 +69,21 @@
   max-width: 710.086px;
 }
 
+/* 控制隱藏顯示 */
+.staff.staff .staffArea,
+.staff.staff #staffCloseBtn{
+  display: none;
+}
+
+.staff  #staffOpenBtn{
+  margin-top: 79.306px;
+  margin-left: 70.715‬px;
+  display: inline-block;
+}
+.staff #staffCloseBtn{
+  margin-left: auto;
+  margin-right: 138px;
+  position: relative;
+  top: -87px;
+  display: inline-block;
+}
