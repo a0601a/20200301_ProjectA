@@ -17,102 +17,86 @@
   <!-- // === 001.牛肉麵2_OK === -->
   <style>
     .con {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1024px;
-}
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1024px;
+    }
 
-.img {
-  width: 400px;
-  position: absolute;
-  transition: 1.5s;
-}
+    .img {
+      width: 440px;
+      position: absolute;
+      transition: 1.5s;
+    }
 
-#batter2 {
-  opacity: 0.4;
-}
+    .text {
+      position: absolute;
+      left: 46%;
+      color: #565857;
+      font-weight: 500;
+      transition: 1s;
+      opacity: 0;
+      font-size: 15px;
+    }
 
-.text {
-  position: absolute;
-  left: 47%;
-  color: #565857;
-  font-weight: 500;
-  transition: 1s;
-  opacity: 0;
-}
+    .right {
+      position: absolute;
+      right: 100%;
+      font-weight: lighter;
+      color: #bbb;
+    }
 
-.text1 {
-  transform: translate(400px, 400px);
-}
+    .text1 {
+      transform: translate(400px, 300px);
+    }
 
-.text2 {
-  transform: translate(400px, 220px);
-  transition-delay: 0.05s;
-}
+    .text2 {
+      transform: translate(400px, 60px);
+      transition-delay: 0.05s;
+    }
 
-.text3 {
-  transform: translate(400px, 90px);
-  transition-delay: 0.1s;
-}
+    .text3 {
+      transform: translate(400px, -120px);
+      transition-delay: 0.1s;
+    }
 
-.text4 {
-  transform: translate(400px, -35px);
-  transition-delay: 0.15s;
-}
+    .text4 {
+      transform: translate(400px, -230px);
+      transition-delay: 0.15s;
+    }
 
-.text5 {
-  transform: translate(400px, -160px);
-  transition-delay: 0.2s;
-}
+    .text5 {
+      transform: translate(400px, -335px);
+      transition-delay: 0.2s;
+    }
 
-.text6 {
-  transform: translate(400px, -290px);
-  transition-delay: 0.25s;
-}
+    .text_1 {
+      transform: translate(280px, 300px);
+      opacity: 1;
+    }
 
-.text7 {
-  transform: translate(400px, -388px);
-  transition-delay: 0.3s;
-}
+    .text_2 {
+      transform: translate(280px, 60px);
+      opacity: 1;
+    }
 
-.text_1 {
-  transform: translate(250px, 400px);
-  opacity: 1;
-}
+    .text_3 {
+      transform: translate(280px, -120px);
+      opacity: 1;
+    }
 
-.text_2 {
-  transform: translate(210px, 220px);
-  opacity: 1;
-}
+    .text_4 {
+      transform: translate(280px, -230px);
+      opacity: 1;
+    }
 
-.text_3 {
-  transform: translate(170px, 90px);
-  opacity: 1;
-}
-
-.text_4 {
-  transform: translate(120px, -30px);
-  opacity: 1;
-}
-
-.text_5 {
-  transform: translate(120px, -160px);
-  opacity: 1;
-}
-
-.text_6 {
-  transform: translate(120px, -290px);
-  opacity: 1;
-}
-
-.text_7 {
-  transform: translate(160px, -388px);
-  opacity: 1;
-}
+    .text_5 {
+      transform: translate(280px, -335px);
+      opacity: 1;
+    }
   </style>
   <!-- // === 001.牛肉麵2_OK === -->
 
@@ -139,26 +123,30 @@
             </h3>
             <div class="iconList d-flex align-items-center">
               <div class="imgg">
-                <img class="rotateY twitter-share"  data-js="twitter-share" src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
+                <img class="rotateY twitter-share" data-js="twitter-share"
+                  src="./assets/images/20200501_content/FOOD/T-t.png" alt="" id="twitterBtn">
               </div>
               <div class="imgg">
                 <img class="rotateY" src="./assets/images/20200501_content/FOOD/T-i.png" alt="" id="">
               </div>
               <div class="imgg">
-                <img  class="rotateY facebook-share" data-js="facebook-share" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
+                <img class="rotateY facebook-share" data-js="facebook-share"
+                  src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
                 <!-- <img class="" src="./assets/images/20200501_content/FOOD/T-f.png" alt="" id="facebookBtn">
                 <div class="" id="fb"></div> -->
               </div>
-              
-              <a class="ml-auto rotateY" href="https://www.google.com/search?q=%E6%BB%B7%E8%82%89%E9%A3%AF&oq=%E6%BB%B7%E8%82%89&aqs=chrome.1.69i57j0l7.2563j0j9&sourceid=chrome&ie=UTF-8" target="_blank">
+
+              <a class="ml-auto rotateY"
+                href="https://www.google.com/search?q=%E6%BB%B7%E8%82%89%E9%A3%AF&oq=%E6%BB%B7%E8%82%89&aqs=chrome.1.69i57j0l7.2563j0j9&sourceid=chrome&ie=UTF-8"
+                target="_blank">
                 <img src="./assets/images/20200501_content/FOOD/T-map.png" alt="">
               </a>
             </div>
             <h4 class="japanLang font-Yu-Gothic-Bold fz-16px color-2F2725 font-weight-bold">
-             熱々のご飯に甘い醤油ベースで煮込んでいた豚肉と肉汁をかけて仕上げる。安くてやみつきになる台湾人のソウルフード、ぜひ試してみてください。
+              熱々のご飯に甘い醤油ベースで煮込んでいた豚肉と肉汁をかけて仕上げる。安くてやみつきになる台湾人のソウルフード、ぜひ試してみてください。
             </h4>
             <h5 class="chTWLang fz-16px">
-             熱騰騰的白飯上淋上滷汁與肉燥，讓人忍不住一碗接著一碗的吃下去，而且只需要銅板價。
+              熱騰騰的白飯上淋上滷汁與肉燥，讓人忍不住一碗接著一碗的吃下去，而且只需要銅板價。
             </h5>
             <h3 class="text-center font-Yu-Gothic-Bold fz-24px color-595757 notice">
               <img src="./assets/images/20200501_content/FOOD/T-notice.png" alt="">
@@ -180,13 +168,30 @@
         <div class="h-100 row">
           <div class="col-12 pb-5 px-5 position-relative overflow-hidden">
             <!-- // === 001.牛肉麵2_OK === -->
-            <div class="con"><img class="img" id="bowl" src="https://res.cloudinary.com/fssalad/image/upload/v1589109943/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E7%A2%97%E5%85%A7_cj9tcd.png"/><img class="img" id="rice" src="https://res.cloudinary.com/fssalad/image/upload/v1589109943/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E9%A3%AF_%E6%94%B9_d6irol.png"/><img class="img" id="bowl2" src="https://res.cloudinary.com/fssalad/image/upload/v1589109943/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E7%A2%97%E5%A4%96_f8s0b4.png"/><img class="img" id="sauce" src="https://res.cloudinary.com/fssalad/image/upload/v1589109944/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E6%B1%81_ulvj4z.png"/><img class="img" id="pork" src="https://res.cloudinary.com/fssalad/image/upload/v1583573935/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E8%82%891-01_%E5%8A%A0%E7%B4%A0%E6%9D%90_hcc2iz.png"/><img class="img" id="pork2" src="https://res.cloudinary.com/fssalad/image/upload/v1583573935/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E8%82%892_vhkibx.png"/><img class="img" id="pork3" src="https://res.cloudinary.com/fssalad/image/upload/v1583573938/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E8%82%893_iv1o25.png"/><img class="img" id="pickleddaikon" src="https://res.cloudinary.com/fssalad/image/upload/v1583573936/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E9%86%83%E8%98%BF%E8%94%941_roebyh.png"/><img class="img" id="pickleddaikon2" src="https://res.cloudinary.com/fssalad/image/upload/v1583573937/015.%E9%AD%AF%E8%82%89%E9%A3%AF/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E9%86%83%E8%98%BF%E8%94%942_hcrug2.png"/>
-                <div class="text text1"><span class="right">─────</span>　 碗．お碗</div>
-                <div class="text text2"><span class="right">───────</span>　 飯．ご飯</div>
-                <div class="text text3"><span class="right">─────────</span>　 醬汁．たれ</div>
-                <div class="text text4"><span class="right">──────────</span>　 滷肉．そぼろ肉</div>
-                <div class="text text5"><span class="right">────────────</span>　 醃蘿蔔．たくあん</div>
-              </div>
+            <div class="con"><img class="img" id="bowl"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E7%A2%97%E5%85%A7_cj9tcd.png" /><img
+                class="img" id="rice"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E9%A3%AF_%E6%94%B9_d6irol.png" /><img
+                class="img" id="bowl2"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E7%A2%97%E5%A4%96_f8s0b4.png" /><img
+                class="img" id="sauce"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E6%B1%81_ulvj4z.png" /><img
+                class="img" id="pork"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E8%82%891-01_%E5%8A%A0%E7%B4%A0%E6%9D%90_hcc2iz.png" /><img
+                class="img" id="pork2"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E8%82%892_vhkibx.png" /><img
+                class="img" id="pork3"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E6%BB%B7%E8%82%893_iv1o25.png" /><img
+                class="img" id="pickleddaikon"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E9%86%83%E8%98%BF%E8%94%941_roebyh.png" /><img
+                class="img" id="pickleddaikon2"
+                src="assets/images/foodMenuList/braisedPorkRice/OK%E9%AD%AF%E8%82%89%E9%A3%AF_%E9%86%83%E8%98%BF%E8%94%942_hcrug2.png" />
+              <div class="text text1"><span class="right">─────</span>　 碗．お碗</div>
+              <div class="text text2"><span class="right">───────</span>　 飯．ご飯</div>
+              <div class="text text3"><span class="right">─────────</span>　 醬汁．たれ</div>
+              <div class="text text4"><span class="right">──────────</span>　 滷肉．そぼろ肉</div>
+              <div class="text text5"><span class="right">────────────</span>　 醃蘿蔔．たくあん</div>
+            </div>
             <!-- // === 001.牛肉麵2_OK === -->
           </div>
         </div>
@@ -201,10 +206,10 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <!-- facebookShare -->
-  <script async defer crossorigin="anonymous"
+<script async defer crossorigin="anonymous"
   src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0"></script>
-  <script src="./assets/javaScript/facebookShare.js"></script>
-  <link rel="stylesheet" href="./assets/css/index/facebookShare.css">
+<script src="./assets/javaScript/facebookShare.js"></script>
+<link rel="stylesheet" href="./assets/css/index/facebookShare.css">
 <!-- twitterShare -->
 <script src="./assets/javaScript/twitterShare.js"></script>
 
@@ -214,57 +219,57 @@
   window.shareUrl = 'https://xr718.github.io/20200301_ProjectA/braisedPorkRice.html'
 </script>
 <script>
-  // === 001.牛肉麵2_OK ===
-  (function () {
-    $(window).mousemove(function(evt){
-  var x = evt.pageX;
-  var y = evt.pageY;
-  // console.log(x + "," + y);
-  
-  if (x>$(window).width()/2 + 50){
-    $("#bowl").css("transform","translateY(280px) scale(0.9)");
-    $("#bowl2").css("transform","translateY(280px) scale(0.9)");
-    $("#rice").css("transform","translateY(50px) scale(0.9)");
-    $("#sauce").css("transform","translateY(-90px)"); 
-    $("#pork").css("transform","translateY(-200px)");  
-    $("#pork2").css("transform","translateY(-200px)");
-    $("#pork3").css("transform","translate(-10px,-200px)");
-    $("#pickleddaikon").css("transform","translate(80px,-315px) scale(1.2)");
-    $("#pickleddaikon2").css("transform","translate(80px,-315px) scale(1.2)");
-    
-    
-    $("#pork2").css("transition-delay","0.1s");
-    $("#pork3").css("transition-delay","0.15s");
-    $("#pickleddaikon2").css("transition-delay","0.25s");
+    // === 001.牛肉麵2_OK ===
+    (function () {
+      $(window).mousemove(function (evt) {
+        var x = evt.pageX;
+        var y = evt.pageY;
+        // console.log(x + "," + y);
 
-    
-    $(".text.text1").addClass("text_1");
-    $(".text.text2").addClass("text_2");
-    $(".text.text3").addClass("text_3");
-    $(".text.text4").addClass("text_4");
-    $(".text.text5").addClass("text_5");
-    
-    
-  }else if (x<$(window).width()/2 - 50){
-    $("#bowl").css("transform","translate(0px)");
-    $("#bowl2").css("transform","translate(0px)");
-    $("#rice").css("transform","translate(0px)");
-    $("#sauce").css("transform","translate(0px)");
-    $("#pork").css("transform","translate(0px)");
-    $("#pork2").css("transform","translate(0px)");
-    $("#pork3").css("transform","translate(0px)");
-    $("#pickleddaikon").css("transform","translate(0px)");
-    $("#pickleddaikon2").css("transform","translate(0px)");
+        if (x > $(window).width() / 2 + 50) {
+          $("#bowl").css("transform", "translateY(280px) scale(0.9)");
+          $("#bowl2").css("transform", "translateY(280px) scale(0.9)");
+          $("#rice").css("transform", "translateY(50px) scale(0.9)");
+          $("#sauce").css("transform", "translateY(-90px)");
+          $("#pork").css("transform", "translateY(-200px)");
+          $("#pork2").css("transform", "translateY(-200px)");
+          $("#pork3").css("transform", "translate(-10px,-200px)");
+          $("#pickleddaikon").css("transform", "translate(80px,-315px) scale(1.2)");
+          $("#pickleddaikon2").css("transform", "translate(80px,-315px) scale(1.2)");
 
-    $(".text.text1").removeClass("text_1");
-    $(".text.text2").removeClass("text_2");
-    $(".text.text3").removeClass("text_3");
-    $(".text.text4").removeClass("text_4");
-    $(".text.text5").removeClass("text_5");
-  
-  }
-})
-  })();
+
+          $("#pork2").css("transition-delay", "0.1s");
+          $("#pork3").css("transition-delay", "0.15s");
+          $("#pickleddaikon2").css("transition-delay", "0.25s");
+
+
+          $(".text.text1").addClass("text_1");
+          $(".text.text2").addClass("text_2");
+          $(".text.text3").addClass("text_3");
+          $(".text.text4").addClass("text_4");
+          $(".text.text5").addClass("text_5");
+
+
+        } else if (x < $(window).width() / 2 - 50) {
+          $("#bowl").css("transform", "translate(0px)");
+          $("#bowl2").css("transform", "translate(0px)");
+          $("#rice").css("transform", "translate(0px)");
+          $("#sauce").css("transform", "translate(0px)");
+          $("#pork").css("transform", "translate(0px)");
+          $("#pork2").css("transform", "translate(0px)");
+          $("#pork3").css("transform", "translate(0px)");
+          $("#pickleddaikon").css("transform", "translate(0px)");
+          $("#pickleddaikon2").css("transform", "translate(0px)");
+
+          $(".text.text1").removeClass("text_1");
+          $(".text.text2").removeClass("text_2");
+          $(".text.text3").removeClass("text_3");
+          $(".text.text4").removeClass("text_4");
+          $(".text.text5").removeClass("text_5");
+
+        }
+      })
+    })();
 
   // fbShare
   // $(function() {
@@ -272,8 +277,9 @@
   //     dataHref: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse',
   //     href: 'https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Fdocs%252Fplugins%252F%26amp%253Bsrc%3Dsdkpreparse&amp;src=sdkpreparse',
   //   }) 
-  
+
   // })
 
 </script>
+
 </html>
