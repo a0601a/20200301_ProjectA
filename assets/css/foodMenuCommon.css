@@ -36,16 +36,18 @@
   margin-top: 118.047px;
   margin-bottom: 0;
   font-size: 36px;
+  font-family: 'Noto Sans JP', sans-serif; 
 }
 
 .subTitle {
   margin-top: 36.363px;
   margin-bottom: 75.702px;
   font-size: 36px;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 
 .japanLang {
-
+  font-family: 'Noto Sans JP', sans-serif; 
   letter-spacing: 6px;
   line-height: 1.7;
   margin-bottom: 47.238px;
@@ -56,6 +58,7 @@
   line-height: 2;
   font-weight: 600;
   color: #3E3A39;
+  font-family: 'Noto Sans TC', sans-serif;
 }
 .foodContent .notice {
   margin-top: 74.153px;
